@@ -47,7 +47,7 @@ done
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 13 03:11:34 2017
+# Make data base, printed on Wed Sep 13 16:06:10 2017
 
 # Variables
 
@@ -2299,156 +2299,9 @@ install-ps-am:
 # strcache performance: lookups = 740 / hit rate = 44%
 # hash-table stats:
 # Load=411/8192=5%, Rehash=0, Collisions=45/740=6%
-# Finished Make data base on Wed Sep 13 03:11:34 2017
+# Finished Make data base on Wed Sep 13 16:06:10 2017
 
 Making all in src
-echo "git.mk: Generating .gitignore"
-{ \
-	if test "x" = x -o "x" = x; then :; else \
-		for x in \
-			-decl-list.txt \
-			-decl.txt \
-			tmpl/-unused.sgml \
-			"tmpl/*.bak" \
-			xml html \
-		; do echo "/$x"; done; \
-		FLAVOR=$(cd ..; /bin/bash /home/marc/Projects/openGL/build-aux/missing autoconf --trace 'GTK_DOC_CHECK:$2' ./configure.ac); \
-		case $FLAVOR in *no-tmpl*) echo /tmpl;; esac; \
-	fi; \
-	if test "x" = x -o "x" = x; then :; else \
-		for lc in ; do \
-			for x in \
-				 \
-				 \
-				 \
-			; do echo "/$lc/$x"; done; \
-		done; \
-		for x in \
-			 \
-			 \
-			 \
-			 \
-			 \
-			"*/.xml2po.mo" \
-			"*/*.omf.out" \
-		; do echo /$x; done; \
-	fi; \
-	if test "x" = x -o "x" = x; then :; else \
-		for lc in ; do \
-			for x in \
-				 \
-				"$lc.stamp" \
-				"$lc.mo" \
-			; do echo "/$lc/$x"; done; \
-		done; \
-	fi; \
-	if test "x" = x; then :; else \
-		for x in \
-			 \
-			 \
-		; do echo "/$x"; done; \
-	fi; \
-	if test "x" = x; then :; else \
-		for x in \
-			 \
-		; do echo "/$x"; done; \
-	fi; \
-	if test "x" = x; then :; else \
-		for x in \
-			 \
-		; do echo "/$x"; done; \
-	fi; \
-	if test -f ./po/Makefile.in.in; then \
-		for x in \
-			po/Makefile.in.in \
-			po/Makefile.in.in~ \
-			po/Makefile.in \
-			po/Makefile \
-			po/Makevars.template \
-			po/POTFILES \
-			po/Rules-quot \
-			po/stamp-it \
-			po/.intltool-merge-cache \
-			"po/*.gmo" \
-			"po/*.header" \
-			"po/*.mo" \
-			"po/*.sed" \
-			"po/*.sin" \
-			po/opengl.pot \
-			intltool-extract.in \
-			intltool-merge.in \
-			intltool-update.in \
-		; do echo "/$x"; done; \
-	fi; \
-	if test -f ./configure; then \
-		for x in \
-			autom4te.cache \
-			configure \
-			config.h \
-			stamp-h1 \
-			libtool \
-			config.lt \
-		; do echo "/$x"; done; \
-	fi; \
-	if test "x" = x; then :; else \
-		for x in \
-			 \
-		; do echo "/$x.sum"; echo "/$x.log"; done; \
-		echo /site.exp; \
-	fi; \
-	if test "x" = x; then :; else \
-		echo ""; \
-	fi; \
-	if test "x" = x -a "x/bin/bash ../libtool --silent --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..     " = x -a "x" = x; then :; else \
-		for x in \
-			"*.lo" \
-			".libs" "_libs" \
-		; do echo "$x"; done; \
-	fi; \
-	for x in \
-		.gitignore \
-		 \
-		 \
-		main   \
-		   \
-		   \
-		so_locations \
-		 \
-		 \
-		 \
-		 \
-		 \
-		"*.gcda" \
-		"*.gcno" \
-		 \
-		 \
-		 \
-		TAGS ID GTAGS GRTAGS GSYMS GPATH tags \
-		"*.tab.c" \
-		 \
-		 \
-		 \
-		 \
-		 \
-		 \
-		Makefile \
-		Makefile.in \
-		"*.orig" \
-		"*.rej" \
-		"*.bak" \
-		"*~" \
-		".*.sw[nop]" \
-		".dirstamp" \
-	; do echo "/$x"; done; \
-	for x in \
-		"*.o" \
-		.deps \
-	; do echo "$x"; done; \
-} | \
-sed "s@^/`echo "." | sed 's/\(.\)/[\1]/g'`/@/@" | \
-sed 's@/[.]/@/@g' | \
-LC_ALL=C sort | uniq > .gitignore.tmp && \
-mv .gitignore.tmp .gitignore;
 for subdir in ; do \
   case "  " in \
     *" $subdir "*) :;; \
@@ -2462,15 +2315,15 @@ done
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 13 03:11:34 2017
+# Make data base, printed on Wed Sep 13 16:06:10 2017
 
 # Variables
 
-# makefile (from 'Makefile', line 244)
+# makefile (from 'Makefile', line 245)
 INTROSPECTION_GENERATE = 
-# makefile (from 'Makefile', line 259)
+# makefile (from 'Makefile', line 260)
 LTLIBICONV = -liconv
-# makefile (from 'Makefile', line 187)
+# makefile (from 'Makefile', line 188)
 ETAGS = etags
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
@@ -2482,19 +2335,19 @@ GIT_MK_URL = https://raw.githubusercontent.com/behdad/git.mk/master/git.mk
 .SHELLFLAGS := -c
 # makefile (from 'Makefile', line 88)
 POST_UNINSTALL = :
-# makefile (from 'Makefile', line 344)
+# makefile (from 'Makefile', line 345)
 localedir = ${datarootdir}/locale
 # default
 CWEAVE = cweave
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
-# makefile (from 'Makefile', line 206)
+# makefile (from 'Makefile', line 207)
 CPPFLAGS = 
-# makefile (from 'Makefile', line 235)
+# makefile (from 'Makefile', line 236)
 INSTALL = /usr/bin/install -c
-# makefile (from 'Makefile', line 364)
-main_LDFLAGS = `pkg-config --libs glfw3` `pkg-config --libs glew` -lglut
-# makefile (from 'Makefile', line 212)
+# makefile (from 'Makefile', line 365)
+main_LDFLAGS = -lglut `pkg-config --libs gl` `pkg-config --libs glu`
+# makefile (from 'Makefile', line 213)
 DEFS = -DHAVE_CONFIG_H
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
@@ -2502,9 +2355,9 @@ DEFS = -DHAVE_CONFIG_H
 @F = $(notdir $@)
 # makefile
 CURDIR := /home/marc/Projects/openGL/src
-# makefile (from 'Makefile', line 299)
+# makefile (from 'Makefile', line 300)
 VERSION = 0.1.0
-# makefile (from 'Makefile', line 296)
+# makefile (from 'Makefile', line 297)
 SHELL = /bin/bash
 # default
 RM = rm -f
@@ -2512,123 +2365,123 @@ RM = rm -f
 CO = co
 # environment
 V = 0
-# makefile (from 'Makefile', line 225)
+# makefile (from 'Makefile', line 226)
 GIT = /usr/bin/git
-# makefile (from 'Makefile', line 328)
+# makefile (from 'Makefile', line 329)
 datarootdir = ${prefix}/share
 # environment
 _ = /usr/bin/make
 # default
 PREPROCESS.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -F
-# makefile (from 'Makefile', line 240)
+# makefile (from 'Makefile', line 241)
 INTLLIBS = 
 # makefile (from 'Makefile', line 83)
 NORMAL_INSTALL = :
-# makefile (from 'Makefile', line 226)
+# makefile (from 'Makefile', line 227)
 GLIB_COMPILE_RESOURCES = /usr/bin/glib-compile-resources
 # default
 LINK.m = $(OBJC) $(OBJCFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
-# makefile (from 'Makefile', line 133)
+# makefile (from 'Makefile', line 134)
 AM_V_GEN = $(am__v_GEN_$(V))
 # default
 LINK.o = $(CC) $(LDFLAGS) $(TARGET_ARCH)
 # default
 OUTPUT_OPTION = -o $@
-# makefile (from 'Makefile', line 191)
+# makefile (from 'Makefile', line 192)
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-# makefile (from 'Makefile', line 349)
+# makefile (from 'Makefile', line 350)
 pdfdir = ${docdir}
-# makefile (from 'Makefile', line 335)
+# makefile (from 'Makefile', line 336)
 host_cpu = x86_64
-# makefile (from 'Makefile', line 314)
+# makefile (from 'Makefile', line 315)
 ac_ct_DUMPBIN = 
-# makefile (from 'Makefile', line 130)
+# makefile (from 'Makefile', line 131)
 am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))
-# makefile (from 'Makefile', line 134)
+# makefile (from 'Makefile', line 135)
 am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))
 # default
 COMPILE.cpp = $(COMPILE.cc)
-# makefile (from 'Makefile', line 238)
+# makefile (from 'Makefile', line 239)
 INSTALL_SCRIPT = ${INSTALL}
 # makefile (from '../git.mk', line 1)
-MAKEFILE_LIST :=  Makefile .deps/HelloCube.Po .deps/modules.Po ../git.mk
-# makefile (from 'Makefile', line 326)
+MAKEFILE_LIST :=  Makefile .deps/HelloCube.Po .deps/drawPixel.Po .deps/modules.Po ../git.mk
+# makefile (from 'Makefile', line 327)
 builddir = .
-# makefile (from 'Makefile', line 325)
+# makefile (from 'Makefile', line 326)
 build_vendor = pc
-# makefile (from 'Makefile', line 363)
-main_CFLAGS = `pkg-config --cflags glfw3` `pkg-config --cflags glew` `pkg-config --cflags glut`
+# makefile (from 'Makefile', line 364)
+main_CFLAGS = `pkg-config --cflags glut` `pkg-config --cflags gl` `pkg-config --cflags glu`
 # makefile (from 'Makefile', line 117)
 am__installdirs = "$(DESTDIR)$(bindir)"
-# makefile (from 'Makefile', line 327)
+# makefile (from 'Makefile', line 328)
 datadir = ${datarootdir}
-# makefile (from 'Makefile', line 258)
+# makefile (from 'Makefile', line 259)
 LN_S = ln -s
-# makefile (from 'Makefile', line 257)
+# makefile (from 'Makefile', line 258)
 LIPO = 
 # 'override' directive
 GNUMAKEFLAGS := 
 # default
 LINK.p = $(PC) $(PFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
-# makefile (from 'Makefile', line 163)
+# makefile (from 'Makefile', line 164)
 SOURCES = $(main_SOURCES)
-# makefile (from 'Makefile', line 210)
+# makefile (from 'Makefile', line 211)
 CXXFLAGS = 
-# makefile (from 'Makefile', line 308)
+# makefile (from 'Makefile', line 309)
 abs_srcdir = /home/marc/Projects/openGL/src
 # makefile (from 'Makefile', line 74)
 pkgincludedir = $(includedir)/opengl
-# makefile (from 'Makefile', line 193)
+# makefile (from 'Makefile', line 194)
 ACLOCAL_AMFLAGS = -I m4
-# makefile (from 'Makefile', line 277)
+# makefile (from 'Makefile', line 278)
 OPENGL_CFLAGS = -pthread -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
 # makefile (from 'Makefile', line 79)
 install_sh_PROGRAM = $(install_sh) -c
-# makefile (from 'Makefile', line 131)
+# makefile (from 'Makefile', line 132)
 am__v_P_0 = false
-# makefile (from 'Makefile', line 135)
+# makefile (from 'Makefile', line 136)
 am__v_GEN_0 = @echo "  GEN     " $@;
-# makefile (from 'Makefile', line 224)
+# makefile (from 'Makefile', line 225)
 GETTEXT_PACKAGE = opengl
-# makefile (from 'Makefile', line 196)
+# makefile (from 'Makefile', line 197)
 API_VERSION = 0
 # makefile (from 'Makefile', line 29)
 am__make_running_with_option = case $${target_option-} in ?) ;; *) echo "am__make_running_with_option: internal error: invalid" "target option '$${target_option-}' specified" >&2; exit 1;; esac; has_opt=no; sane_makeflags=$$MAKEFLAGS; if $(am__is_gnu_make); then sane_makeflags=$$MFLAGS; else case $$MAKEFLAGS in *\\[\ \	]*) bs=\\; sane_makeflags=`printf '%s\n' "$$MAKEFLAGS" | sed "s/$$bs$$bs[$$bs $$bs	]*//g"`;; esac; fi; skip_next=no; strip_trailopt () { flg=`printf '%s\n' "$$flg" | sed "s/$$1.*$$//"`; }; for flg in $$sane_makeflags; do test $$skip_next = yes && { skip_next=no; continue; }; case $$flg in *=*|--*) continue;; -*I) strip_trailopt 'I'; skip_next=yes;; -*I?*) strip_trailopt 'I';; -*O) strip_trailopt 'O'; skip_next=yes;; -*O?*) strip_trailopt 'O';; -*l) strip_trailopt 'l'; skip_next=yes;; -*l?*) strip_trailopt 'l';; -[dEDm]) skip_next=yes;; -[JT]) skip_next=yes;; esac; case $$flg in *$$target_option*) has_opt=yes; break;; esac; done; test $$has_opt = yes
-# makefile (from 'Makefile', line 202)
+# makefile (from 'Makefile', line 203)
 CC = gcc
 # makefile (from 'Makefile', line 115)
 CONFIG_CLEAN_FILES = 
-# makefile (from 'Makefile', line 289)
+# makefile (from 'Makefile', line 290)
 PKG_CONFIG = /usr/bin/pkg-config
-# makefile (from 'Makefile', line 272)
+# makefile (from 'Makefile', line 273)
 MSGMERGE = /usr/bin/msgmerge
-# makefile (from 'Makefile', line 203)
+# makefile (from 'Makefile', line 204)
 CCDEPMODE = depmode=gcc3
-# makefile (from 'Makefile', line 352)
+# makefile (from 'Makefile', line 353)
 psdir = ${docdir}
-# makefile (from 'Makefile', line 201)
+# makefile (from 'Makefile', line 202)
 AWK = gawk
-# makefile (from 'Makefile', line 329)
+# makefile (from 'Makefile', line 330)
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 # default
 CHECKOUT,v = +$(if $(wildcard $@),,$(CO) $(COFLAGS) $< $@)
-# makefile (from 'Makefile', line 324)
+# makefile (from 'Makefile', line 325)
 build_os = linux-gnu
-# makefile (from 'Makefile', line 278)
+# makefile (from 'Makefile', line 279)
 OPENGL_LIBS = -lgio-2.0 -lgobject-2.0 -lglib-2.0
-# makefile (from 'Makefile', line 246)
+# makefile (from 'Makefile', line 247)
 INTROSPECTION_LIBS = 
-# makefile (from 'Makefile', line 292)
+# makefile (from 'Makefile', line 293)
 POSUB = po
-# makefile (from 'Makefile', line 143)
+# makefile (from 'Makefile', line 144)
 am__depfiles_maybe = depfiles
-# makefile (from 'Makefile', line 205)
+# makefile (from 'Makefile', line 206)
 CPP = gcc -E
-# makefile (from 'Makefile', line 242)
+# makefile (from 'Makefile', line 243)
 INTROSPECTION_CFLAGS = 
 # default
 LINK.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
-# makefile (from 'Makefile', line 295)
+# makefile (from 'Makefile', line 296)
 SET_MAKE = 
 # makefile (from 'Makefile', line 78)
 install_sh_DATA = $(install_sh) -c -m 644
@@ -2636,97 +2489,97 @@ install_sh_DATA = $(install_sh) -c -m 644
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
 PATH = /bin:/usr/bin
-# makefile (from 'Makefile', line 138)
+# makefile (from 'Makefile', line 139)
 am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))
-# makefile (from 'Makefile', line 254)
+# makefile (from 'Makefile', line 255)
 LIBOBJS = 
-# makefile (from 'Makefile', line 250)
+# makefile (from 'Makefile', line 251)
 LD = /usr/bin/ld -m elf_x86_64
-# makefile (from 'Makefile', line 182)
+# makefile (from 'Makefile', line 183)
 am__define_uniq_tagged_files = list='$(am__tagged_files)'; unique=`for i in $$list; do if test -f "$$i"; then echo $$i; else echo $(srcdir)/$$i; fi; done | $(am__uniquify_input)`
 # makefile (from '../git.mk', line 112)
 GITIGNORE_MAINTAINERCLEANFILES_M4_LIBTOOL = `MACRO_DIR=$(srcdir)/$$(cd $(top_srcdir); $(AUTOCONF) --trace 'AC_CONFIG_MACRO_DIR:$$1' ./configure.ac); if test "x$$MACRO_DIR" != "x$(srcdir)/"; then for x in libtool.m4 ltoptions.m4 ltsugar.m4 ltversion.m4 lt~obsolete.m4 ; do echo "$$MACRO_DIR/$$x"; done; fi`
-# makefile (from 'Makefile', line 361)
+# makefile (from 'Makefile', line 362)
 top_srcdir = ..
-# makefile (from 'Makefile', line 214)
+# makefile (from 'Makefile', line 215)
 DLLTOOL = false
 # default
 TEXI2DVI = texi2dvi
-# makefile (from 'Makefile', line 132)
+# makefile (from 'Makefile', line 133)
 am__v_P_1 = :
-# makefile (from 'Makefile', line 136)
+# makefile (from 'Makefile', line 137)
 am__v_GEN_1 = 
-# makefile (from 'Makefile', line 287)
+# makefile (from 'Makefile', line 288)
 PACKAGE_VERSION = 0.1.0
-# makefile (from 'Makefile', line 332)
+# makefile (from 'Makefile', line 333)
 gsettingsschemadir = ${datarootdir}/glib-2.0/schemas
 # default
 YACC = yacc
-# makefile (from 'Makefile', line 237)
+# makefile (from 'Makefile', line 238)
 INSTALL_PROGRAM = ${INSTALL}
-# makefile (from 'Makefile', line 323)
+# makefile (from 'Makefile', line 324)
 build_cpu = x86_64
-# makefile (from 'Makefile', line 306)
+# makefile (from 'Makefile', line 307)
 XGETTEXT_EXTRA_OPTIONS = 
 # default
 COMPILE.mod = $(M2C) $(M2FLAGS) $(MODFLAGS) $(TARGET_ARCH)
-# makefile (from 'Makefile', line 347)
+# makefile (from 'Makefile', line 348)
 mkdir_p = $(MKDIR_P)
-# makefile (from 'Makefile', line 204)
+# makefile (from 'Makefile', line 205)
 CFLAGS = -std=gnu11
 # default
 ARFLAGS = rv
 # default
 LINK.r = $(FC) $(FFLAGS) $(RFLAGS) $(LDFLAGS) $(TARGET_ARCH)
-# makefile (from 'Makefile', line 266)
+# makefile (from 'Makefile', line 267)
 MANIFEST_TOOL = :
-# makefile (from 'Makefile', line 351)
+# makefile (from 'Makefile', line 352)
 program_transform_name = s,x,x,
 # default
 LINT = lint
-# makefile (from 'Makefile', line 239)
+# makefile (from 'Makefile', line 240)
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 # default
 COMPILE.f = $(FC) $(FFLAGS) $(TARGET_ARCH) -c
 # makefile (from 'Makefile', line 118)
 PROGRAMS = $(bin_PROGRAMS)
-# makefile (from 'Makefile', line 279)
+# makefile (from 'Makefile', line 280)
 OTOOL = 
 # default
 LINT.c = $(LINT) $(LINTFLAGS) $(CPPFLAGS) $(TARGET_ARCH)
 # default
 YACC.m = $(YACC) $(YFLAGS)
-# makefile (from 'Makefile', line 142)
+# makefile (from 'Makefile', line 143)
 depcomp = $(SHELL) $(top_srcdir)/build-aux/depcomp
-# makefile (from 'Makefile', line 189)
+# makefile (from 'Makefile', line 190)
 am__DIST_COMMON = $(srcdir)/Makefile.in $(top_srcdir)/build-aux/depcomp
 # default
 YACC.y = $(YACC) $(YFLAGS)
-# makefile (from 'Makefile', line 301)
+# makefile (from 'Makefile', line 302)
 WARN_CXXFLAGS = -fno-strict-aliasing -Wall -Wextra -Wundef -Wwrite-strings -Wpointer-arith -Wmissing-declarations -Wredundant-decls -Wno-unused-parameter -Wno-missing-field-initializers -Wformat=2 -Wcast-align -Wformat-nonliteral -Wformat-security -Wsign-compare -Wstrict-aliasing -Wshadow -Winline -Wpacked -Wmissing-format-attribute -Wmissing-noreturn -Winit-self -Wmissing-include-dirs -Wunused-but-set-variable -Warray-bounds -Wreturn-type -Wno-overloaded-virtual -Wswitch-enum -Wswitch-default -Werror -Wno-suggest-attribute=format -Wno-error=unused-parameter -Wno-error=missing-field-initializers -Wno-error=overloaded-virtual
-# makefile (from 'Makefile', line 276)
+# makefile (from 'Makefile', line 277)
 OBJEXT = o
-# makefile (from 'Makefile', line 192)
+# makefile (from 'Makefile', line 193)
 ACLOCAL = ${SHELL} /home/marc/Projects/openGL/build-aux/missing aclocal-1.15
-# makefile (from 'Makefile', line 197)
+# makefile (from 'Makefile', line 198)
 AR = ar
-# makefile (from 'Makefile', line 284)
+# makefile (from 'Makefile', line 285)
 PACKAGE_STRING = opengl 0.1.0
-# makefile (from 'Makefile', line 251)
+# makefile (from 'Makefile', line 252)
 LDFLAGS = 
-# makefile (from 'Makefile', line 321)
+# makefile (from 'Makefile', line 322)
 build = x86_64-pc-linux-gnu
-# makefile (from 'Makefile', line 141)
+# makefile (from 'Makefile', line 142)
 DEFAULT_INCLUDES = -I. -I$(top_builddir)
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # default
 TANGLE = tangle
-# makefile (from 'Makefile', line 290)
+# makefile (from 'Makefile', line 291)
 PKG_CONFIG_LIBDIR = 
-# makefile (from 'Makefile', line 218)
+# makefile (from 'Makefile', line 219)
 ECHO_N = -n
-# makefile (from 'Makefile', line 122)
+# makefile (from 'Makefile', line 123)
 AM_V_lt = $(am__v_lt_$(V))
 # makefile (from 'Makefile', line 116)
 CONFIG_CLEAN_VPATH_FILES = 
@@ -2734,21 +2587,21 @@ CONFIG_CLEAN_VPATH_FILES =
 GET = get
 # automatic
 %F = $(notdir $%)
-# makefile (from 'Makefile', line 217)
+# makefile (from 'Makefile', line 218)
 ECHO_C = 
 # makefile (from 'Makefile', line 77)
 am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd
-# makefile (from 'Makefile', line 161)
+# makefile (from 'Makefile', line 162)
 am__v_CXXLD_0 = @echo "  CXXLD   " $@;
-# makefile (from 'Makefile', line 228)
+# makefile (from 'Makefile', line 229)
 GLIB_GENMARSHAL = /usr/bin/glib-genmarshal
-# makefile (from 'Makefile', line 256)
+# makefile (from 'Makefile', line 257)
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 # default
 COMPILE.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
-# makefile (from 'Makefile', line 348)
+# makefile (from 'Makefile', line 349)
 oldincludedir = /usr/include
-# makefile (from 'Makefile', line 331)
+# makefile (from 'Makefile', line 332)
 exec_prefix = ${prefix}
 # makefile (from 'Makefile', line 91)
 bin_PROGRAMS = main$(EXEEXT)
@@ -2756,17 +2609,17 @@ bin_PROGRAMS = main$(EXEEXT)
 am__aclocal_m4_deps = $(top_srcdir)/m4/ax_append_compile_flags.m4 $(top_srcdir)/m4/ax_append_flag.m4 $(top_srcdir)/m4/ax_check_compile_flag.m4 $(top_srcdir)/m4/ax_check_link_flag.m4 $(top_srcdir)/m4/ax_compiler_flags_cxxflags.m4 $(top_srcdir)/m4/ax_cxx_compile_stdcxx_11.m4 $(top_srcdir)/m4/ax_require_defined.m4 $(top_srcdir)/m4/gettext.m4 $(top_srcdir)/m4/gsettings.m4 $(top_srcdir)/m4/iconv.m4 $(top_srcdir)/m4/intlmacosx.m4 $(top_srcdir)/m4/introspection.m4 $(top_srcdir)/m4/lib-ld.m4 $(top_srcdir)/m4/lib-link.m4 $(top_srcdir)/m4/lib-prefix.m4 $(top_srcdir)/m4/libtool.m4 $(top_srcdir)/m4/ltoptions.m4 $(top_srcdir)/m4/ltsugar.m4 $(top_srcdir)/m4/ltversion.m4 $(top_srcdir)/m4/lt~obsolete.m4 $(top_srcdir)/m4/nls.m4 $(top_srcdir)/m4/pkg.m4 $(top_srcdir)/m4/po.m4 $(top_srcdir)/m4/progtest.m4 $(top_srcdir)/configure.ac
 # default
 CTANGLE = ctangle
-# makefile (from 'Makefile', line 319)
+# makefile (from 'Makefile', line 320)
 am__untar = tar -xf -
-# makefile (from 'Makefile', line 356)
+# makefile (from 'Makefile', line 357)
 srcdir = .
-# makefile (from 'Makefile', line 340)
+# makefile (from 'Makefile', line 341)
 infodir = ${datarootdir}/info
-# makefile (from 'Makefile', line 350)
+# makefile (from 'Makefile', line 351)
 prefix = /home/marc
-# makefile (from 'Makefile', line 330)
+# makefile (from 'Makefile', line 331)
 dvidir = ${docdir}
-# makefile (from 'Makefile', line 262)
+# makefile (from 'Makefile', line 263)
 LT_SYS_LIBRARY_PATH = 
 # default
 .LIBPATTERNS = lib%.so lib%.a
@@ -2774,91 +2627,91 @@ LT_SYS_LIBRARY_PATH =
 LINK.C = $(LINK.cc)
 # environment
 PWD = /home/marc/Projects/openGL/src
-# makefile (from 'Makefile', line 307)
+# makefile (from 'Makefile', line 308)
 abs_builddir = /home/marc/Projects/openGL/src
 # makefile (from 'Makefile', line 80)
 install_sh_SCRIPT = $(install_sh) -c
-# makefile (from 'Makefile', line 353)
+# makefile (from 'Makefile', line 354)
 runstatedir = ${localstatedir}/run
 # default
 LINK.S = $(CC) $(ASFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_MACH)
-# makefile (from 'Makefile', line 309)
+# makefile (from 'Makefile', line 310)
 abs_top_builddir = /home/marc/Projects/openGL
-# makefile (from 'Makefile', line 267)
+# makefile (from 'Makefile', line 268)
 MICRO_VERSION = 0
 # default
 PREPROCESS.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -F
-# makefile (from 'Makefile', line 120)
+# makefile (from 'Makefile', line 121)
 main_OBJECTS = $(am_main_OBJECTS)
-# makefile (from 'Makefile', line 293)
+# makefile (from 'Makefile', line 294)
 RANLIB = ranlib
-# makefile (from 'Makefile', line 291)
+# makefile (from 'Makefile', line 292)
 PKG_CONFIG_PATH = 
-# makefile (from 'Makefile', line 346)
+# makefile (from 'Makefile', line 347)
 mandir = ${datarootdir}/man
 # default
 LINK.c = $(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
-# makefile (from 'Makefile', line 271)
+# makefile (from 'Makefile', line 272)
 MSGFMT_015 = /usr/bin/msgfmt
-# makefile (from 'Makefile', line 342)
+# makefile (from 'Makefile', line 343)
 libdir = ${exec_prefix}/lib
-# makefile (from 'Makefile', line 357)
+# makefile (from 'Makefile', line 358)
 sysconfdir = ${prefix}/etc
 # default
 LINK.s = $(CC) $(ASFLAGS) $(LDFLAGS) $(TARGET_MACH)
 # environment
 HOME = /home/marc
-# makefile (from 'Makefile', line 341)
+# makefile (from 'Makefile', line 342)
 install_sh = ${SHELL} /home/marc/Projects/openGL/build-aux/install-sh
-# makefile (from 'Makefile', line 294)
+# makefile (from 'Makefile', line 295)
 SED = /bin/sed
-# makefile (from 'Makefile', line 249)
+# makefile (from 'Makefile', line 250)
 INTROSPECTION_TYPELIBDIR = 
 # makefile (from 'Makefile', line 113)
 mkinstalldirs = $(install_sh) -d
-# makefile (from 'Makefile', line 316)
-am__leading_dot = .
-# makefile (from 'Makefile', line 300)
-WARN_CFLAGS = -fno-strict-aliasing -Wall -Wextra -Wundef -Wnested-externs -Wwrite-strings -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wno-unused-parameter -Wno-missing-field-initializers -Wdeclaration-after-statement -Wformat=2 -Wold-style-definition -Wcast-align -Wformat-nonliteral -Wformat-security -Wsign-compare -Wstrict-aliasing -Wshadow -Winline -Wpacked -Wmissing-format-attribute -Wmissing-noreturn -Winit-self -Wmissing-include-dirs -Wunused-but-set-variable -Warray-bounds -Wimplicit-function-declaration -Wreturn-type -Wswitch-enum -Wswitch-default -Werror -Wno-suggest-attribute=format -Wno-error=unused-parameter -Wno-error=missing-field-initializers
 # makefile (from 'Makefile', line 317)
+am__leading_dot = .
+# makefile (from 'Makefile', line 301)
+WARN_CFLAGS = -fno-strict-aliasing -Wall -Wextra -Wundef -Wnested-externs -Wwrite-strings -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wno-unused-parameter -Wno-missing-field-initializers -Wdeclaration-after-statement -Wformat=2 -Wold-style-definition -Wcast-align -Wformat-nonliteral -Wformat-security -Wsign-compare -Wstrict-aliasing -Wshadow -Winline -Wpacked -Wmissing-format-attribute -Wmissing-noreturn -Winit-self -Wmissing-include-dirs -Wunused-but-set-variable -Warray-bounds -Wimplicit-function-declaration -Wreturn-type -Wswitch-enum -Wswitch-default -Werror -Wno-suggest-attribute=format -Wno-error=unused-parameter -Wno-error=missing-field-initializers
+# makefile (from 'Makefile', line 318)
 am__quote = 
-# makefile (from 'Makefile', line 343)
+# makefile (from 'Makefile', line 344)
 libexecdir = ${exec_prefix}/libexec
 # makefile (from '../git.mk', line 103)
 GITIGNORE_MAINTAINERCLEANFILES_MAKEFILE_IN = `cd $(top_srcdir); $(AUTOCONF) --trace 'AC_CONFIG_FILES:$$1' ./configure.ac | while read f; do case $$f in Makefile|*/Makefile) test -f "$(srcdir)/$$f.am" && echo "$(srcdir)/$$f.in";; esac; done`
-# makefile (from 'Makefile', line 359)
+# makefile (from 'Makefile', line 360)
 top_build_prefix = ../
 # makefile (from 'Makefile', line 72)
 am__make_keepgoing = (target_option=k; $(am__make_running_with_option))
 # makefile (from 'Makefile', line 93)
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
-# makefile (from 'Makefile', line 322)
+# makefile (from 'Makefile', line 323)
 build_alias = 
-# makefile (from 'Makefile', line 151)
+# makefile (from 'Makefile', line 152)
 AM_V_CXX = $(am__v_CXX_$(V))
-# makefile (from 'Makefile', line 355)
+# makefile (from 'Makefile', line 356)
 sharedstatedir = ${prefix}/com
 # makefile (from 'Makefile', line 84)
 PRE_INSTALL = :
-# makefile (from 'Makefile', line 152)
+# makefile (from 'Makefile', line 153)
 am__v_CXX_ = $(am__v_CXX_$(AM_DEFAULT_VERBOSITY))
-# makefile (from 'Makefile', line 216)
+# makefile (from 'Makefile', line 217)
 DUMPBIN = 
-# makefile (from 'Makefile', line 313)
+# makefile (from 'Makefile', line 314)
 ac_ct_CXX = g++
-# makefile (from 'Makefile', line 286)
+# makefile (from 'Makefile', line 287)
 PACKAGE_URL = 
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
-# makefile (from 'Makefile', line 164)
+# makefile (from 'Makefile', line 165)
 DIST_SOURCES = $(main_SOURCES)
-# makefile (from 'Makefile', line 345)
+# makefile (from 'Makefile', line 346)
 localstatedir = ${prefix}/var
-# makefile (from 'Makefile', line 288)
+# makefile (from 'Makefile', line 289)
 PATH_SEPARATOR = :
 # environment
 MAKELEVEL := 2
-# makefile (from 'Makefile', line 337)
+# makefile (from 'Makefile', line 338)
 host_vendor = pc
 # makefile (from 'Makefile', line 89)
 build_triplet = x86_64-pc-linux-gnu
@@ -2870,71 +2723,71 @@ POST_INSTALL = :
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
-# makefile (from 'Makefile', line 311)
+# makefile (from 'Makefile', line 312)
 ac_ct_AR = ar
 # makefile (from 'Makefile', line 71)
 am__make_dryrun = (target_option=n; $(am__make_running_with_option))
-# makefile (from 'Makefile', line 153)
+# makefile (from 'Makefile', line 154)
 am__v_CXX_0 = @echo "  CXX     " $@;
-# makefile (from 'Makefile', line 264)
+# makefile (from 'Makefile', line 265)
 MAJOR_VERSION = 0
 # makefile (from 'Makefile', line 86)
 NORMAL_UNINSTALL = :
 # environment
 SHLVL = 2
-# makefile (from 'Makefile', line 253)
+# makefile (from 'Makefile', line 254)
 LIBINTL = 
-# makefile (from 'Makefile', line 247)
+# makefile (from 'Makefile', line 248)
 INTROSPECTION_MAKEFILE = 
-# makefile (from 'Makefile', line 270)
+# makefile (from 'Makefile', line 271)
 MSGFMT = /usr/bin/msgfmt
-# makefile (from 'Makefile', line 273)
+# makefile (from 'Makefile', line 274)
 NM = /usr/bin/nm -B
 # default
 AS = as
 # default
 PREPROCESS.S = $(CC) -E $(CPPFLAGS)
-# makefile (from 'Makefile', line 362)
-main_SOURCES = HelloCube.cpp modules.cpp
+# makefile (from 'Makefile', line 363)
+main_SOURCES = HelloCube.cpp modules.cpp drawPixel.cpp
 # default
 COMPILE.p = $(PC) $(PFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
 # default
 MAKE_VERSION := 4.1
 # environment
 USER = marc
-# makefile (from 'Makefile', line 220)
+# makefile (from 'Makefile', line 221)
 EGREP = /bin/grep -E
 # default
 FC = f77
 # makefile
 .DEFAULT_GOAL := all
-# makefile (from 'Makefile', line 320)
+# makefile (from 'Makefile', line 321)
 bindir = ${exec_prefix}/bin
-# makefile (from 'Makefile', line 129)
+# makefile (from 'Makefile', line 130)
 AM_V_P = $(am__v_P_$(V))
 # makefile (from 'Makefile', line 114)
 CONFIG_HEADER = $(top_builddir)/config.h
-# makefile (from 'Makefile', line 269)
+# makefile (from 'Makefile', line 270)
 MKDIR_P = /bin/mkdir -p
-# makefile (from 'Makefile', line 305)
+# makefile (from 'Makefile', line 306)
 XGETTEXT_015 = /usr/bin/xgettext
-# makefile (from 'Makefile', line 312)
+# makefile (from 'Makefile', line 313)
 ac_ct_CC = gcc
-# makefile (from 'Makefile', line 268)
+# makefile (from 'Makefile', line 269)
 MINOR_VERSION = 1
-# makefile (from 'Makefile', line 245)
+# makefile (from 'Makefile', line 246)
 INTROSPECTION_GIRDIR = 
-# makefile (from 'Makefile', line 248)
+# makefile (from 'Makefile', line 249)
 INTROSPECTION_SCANNER = 
-# makefile (from 'Makefile', line 336)
+# makefile (from 'Makefile', line 337)
 host_os = linux-gnu
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # makefile (from 'Makefile', line 119)
-am_main_OBJECTS = HelloCube.$(OBJEXT) modules.$(OBJEXT)
-# makefile (from 'Makefile', line 208)
+am_main_OBJECTS = HelloCube.$(OBJEXT) modules.$(OBJEXT) drawPixel.$(OBJEXT)
+# makefile (from 'Makefile', line 209)
 CXXCPP = g++ -E
-# makefile (from 'Makefile', line 154)
+# makefile (from 'Makefile', line 155)
 am__v_CXX_1 = 
 # default
 WEAVE = weave
@@ -2948,33 +2801,33 @@ am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) $(ACLOCAL_
 F77 = $(FC)
 # environment
 OLDPWD = /home/marc/Projects/openGL
-# makefile (from 'Makefile', line 231)
+# makefile (from 'Makefile', line 232)
 GMSGFMT_015 = /usr/bin/msgfmt
-# makefile (from 'Makefile', line 285)
+# makefile (from 'Makefile', line 286)
 PACKAGE_TARNAME = opengl
-# makefile (from 'Makefile', line 159)
+# makefile (from 'Makefile', line 160)
 AM_V_CXXLD = $(am__v_CXXLD_$(V))
 # makefile (from 'Makefile', line 112)
 DIST_COMMON = $(srcdir)/Makefile.am $(am__DIST_COMMON)
-# makefile (from 'Makefile', line 303)
+# makefile (from 'Makefile', line 304)
 WARN_SCANNERFLAGS = --warn-all                                                                           --warn-error
 # default
 .VARIABLES := 
-# makefile (from 'Makefile', line 354)
+# makefile (from 'Makefile', line 355)
 sbindir = ${exec_prefix}/sbin
 # default
 PC = pc
-# makefile (from 'Makefile', line 360)
+# makefile (from 'Makefile', line 361)
 top_builddir = ..
 # automatic
 *F = $(notdir $*)
 # makefile (from 'Makefile', line 81)
 INSTALL_HEADER = $(INSTALL_DATA)
-# makefile (from 'Makefile', line 234)
+# makefile (from 'Makefile', line 235)
 HAVE_CXX11 = 
-# makefile (from 'Makefile', line 230)
+# makefile (from 'Makefile', line 231)
 GMSGFMT = /usr/bin/msgfmt
-# makefile (from 'Makefile', line 194)
+# makefile (from 'Makefile', line 195)
 AMTAR = $${TAR-tar}
 # makefile (from 'Makefile', line 92)
 subdir = src
@@ -2982,15 +2835,15 @@ subdir = src
 pkglibexecdir = $(libexecdir)/opengl
 # default
 COMPILE.def = $(M2C) $(M2FLAGS) $(DEFFLAGS) $(TARGET_ARCH)
-# makefile (from 'Makefile', line 274)
+# makefile (from 'Makefile', line 275)
 NMEDIT = 
-# makefile (from 'Makefile', line 160)
+# makefile (from 'Makefile', line 161)
 am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))
 # default
 LEX = lex
 # makefile
 MAKEFLAGS = nps
-# makefile (from 'Makefile', line 123)
+# makefile (from 'Makefile', line 124)
 am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))
 # environment
 MFLAGS = -nps
@@ -3000,103 +2853,103 @@ MFLAGS = -nps
 LEX.l = $(LEX) $(LFLAGS) -t
 # default
 LEX.m = $(LEX) $(LFLAGS) -t
-# makefile (from 'Makefile', line 222)
+# makefile (from 'Makefile', line 223)
 FGREP = /bin/grep -F
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # default
 COMPILE.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -c
-# makefile (from 'Makefile', line 275)
+# makefile (from 'Makefile', line 276)
 OBJDUMP = objdump
-# makefile (from 'Makefile', line 209)
+# makefile (from 'Makefile', line 210)
 CXXDEPMODE = depmode=gcc3
-# makefile (from 'Makefile', line 229)
+# makefile (from 'Makefile', line 230)
 GLIB_MKENUMS = /usr/bin/glib-mkenums
-# makefile (from 'Makefile', line 137)
+# makefile (from 'Makefile', line 138)
 AM_V_at = $(am__v_at_$(V))
 # automatic
 +F = $(notdir $+)
 # default
 M2C = m2c
-# makefile (from 'Makefile', line 124)
+# makefile (from 'Makefile', line 125)
 am__v_lt_0 = --silent
-# makefile (from 'Makefile', line 260)
+# makefile (from 'Makefile', line 261)
 LTLIBINTL = 
 # makefile (from 'Makefile', line 90)
 host_triplet = x86_64-pc-linux-gnu
-# makefile (from 'Makefile', line 297)
+# makefile (from 'Makefile', line 298)
 STRIP = strip
-# makefile (from 'Makefile', line 333)
+# makefile (from 'Makefile', line 334)
 host = x86_64-pc-linux-gnu
-# makefile (from 'Makefile', line 139)
+# makefile (from 'Makefile', line 140)
 am__v_at_0 = @
-# makefile (from 'Makefile', line 283)
+# makefile (from 'Makefile', line 284)
 PACKAGE_NAME = opengl
-# makefile (from 'Makefile', line 155)
+# makefile (from 'Makefile', line 156)
 CXXLD = $(CXX)
-# makefile (from 'Makefile', line 126)
+# makefile (from 'Makefile', line 127)
 main_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(main_LDFLAGS) $(LDFLAGS) -o $@
-# makefile (from 'Makefile', line 282)
+# makefile (from 'Makefile', line 283)
 PACKAGE_BUGREPORT = https://bugzilla.gnome.org/enter_bug.cgi?product=opengl
-# makefile (from 'Makefile', line 147)
+# makefile (from 'Makefile', line 148)
 LTCXXCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS)
 # default
 MAKEFILES := 
-# makefile (from 'Makefile', line 213)
+# makefile (from 'Makefile', line 214)
 DEPDIR = .deps
 # default
 COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
-# makefile (from 'Makefile', line 252)
+# makefile (from 'Makefile', line 253)
 LIBICONV = -liconv
-# makefile (from 'Makefile', line 174)
+# makefile (from 'Makefile', line 175)
 am__uniquify_input = $(AWK) ' BEGIN { nonempty = 0; } { items[$$0] = 1; nonempty = 1; } END { if (nonempty) { for (i in items) print i; }; } '
 # automatic
 <F = $(notdir $<)
-# makefile (from 'Makefile', line 156)
+# makefile (from 'Makefile', line 157)
 CXXLINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@
-# makefile (from 'Makefile', line 211)
+# makefile (from 'Makefile', line 212)
 CYGPATH_W = echo
 # makefile (from '../git.mk', line 79)
 GITIGNORE_MAINTAINERCLEANFILES_TOPLEVEL = $(srcdir)/aclocal.m4 $(srcdir)/autoscan.log $(srcdir)/configure.scan `AUX_DIR=$(srcdir)/$$(cd $(top_srcdir); $(AUTOCONF) --trace 'AC_CONFIG_AUX_DIR:$$1' ./configure.ac); test "x$$AUX_DIR" = "x$(srcdir)/" && AUX_DIR=$(srcdir); for x in ar-lib compile config.guess config.sub depcomp install-sh ltmain.sh missing mkinstalldirs test-driver ylwrap ; do echo "$$AUX_DIR/$$x"; done` `cd $(top_srcdir); $(AUTOCONF) --trace 'AC_CONFIG_HEADERS:$$1' ./configure.ac | head -n 1 | while read f; do echo "$(srcdir)/$$f.in"; done`
-# makefile (from 'Makefile', line 338)
+# makefile (from 'Makefile', line 339)
 htmldir = ${docdir}
-# makefile (from 'Makefile', line 207)
+# makefile (from 'Makefile', line 208)
 CXX = g++
-# makefile (from 'Makefile', line 195)
+# makefile (from 'Makefile', line 196)
 AM_DEFAULT_VERBOSITY = 0
 # makefile (from 'Makefile', line 75)
 pkglibdir = $(libdir)/opengl
-# makefile (from 'Makefile', line 215)
+# makefile (from 'Makefile', line 216)
 DSYMUTIL = 
-# makefile (from 'Makefile', line 121)
+# makefile (from 'Makefile', line 122)
 main_LDADD = $(LDADD)
-# makefile (from 'Makefile', line 310)
+# makefile (from 'Makefile', line 311)
 abs_top_srcdir = /home/marc/Projects/openGL
 # default
 COFLAGS = 
-# makefile (from 'Makefile', line 261)
+# makefile (from 'Makefile', line 262)
 LTLIBOBJS = 
-# makefile (from 'Makefile', line 162)
+# makefile (from 'Makefile', line 163)
 am__v_CXXLD_1 = 
-# makefile (from 'Makefile', line 165)
+# makefile (from 'Makefile', line 166)
 am__can_run_installinfo = case $$AM_UPDATE_INFO_DIR in n|no|NO) false;; *) (install-info --version) >/dev/null 2>&1;; esac
-# makefile (from 'Makefile', line 219)
+# makefile (from 'Makefile', line 220)
 ECHO_T = 
-# makefile (from 'Makefile', line 125)
+# makefile (from 'Makefile', line 126)
 am__v_lt_1 = 
-# makefile (from 'Makefile', line 221)
+# makefile (from 'Makefile', line 222)
 EXEEXT = 
-# makefile (from 'Makefile', line 140)
+# makefile (from 'Makefile', line 141)
 am__v_at_1 = 
-# makefile (from 'Makefile', line 243)
+# makefile (from 'Makefile', line 244)
 INTROSPECTION_COMPILER = 
 # default
 COMPILE.C = $(COMPILE.cc)
-# makefile (from 'Makefile', line 280)
+# makefile (from 'Makefile', line 281)
 OTOOL64 = 
-# makefile (from 'Makefile', line 339)
+# makefile (from 'Makefile', line 340)
 includedir = ${prefix}/include
-# makefile (from 'Makefile', line 255)
+# makefile (from 'Makefile', line 256)
 LIBS = 
 # automatic
 ^F = $(notdir $^)
@@ -3104,7 +2957,7 @@ LIBS =
 COMPILE.S = $(CC) $(ASFLAGS) $(CPPFLAGS) $(TARGET_MACH) -c
 # default
 LINK.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
-# makefile (from 'Makefile', line 315)
+# makefile (from 'Makefile', line 316)
 am__include = include
 # makefile (from 'Makefile', line 82)
 transform = $(program_transform_name)
@@ -3112,55 +2965,55 @@ transform = $(program_transform_name)
 SUFFIXES := .out .a .ln .o .c .cc .C .cpp .p .f .F .m .r .y .l .ym .yl .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
 # default
 COMPILE.c = $(CC) $(CFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
-# makefile (from 'Makefile', line 170)
+# makefile (from 'Makefile', line 171)
 am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
-# makefile (from 'Makefile', line 358)
+# makefile (from 'Makefile', line 359)
 target_alias = 
-# makefile (from 'Makefile', line 188)
+# makefile (from 'Makefile', line 189)
 CTAGS = ctags
-# makefile (from 'Makefile', line 223)
+# makefile (from 'Makefile', line 224)
 GETTEXT_MACRO_VERSION = 0.19
-# makefile (from 'Makefile', line 198)
+# makefile (from 'Makefile', line 199)
 AUTOCONF = ${SHELL} /home/marc/Projects/openGL/build-aux/missing autoconf
-# makefile (from 'Makefile', line 200)
+# makefile (from 'Makefile', line 201)
 AUTOMAKE = ${SHELL} /home/marc/Projects/openGL/build-aux/missing automake-1.15
 # default
 COMPILE.s = $(AS) $(ASFLAGS) $(TARGET_MACH)
-# makefile (from 'Makefile', line 334)
+# makefile (from 'Makefile', line 335)
 host_alias = 
-# makefile (from 'Makefile', line 144)
+# makefile (from 'Makefile', line 145)
 am__mv = mv -f
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
-# makefile (from 'Makefile', line 236)
+# makefile (from 'Makefile', line 237)
 INSTALL_DATA = ${INSTALL} -m 644
-# makefile (from 'Makefile', line 298)
+# makefile (from 'Makefile', line 299)
 USE_NLS = yes
-# makefile (from 'Makefile', line 318)
+# makefile (from 'Makefile', line 319)
 am__tar = tar --format=ustar -chf - "$$tardir"
-# makefile (from 'Makefile', line 241)
+# makefile (from 'Makefile', line 242)
 INTL_MACOSX_LIBS = 
-# makefile (from 'Makefile', line 304)
+# makefile (from 'Makefile', line 305)
 XGETTEXT = /usr/bin/xgettext
 # default
 .RECIPEPREFIX := 
-# makefile (from 'Makefile', line 265)
+# makefile (from 'Makefile', line 266)
 MAKEINFO = ${SHELL} /home/marc/Projects/openGL/build-aux/missing makeinfo
-# makefile (from 'Makefile', line 263)
+# makefile (from 'Makefile', line 264)
 MAINT = 
 # default
 OBJC = cc
-# makefile (from 'Makefile', line 145)
+# makefile (from 'Makefile', line 146)
 CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS)
 # makefile (from 'Makefile', line 18)
 am__is_gnu_make = { if test -z '$(MAKELEVEL)'; then false; elif test -n '$(MAKE_HOST)'; then true; elif test -n '$(MAKE_VERSION)' && test -n '$(CURDIR)'; then true; else false; fi; }
 # makefile (from 'Makefile', line 73)
 pkgdatadir = $(datadir)/opengl
-# makefile (from 'Makefile', line 227)
+# makefile (from 'Makefile', line 228)
 GLIB_COMPILE_SCHEMAS = /usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas
 # default
 TEX = tex
-# makefile (from 'Makefile', line 281)
+# makefile (from 'Makefile', line 282)
 PACKAGE = opengl
 # environment
 LANG = en_US.UTF-8
@@ -3168,18 +3021,18 @@ LANG = en_US.UTF-8
 F77FLAGS = $(FFLAGS)
 # default
 LINK.f = $(FC) $(FFLAGS) $(LDFLAGS) $(TARGET_ARCH)
-# makefile (from 'Makefile', line 199)
+# makefile (from 'Makefile', line 200)
 AUTOHEADER = ${SHELL} /home/marc/Projects/openGL/build-aux/missing autoheader
-# makefile (from 'Makefile', line 232)
+# makefile (from 'Makefile', line 233)
 GREP = /bin/grep
 # makefile (from 'Makefile', line 87)
 PRE_UNINSTALL = :
-# makefile (from 'Makefile', line 302)
+# makefile (from 'Makefile', line 303)
 WARN_LDFLAGS = -Wl,--no-as-needed -Wl,--fatal-warnings
-# makefile (from 'Makefile', line 233)
+# makefile (from 'Makefile', line 234)
 GSETTINGS_DISABLE_SCHEMAS_COMPILE = 
 # variable set hash-table stats:
-# Load=356/1024=35%, Rehash=0, Collisions=193/694=28%
+# Load=356/1024=35%, Rehash=0, Collisions=144/586=25%
 
 # Pattern-specific Variable Values
 
@@ -3197,7 +3050,7 @@ GSETTINGS_DISABLE_SCHEMAS_COMPILE =
 # /usr/include/GL/SCCS: could not be stat'd.
 # /usr/include/x86_64-linux-gnu/sys/RCS: could not be stat'd.
 # /usr/include/x86_64-linux-gnu/asm/SCCS: could not be stat'd.
-# . (device 2049, inode 3015120): 18 files, 4 impossibilities.
+# . (device 2049, inode 3015120): 21 files, 4 impossibilities.
 # /usr/include/c++/7/debug (device 2049, inode 2365965): 35 files, 4 impossibilities.
 # /usr/include/c++/7/backward/SCCS: could not be stat'd.
 # /usr/include/c++/7 (device 2049, inode 2365791): 101 files, 52 impossibilities.
@@ -3227,7 +3080,7 @@ GSETTINGS_DISABLE_SCHEMAS_COMPILE =
 # /usr/include/c++/7/bits/RCS: could not be stat'd.
 # /usr/include/x86_64-linux-gnu/bits/SCCS: could not be stat'd.
 # ../RCS: could not be stat'd.
-# .deps (device 2049, inode 3015238): 5 files, 4 impossibilities.
+# .deps (device 2049, inode 3015238): 6 files, 6 impossibilities.
 # /usr/lib/gcc/x86_64-linux-gnu/7/include/SCCS: could not be stat'd.
 # /usr/include/c++/7/RCS: could not be stat'd.
 # /usr/include/RCS: could not be stat'd.
@@ -3245,7 +3098,7 @@ GSETTINGS_DISABLE_SCHEMAS_COMPILE =
 # .deps/RCS: could not be stat'd.
 # /usr/include/c++/7/ext/SCCS: could not be stat'd.
 
-# 1608 files, 384 impossibilities in 57 directories.
+# 1612 files, 386 impossibilities in 57 directories.
 
 # Implicit Rules
 
@@ -3256,19 +3109,19 @@ GSETTINGS_DISABLE_SCHEMAS_COMPILE =
 	$(LINK.cpp) $^ $(LOADLIBES) $(LDLIBS) -o $@
 
 %.lo: %.cpp
-#  recipe to execute (from 'Makefile', line 478):
+#  recipe to execute (from 'Makefile', line 480):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.lo$$||'`;\
 	$(LTCXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Plo
 
 %.o: %.cpp
-#  recipe to execute (from 'Makefile', line 462):
+#  recipe to execute (from 'Makefile', line 464):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
 	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Po
 
 %.obj: %.cpp
-#  recipe to execute (from 'Makefile', line 470):
+#  recipe to execute (from 'Makefile', line 472):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.obj$$||'`;\
 	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ `$(CYGPATH_W) '$<'` &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Po
@@ -3336,12 +3189,12 @@ GSETTINGS_DISABLE_SCHEMAS_COMPILE =
 #  File has been updated.
 #  Successfully updated.
 
-cscopelist-am: HelloCube.cpp modules.cpp
+cscopelist-am: HelloCube.cpp modules.cpp drawPixel.cpp
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 527):
+#  recipe to execute (from 'Makefile', line 529):
 	list='$(am__tagged_files)'; \
 	case "$(srcdir)" in \
 	  [\\/]* | ?:[\\/]*) sdir="$(srcdir)" ;; \
@@ -3392,7 +3245,7 @@ maintainer-clean: maintainer-clean-am gitignore-clean
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 661):
+#  recipe to execute (from 'Makefile', line 663):
 	-rm -rf ./$(DEPDIR)
 	-rm -f Makefile
 
@@ -3425,7 +3278,7 @@ distclean-compile:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 456):
+#  recipe to execute (from 'Makefile', line 457):
 	-rm -f *.tab.c
 
 /usr/include/c++/7/ext/alloc_traits.h:
@@ -3439,7 +3292,7 @@ GTAGS:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 521):
+#  recipe to execute (from 'Makefile', line 523):
 	here=`$(am__cd) $(top_builddir) && pwd` \
 	  && $(am__cd) $(top_srcdir) \
 	  && gtags -i $(GTAGS_ARGS) "$$here"
@@ -3507,7 +3360,7 @@ distclean-tags:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 541):
+#  recipe to execute (from 'Makefile', line 543):
 	-rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
@@ -3540,7 +3393,7 @@ install-am: all-am
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 586):
+#  recipe to execute (from 'Makefile', line 588):
 	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
@@ -3593,10 +3446,17 @@ install-am: all-am
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 470):
+#  recipe to execute (from 'Makefile', line 472):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.obj$$||'`;\
 	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ `$(CYGPATH_W) '$<'` &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Po
+
+# Not a target:
+.deps/drawPixel.Po:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-13 16:05:29.982059991
+#  File has been updated.
+#  Successfully updated.
 
 all: all-am .gitignore gitignore-recurse-maybe
 #  Phony target (prerequisite of .PHONY).
@@ -3606,7 +3466,7 @@ all: all-am .gitignore gitignore-recurse-maybe
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/120=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
 
 # Not a target:
 .m:
@@ -3635,28 +3495,9 @@ all: all-am .gitignore gitignore-recurse-maybe
 
 .gitignore: Makefile.am ../git.mk
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
-#  Last modified 2514-05-30 03:53:03.107374182
+#  Last modified 2017-09-13 16:02:51.335512172
 #  File has been updated.
 #  Successfully updated.
-# automatic
-# @ := .gitignore
-# automatic
-# % := 
-# automatic
-# * := 
-# automatic
-# + := Makefile.am ../git.mk
-# automatic
-# | := 
-# automatic
-# < := Makefile.am
-# automatic
-# ^ := Makefile.am ../git.mk
-# automatic
-# ? := Makefile.am
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=22/124=18%
 #  recipe to execute (from '../git.mk', line 166):
 	@echo "git.mk: Generating $@"
 	@{ \
@@ -3811,7 +3652,7 @@ mostlyclean-compile:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 453):
+#  recipe to execute (from 'Makefile', line 454):
 	-rm -f *.$(OBJEXT)
 
 /usr/include/linux/errno.h:
@@ -3854,7 +3695,7 @@ install-binPROGRAMS: main
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 399):
+#  recipe to execute (from 'Makefile', line 400):
 	@$(NORMAL_INSTALL)
 	@list='$(bin_PROGRAMS)'; test -n "$(bindir)" || list=; \
 	if test -n "$$list"; then \
@@ -3893,10 +3734,10 @@ installcheck: installcheck-am
 modules.o: modules.cpp modules.cpp /usr/include/stdc-predef.h /usr/include/c++/7/iostream /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/c++/7/ostream /usr/include/c++/7/ios /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h /usr/include/c++/7/cwchar /usr/include/wchar.h /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/xlocale.h /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h /usr/include/c++/7/bits/exception_ptr.h /usr/include/c++/7/bits/exception_defines.h /usr/include/c++/7/bits/cxxabi_init_exception.h /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/bits/stl_algobase.h /usr/include/c++/7/bits/functexcept.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/c++/7/ext/numeric_traits.h /usr/include/c++/7/bits/stl_pair.h /usr/include/c++/7/bits/stl_iterator_base_types.h /usr/include/c++/7/bits/stl_iterator_base_funcs.h /usr/include/c++/7/debug/assertions.h /usr/include/c++/7/bits/stl_iterator.h /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/c++/7/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h /usr/include/c++/7/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string /usr/include/c++/7/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h /usr/include/c++/7/ext/new_allocator.h /usr/include/c++/7/bits/ostream_insert.h /usr/include/c++/7/bits/cxxabi_forced.h /usr/include/c++/7/bits/stl_function.h /usr/include/c++/7/backward/binders.h /usr/include/c++/7/bits/range_access.h /usr/include/c++/7/initializer_list /usr/include/c++/7/bits/basic_string.h /usr/include/c++/7/ext/alloc_traits.h /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdlib /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio /usr/include/libio.h /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/c++/7/cerrno /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/c++/7/bits/functional_hash.h /usr/include/c++/7/bits/basic_string.tcc /usr/include/c++/7/bits/locale_classes.tcc /usr/include/c++/7/system_error /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf /usr/include/c++/7/bits/streambuf.tcc /usr/include/c++/7/bits/basic_ios.h /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h /usr/include/c++/7/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h /usr/include/c++/7/bits/locale_facets.tcc /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/stdlib.h /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_construct.h /usr/include/c++/7/bits/stl_uninitialized.h /usr/include/c++/7/bits/stl_vector.h /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc /usr/include/c++/7/math.h /usr/include/c++/7/cmath /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/huge_val.h /usr/include/x86_64-linux-gnu/bits/huge_valf.h /usr/include/x86_64-linux-gnu/bits/huge_vall.h /usr/include/x86_64-linux-gnu/bits/inf.h /usr/include/x86_64-linux-gnu/bits/nan.h /usr/include/x86_64-linux-gnu/bits/mathdef.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h /usr/include/GL/glu.h
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'modules'
-#  Last modified 2017-09-13 03:07:31.215939387
+#  Last modified 2017-09-13 14:59:56.428635282
 #  File has been updated.
 #  Successfully updated.
-#  recipe to execute (from 'Makefile', line 462):
+#  recipe to execute (from 'Makefile', line 464):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
 	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Po
@@ -4092,7 +3933,7 @@ distclean: distclean-am
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 615):
+#  recipe to execute (from 'Makefile', line 617):
 	-rm -rf ./$(DEPDIR)
 	-rm -f Makefile
 
@@ -4128,7 +3969,7 @@ mostlyclean-libtool:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 486):
+#  recipe to execute (from 'Makefile', line 488):
 	-rm -f *.lo
 
 # Not a target:
@@ -4296,10 +4137,10 @@ info: info-am
 Makefile: Makefile.in ../config.status
 #  Precious file (prerequisite of .PRECIOUS).
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 03:10:57.094581955
+#  Last modified 2017-09-13 16:05:35.821308865
 #  File has been updated.
 #  Successfully updated.
-#  recipe to execute (from 'Makefile', line 382):
+#  recipe to execute (from 'Makefile', line 383):
 	@case '$?' in \
 	  *config.status*) \
 	    cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh;; \
@@ -4319,10 +4160,10 @@ Makefile: Makefile.in ../config.status
 
 Makefile.in: Makefile.am ../m4/ax_append_compile_flags.m4 ../m4/ax_append_flag.m4 ../m4/ax_check_compile_flag.m4 ../m4/ax_check_link_flag.m4 ../m4/ax_compiler_flags_cxxflags.m4 ../m4/ax_cxx_compile_stdcxx_11.m4 ../m4/ax_require_defined.m4 ../m4/gettext.m4 ../m4/gsettings.m4 ../m4/iconv.m4 ../m4/intlmacosx.m4 ../m4/introspection.m4 ../m4/lib-ld.m4 ../m4/lib-link.m4 ../m4/lib-prefix.m4 ../m4/libtool.m4 ../m4/ltoptions.m4 ../m4/ltsugar.m4 ../m4/ltversion.m4 ../m4/lt~obsolete.m4 ../m4/nls.m4 ../m4/pkg.m4 ../m4/po.m4 ../m4/progtest.m4 ../configure.ac ../aclocal.m4
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 03:04:05.133303511
+#  Last modified 2017-09-13 16:02:46.259393012
 #  File has been updated.
 #  Successfully updated.
-#  recipe to execute (from 'Makefile', line 370):
+#  recipe to execute (from 'Makefile', line 371):
 	@for dep in $?; do \
 	  case '$(am__configure_deps)' in \
 	    *$$dep*) \
@@ -4358,12 +4199,12 @@ gitignore-clean:
 #  recipe to execute (from '../git.mk', line 331):
 	-rm -f $(srcdir)/.gitignore
 
-distdir: Makefile.am Makefile.in ../build-aux/depcomp HelloCube.cpp modules.cpp
+distdir: Makefile.am Makefile.in ../build-aux/depcomp HelloCube.cpp modules.cpp drawPixel.cpp
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 544):
+#  recipe to execute (from 'Makefile', line 546):
 	@srcdirstrip=`echo "$(srcdir)" | sed 's/[].[^$$\\*]/\\\\&/g'`; \
 	topsrcdirstrip=`echo "$(top_srcdir)" | sed 's/[].[^$$\\*]/\\\\&/g'`; \
 	list='$(DISTFILES)'; \
@@ -4498,12 +4339,12 @@ distdir: Makefile.am Makefile.in ../build-aux/depcomp HelloCube.cpp modules.cpp
 #  File has been updated.
 #  Successfully updated.
 
-tags-am: HelloCube.cpp modules.cpp
+tags-am: HelloCube.cpp modules.cpp drawPixel.cpp
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 497):
+#  recipe to execute (from 'Makefile', line 499):
 	set x; \
 	here=`pwd`; \
 	$(am__define_uniq_tagged_files); \
@@ -4633,7 +4474,7 @@ pdf: pdf-am
 # Not a target:
 HelloCube.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 03:10:49.782487979
+#  Last modified 2017-09-13 16:04:03.823622974
 #  File has been updated.
 #  Successfully updated.
 
@@ -4648,7 +4489,7 @@ clean-binPROGRAMS:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 440):
+#  recipe to execute (from 'Makefile', line 441):
 	@list='$(bin_PROGRAMS)'; test -n "$$list" || exit 0; \
 	echo " rm -f" $$list; \
 	rm -f $$list || exit $$?; \
@@ -4758,7 +4599,7 @@ install-info-am:
 # Not a target:
 .deps/HelloCube.Po:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 03:10:53.62253733
+#  Last modified 2017-09-13 16:04:06.359149356
 #  File has been updated.
 #  Successfully updated.
 
@@ -4869,7 +4710,7 @@ maintainer-clean-generic:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 608):
+#  recipe to execute (from 'Makefile', line 610):
 	@echo "This command is intended for maintainers to use"
 	@echo "it deletes files that may require special tools to rebuild."
 
@@ -4894,6 +4735,13 @@ maintainer-clean-generic:
 /usr/include/c++/7/bits/locale_classes.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+drawPixel.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-13 16:05:28.402266549
 #  File has been updated.
 #  Successfully updated.
 
@@ -4990,7 +4838,7 @@ maintainer-clean-generic:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 478):
+#  recipe to execute (from 'Makefile', line 480):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.lo$$||'`;\
 	$(LTCXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Plo
@@ -5101,7 +4949,7 @@ clean-libtool:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 489):
+#  recipe to execute (from 'Makefile', line 491):
 	-rm -rf .libs _libs
 
 /usr/include/c++/7/cstdio:
@@ -5116,11 +4964,11 @@ clean-libtool:
 #  File has been updated.
 #  Successfully updated.
 
-ID: HelloCube.cpp modules.cpp
+ID: HelloCube.cpp modules.cpp drawPixel.cpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 492):
+#  recipe to execute (from 'Makefile', line 494):
 	$(am__define_uniq_tagged_files); mkid -fID $$unique
 
 ../m4/ax_compiler_flags_cxxflags.m4:
@@ -5185,7 +5033,7 @@ uninstall-binPROGRAMS:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 429):
+#  recipe to execute (from 'Makefile', line 430):
 	@$(NORMAL_UNINSTALL)
 	@list='$(bin_PROGRAMS)'; test -n "$(bindir)" || list=; \
 	files=`for p in $$list; do echo "$$p"; done | \
@@ -5219,7 +5067,7 @@ uninstall-binPROGRAMS:
 #  Last modified 2017-09-13 01:08:17.865333108
 #  File has been updated.
 #  Successfully updated.
-#  recipe to execute (from 'Makefile', line 396):
+#  recipe to execute (from 'Makefile', line 397):
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
 
 # Not a target:
@@ -5235,7 +5083,7 @@ uninstall-binPROGRAMS:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 462):
+#  recipe to execute (from 'Makefile', line 464):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
 	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Po
@@ -5299,7 +5147,7 @@ distclean-generic:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 604):
+#  recipe to execute (from 'Makefile', line 606):
 	-test -z "$(CONFIG_CLEAN_FILES)" || rm -f $(CONFIG_CLEAN_FILES)
 	-test . = "$(srcdir)" || test -z "$(CONFIG_CLEAN_VPATH_FILES)" || rm -f $(CONFIG_CLEAN_VPATH_FILES)
 
@@ -5325,14 +5173,14 @@ distclean-generic:
 # Not a target:
 Makefile.am:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 03:02:43.116258033
+#  Last modified 2017-09-13 16:02:45.711367536
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 modules.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 03:07:28.615906065
+#  Last modified 2017-09-13 14:59:54.528685029
 #  File has been updated.
 #  Successfully updated.
 
@@ -5348,7 +5196,7 @@ modules.cpp:
 #  Last modified 2017-09-13 01:08:18.657343901
 #  File has been updated.
 #  Successfully updated.
-#  recipe to execute (from 'Makefile', line 394):
+#  recipe to execute (from 'Makefile', line 395):
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
@@ -5462,7 +5310,7 @@ install-strip:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 590):
+#  recipe to execute (from 'Makefile', line 592):
 	if test -z '$(STRIP)'; then \
 	  $(MAKE) $(AM_MAKEFLAGS) INSTALL_PROGRAM="$(INSTALL_STRIP_PROGRAM)" \
 	    install_sh_PROGRAM="$(INSTALL_STRIP_PROGRAM)" INSTALL_STRIP_FLAG=-s \
@@ -5590,12 +5438,12 @@ html-am:
 #  File does not exist.
 #  File has not been updated.
 
-main: HelloCube.o modules.o
+main: HelloCube.o modules.o drawPixel.o
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 03:10:53.858540364
+#  Last modified 2017-09-13 16:05:30.210030348
 #  File has been updated.
 #  Successfully updated.
-#  recipe to execute (from 'Makefile', line 449):
+#  recipe to execute (from 'Makefile', line 450):
 	@rm -f main$(EXEEXT)
 	$(AM_V_CXXLD)$(main_LINK) $(main_OBJECTS) $(main_LDADD) $(LIBS)
 
@@ -5650,10 +5498,10 @@ mostlyclean: mostlyclean-am
 HelloCube.o: HelloCube.cpp HelloCube.cpp /usr/include/stdc-predef.h /usr/include/c++/7/iostream /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/c++/7/ostream /usr/include/c++/7/ios /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h /usr/include/c++/7/cwchar /usr/include/wchar.h /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/xlocale.h /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h /usr/include/c++/7/bits/exception_ptr.h /usr/include/c++/7/bits/exception_defines.h /usr/include/c++/7/bits/cxxabi_init_exception.h /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/bits/stl_algobase.h /usr/include/c++/7/bits/functexcept.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/c++/7/ext/numeric_traits.h /usr/include/c++/7/bits/stl_pair.h /usr/include/c++/7/bits/stl_iterator_base_types.h /usr/include/c++/7/bits/stl_iterator_base_funcs.h /usr/include/c++/7/debug/assertions.h /usr/include/c++/7/bits/stl_iterator.h /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/c++/7/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h /usr/include/c++/7/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string /usr/include/c++/7/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h /usr/include/c++/7/ext/new_allocator.h /usr/include/c++/7/bits/ostream_insert.h /usr/include/c++/7/bits/cxxabi_forced.h /usr/include/c++/7/bits/stl_function.h /usr/include/c++/7/backward/binders.h /usr/include/c++/7/bits/range_access.h /usr/include/c++/7/initializer_list /usr/include/c++/7/bits/basic_string.h /usr/include/c++/7/ext/alloc_traits.h /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdlib /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio /usr/include/libio.h /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/c++/7/cerrno /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/c++/7/bits/functional_hash.h /usr/include/c++/7/bits/basic_string.tcc /usr/include/c++/7/bits/locale_classes.tcc /usr/include/c++/7/system_error /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf /usr/include/c++/7/bits/streambuf.tcc /usr/include/c++/7/bits/basic_ios.h /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h /usr/include/c++/7/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h /usr/include/c++/7/bits/locale_facets.tcc /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/stdlib.h /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_construct.h /usr/include/c++/7/bits/stl_uninitialized.h /usr/include/c++/7/bits/stl_vector.h /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc /usr/include/c++/7/math.h /usr/include/c++/7/cmath /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/huge_val.h /usr/include/x86_64-linux-gnu/bits/huge_valf.h /usr/include/x86_64-linux-gnu/bits/huge_vall.h /usr/include/x86_64-linux-gnu/bits/inf.h /usr/include/x86_64-linux-gnu/bits/nan.h /usr/include/x86_64-linux-gnu/bits/mathdef.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h /usr/include/GL/glu.h modules.hpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'HelloCube'
-#  Last modified 2017-09-13 03:10:53.626537382
+#  Last modified 2017-09-13 16:04:06.363148613
 #  File has been updated.
 #  Successfully updated.
-#  recipe to execute (from 'Makefile', line 462):
+#  recipe to execute (from 'Makefile', line 464):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
 	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Po
@@ -5826,12 +5674,12 @@ check: check-am
 #  File has been updated.
 #  Successfully updated.
 
-ctags-am: HelloCube.cpp modules.cpp
+ctags-am: HelloCube.cpp modules.cpp drawPixel.cpp
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 515):
+#  recipe to execute (from 'Makefile', line 517):
 	$(am__define_uniq_tagged_files); \
 	test -z "$(CTAGS_ARGS)$$unique" \
 	  || $(CTAGS) $(CTAGSFLAGS) $(AM_CTAGSFLAGS) $(CTAGS_ARGS) \
@@ -5860,7 +5708,7 @@ clean-generic:
 #  Last modified 2017-09-13 01:08:26.021443893
 #  File has been updated.
 #  Successfully updated.
-#  recipe to execute (from 'Makefile', line 391):
+#  recipe to execute (from 'Makefile', line 392):
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
 
 /usr/include/c++/7/bits/stl_algobase.h:
@@ -5896,7 +5744,7 @@ installdirs:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 577):
+#  recipe to execute (from 'Makefile', line 579):
 	for dir in "$(DESTDIR)$(bindir)"; do \
 	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
 	done
@@ -5984,6 +5832,17 @@ ps: ps-am
 #  File does not exist.
 #  File has not been updated.
 
+drawPixel.o: drawPixel.cpp drawPixel.cpp /usr/include/stdc-predef.h /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/inttypes.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/GL/glu.h /usr/include/c++/7/stdlib.h /usr/include/c++/7/cstdlib /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/xlocale.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'drawPixel'
+#  Last modified 2017-09-13 16:05:29.986059469
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 464):
+	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
+	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
+	$(am__mv) $$depbase.Tpo $$depbase.Po
+
 /usr/include/sched.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-08-26 11:09:24
@@ -6070,7 +5929,7 @@ install-html: install-html-am
 # Not a target:
 .deps/modules.Po:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 03:07:31.211939336
+#  Last modified 2017-09-13 14:59:56.420635491
 #  File has been updated.
 #  Successfully updated.
 
@@ -6087,22 +5946,22 @@ install-ps-am:
 #  Successfully updated.
 
 # files hash-table stats:
-# Load=360/1024=35%, Rehash=0, Collisions=2367/5044=47%
+# Load=363/1024=35%, Rehash=0, Collisions=2436/5165=47%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 20 (19) / strings = 5400 / storage = 161741 B / avg = 29 B
-# current buf: size = 8162 B / used = 6984 B / count = 230 / avg = 30 B
-# other used: total = 153579 B / count = 5170 / avg = 29 B
-# other free: total = 321 B / max = 29 B / min = 4 B / avg = 16 B
+# strcache buffers: 20 (18) / strings = 5430 / storage = 162366 B / avg = 29 B
+# current buf: size = 8162 B / used = 7628 B / count = 248 / avg = 30 B
+# other used: total = 154204 B / count = 5182 / avg = 29 B
+# other free: total = 340 B / max = 49 B / min = 6 B / avg = 17 B
 
-# strcache performance: lookups = 7478 / hit rate = 27%
+# strcache performance: lookups = 7648 / hit rate = 29%
 # hash-table stats:
-# Load=5400/8192=66%, Rehash=0, Collisions=4259/7478=57%
-# Finished Make data base on Wed Sep 13 03:11:34 2017
+# Load=5430/8192=66%, Rehash=0, Collisions=4352/7648=57%
+# Finished Make data base on Wed Sep 13 16:06:10 2017
 
 Making all in po
 make .pot-update
@@ -6175,7 +6034,7 @@ test ! -f .po || { \
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 13 03:11:34 2017
+# Make data base, printed on Wed Sep 13 16:06:10 2017
 
 # Variables
 
@@ -8077,7 +7936,7 @@ install: install-exec install-data
 # strcache performance: lookups = 389 / hit rate = 37%
 # hash-table stats:
 # Load=244/8192=3%, Rehash=0, Collisions=52/389=13%
-# Finished Make data base on Wed Sep 13 03:11:34 2017
+# Finished Make data base on Wed Sep 13 16:06:10 2017
 
 test "0.19" = "0.19" || { echo "*** error: gettext infrastructure mismatch: using a Makefile.in.in from gettext version 0.19 but the autoconf macros are from gettext version 0.19" 1>&2; exit 1; }
 test ! -f ./.pot || \
@@ -8094,7 +7953,7 @@ test ! -f ./.pot || { \
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 13 03:11:34 2017
+# Make data base, printed on Wed Sep 13 16:06:10 2017
 
 # Variables
 
@@ -10017,7 +9876,7 @@ install: install-exec install-data
 # strcache performance: lookups = 392 / hit rate = 36%
 # hash-table stats:
 # Load=248/8192=3%, Rehash=0, Collisions=53/392=14%
-# Finished Make data base on Wed Sep 13 03:11:34 2017
+# Finished Make data base on Wed Sep 13 16:06:10 2017
 
 test -f config.h || rm -f stamp-h1
 test -f config.h || make  stamp-h1
@@ -10028,7 +9887,7 @@ test -f config.h || make  stamp-h1
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 13 03:11:34 2017
+# Make data base, printed on Wed Sep 13 16:06:10 2017
 
 # Variables
 
@@ -10333,7 +10192,7 @@ srcdir = .
 # makefile (from 'Makefile', line 376)
 infodir = ${datarootdir}/info
 # makefile (from 'Makefile', line 386)
-prefix = /usr/local
+prefix = /home/marc
 # makefile (from 'Makefile', line 366)
 dvidir = ${docdir}
 # makefile (from 'Makefile', line 298)
@@ -10519,7 +10378,7 @@ PACKAGE_TARNAME = opengl
 # makefile (from 'Makefile', line 110)
 DIST_COMMON = $(srcdir)/Makefile.am $(top_srcdir)/configure $(am__configure_deps) $(am__DIST_COMMON)
 # makefile (from 'Makefile', line 339)
-WARN_SCANNERFLAGS = --warn-all                                                                           --warn-error         
+WARN_SCANNERFLAGS = --warn-all                                                                           --warn-error
 # default
 .VARIABLES := 
 # makefile (from 'Makefile', line 390)
@@ -11532,7 +11391,7 @@ info: info-recursive
 Makefile: Makefile.in config.status
 #  Precious file (prerequisite of .PRECIOUS).
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:26.257447086
+#  Last modified 2017-09-13 14:55:25.406033536
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 433):
@@ -13626,7 +13485,7 @@ mostlyclean-recursive:
 # strcache performance: lookups = 1023 / hit rate = 55%
 # hash-table stats:
 # Load=458/8192=6%, Rehash=0, Collisions=40/1023=4%
-# Finished Make data base on Wed Sep 13 03:11:34 2017
+# Finished Make data base on Wed Sep 13 16:06:10 2017
 
 # GNU Make 4.1
 # Built for x86_64-pc-linux-gnu
@@ -13635,7 +13494,7 @@ mostlyclean-recursive:
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 13 03:11:34 2017
+# Make data base, printed on Wed Sep 13 16:06:10 2017
 
 # Variables
 
@@ -13940,7 +13799,7 @@ srcdir = .
 # makefile (from 'Makefile', line 376)
 infodir = ${datarootdir}/info
 # makefile (from 'Makefile', line 386)
-prefix = /usr/local
+prefix = /home/marc
 # makefile (from 'Makefile', line 366)
 dvidir = ${docdir}
 # makefile (from 'Makefile', line 298)
@@ -14126,7 +13985,7 @@ PACKAGE_TARNAME = opengl
 # makefile (from 'Makefile', line 110)
 DIST_COMMON = $(srcdir)/Makefile.am $(top_srcdir)/configure $(am__configure_deps) $(am__DIST_COMMON)
 # makefile (from 'Makefile', line 339)
-WARN_SCANNERFLAGS = --warn-all                                                                           --warn-error         
+WARN_SCANNERFLAGS = --warn-all                                                                           --warn-error
 # default
 .VARIABLES := 
 # makefile (from 'Makefile', line 390)
@@ -15135,7 +14994,7 @@ info: info-recursive
 Makefile: Makefile.in config.status
 #  Precious file (prerequisite of .PRECIOUS).
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:26.257447086
+#  Last modified 2017-09-13 14:55:25.406033536
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 433):
@@ -17228,7 +17087,7 @@ mostlyclean-recursive:
 # strcache performance: lookups = 1023 / hit rate = 55%
 # hash-table stats:
 # Load=458/8192=6%, Rehash=0, Collisions=40/1023=4%
-# Finished Make data base on Wed Sep 13 03:11:34 2017
+# Finished Make data base on Wed Sep 13 16:06:10 2017
 
 # GNU Make 4.1
 # Built for x86_64-pc-linux-gnu
@@ -17237,7 +17096,7 @@ mostlyclean-recursive:
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 13 03:11:34 2017
+# Make data base, printed on Wed Sep 13 16:06:10 2017
 
 # Variables
 
@@ -17538,7 +17397,7 @@ srcdir = .
 # makefile (from 'Makefile', line 376)
 infodir = ${datarootdir}/info
 # makefile (from 'Makefile', line 386)
-prefix = /usr/local
+prefix = /home/marc
 # makefile (from 'Makefile', line 366)
 dvidir = ${docdir}
 # makefile (from 'Makefile', line 298)
@@ -17720,7 +17579,7 @@ PACKAGE_TARNAME = opengl
 # makefile (from 'Makefile', line 110)
 DIST_COMMON = $(srcdir)/Makefile.am $(top_srcdir)/configure $(am__configure_deps) $(am__DIST_COMMON)
 # makefile (from 'Makefile', line 339)
-WARN_SCANNERFLAGS = --warn-all                                                                           --warn-error         
+WARN_SCANNERFLAGS = --warn-all                                                                           --warn-error
 # default
 .VARIABLES := 
 # makefile (from 'Makefile', line 390)
@@ -18750,7 +18609,7 @@ info: info-recursive
 Makefile: Makefile.in config.status
 #  Precious file (prerequisite of .PRECIOUS).
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:26.257447086
+#  Last modified 2017-09-13 14:55:25.406033536
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 433):
@@ -20864,5 +20723,5 @@ mostlyclean-recursive:
 # strcache performance: lookups = 1023 / hit rate = 55%
 # hash-table stats:
 # Load=458/8192=6%, Rehash=0, Collisions=40/1023=4%
-# Finished Make data base on Wed Sep 13 03:11:35 2017
+# Finished Make data base on Wed Sep 13 16:06:10 2017
 

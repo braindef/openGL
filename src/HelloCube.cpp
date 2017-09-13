@@ -67,6 +67,26 @@ void drawScene()
 	}
     }
 
+    unsigned int W=400;
+    unsigned int H=400;
+
+    unsigned int data[W][H][3];
+    for( size_t y = 0; y < W; ++y )
+    {
+        for( size_t x = 0; x < H; ++x )
+        {
+            data[y][x][0] = ( rand() % 256 ) * 256 * 256 * 256;
+            data[y][x][1] = ( rand() % 256 ) * 256 * 256 * 256;
+            data[y][x][2] = ( rand() % 256 ) * 256 * 256 * 256;
+        }
+    }
+
+    glDrawPixels( W, H, GL_RGB, GL_UNSIGNED_INT, data );
+
+    //horizontalBlur();
+    //verticalBlur();
+
+    //glDrawPixels();
 
     glutSwapBuffers();
 }
