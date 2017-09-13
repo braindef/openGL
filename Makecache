@@ -47,7 +47,7 @@ done
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 13 16:17:12 2017
+# Make data base, printed on Wed Sep 13 18:52:16 2017
 
 # Variables
 
@@ -1116,7 +1116,7 @@ distclean-libtool:
 
 ../m4/ltversion.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.497259744
+#  Last modified 2017-09-13 18:25:56.81036224
 #  File has been updated.
 #  Successfully updated.
 
@@ -1348,7 +1348,7 @@ info: info-am
 Makefile: Makefile.in ../config.status
 #  Precious file (prerequisite of .PRECIOUS).
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:26.297447627
+#  Last modified 2017-09-13 18:26:11.046625078
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 323):
@@ -1371,7 +1371,7 @@ Makefile: Makefile.in ../config.status
 
 Makefile.in: Makefile.am ../m4/ax_append_compile_flags.m4 ../m4/ax_append_flag.m4 ../m4/ax_check_compile_flag.m4 ../m4/ax_check_link_flag.m4 ../m4/ax_compiler_flags_cxxflags.m4 ../m4/ax_cxx_compile_stdcxx_11.m4 ../m4/ax_require_defined.m4 ../m4/gettext.m4 ../m4/gsettings.m4 ../m4/iconv.m4 ../m4/intlmacosx.m4 ../m4/introspection.m4 ../m4/lib-ld.m4 ../m4/lib-link.m4 ../m4/lib-prefix.m4 ../m4/libtool.m4 ../m4/ltoptions.m4 ../m4/ltsugar.m4 ../m4/ltversion.m4 ../m4/lt~obsolete.m4 ../m4/nls.m4 ../m4/pkg.m4 ../m4/po.m4 ../m4/progtest.m4 ../configure.ac ../aclocal.m4
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:19.701358118
+#  Last modified 2017-09-13 18:26:04.218499066
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 311):
@@ -1494,7 +1494,7 @@ cscope:
 
 ../m4/libtool.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.365257935
+#  Last modified 2017-09-13 18:25:56.682359876
 #  File has been updated.
 #  Successfully updated.
 
@@ -1701,7 +1701,7 @@ maintainer-clean-generic:
 
 ../m4/ltsugar.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.457259196
+#  Last modified 2017-09-13 18:25:56.766361428
 #  File has been updated.
 #  Successfully updated.
 
@@ -1797,7 +1797,7 @@ git-mk-install:
 
 ../aclocal.m4: ../m4/ax_append_compile_flags.m4 ../m4/ax_append_flag.m4 ../m4/ax_check_compile_flag.m4 ../m4/ax_check_link_flag.m4 ../m4/ax_compiler_flags_cxxflags.m4 ../m4/ax_cxx_compile_stdcxx_11.m4 ../m4/ax_require_defined.m4 ../m4/gettext.m4 ../m4/gsettings.m4 ../m4/iconv.m4 ../m4/intlmacosx.m4 ../m4/introspection.m4 ../m4/lib-ld.m4 ../m4/lib-link.m4 ../m4/lib-prefix.m4 ../m4/libtool.m4 ../m4/ltoptions.m4 ../m4/ltsugar.m4 ../m4/ltversion.m4 ../m4/lt~obsolete.m4 ../m4/nls.m4 ../m4/pkg.m4 ../m4/po.m4 ../m4/progtest.m4 ../configure.ac
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:17.865333108
+#  Last modified 2017-09-13 18:26:02.342464428
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 337):
@@ -1901,7 +1901,7 @@ Makefile.am:
 
 ../configure: ../m4/ax_append_compile_flags.m4 ../m4/ax_append_flag.m4 ../m4/ax_check_compile_flag.m4 ../m4/ax_check_link_flag.m4 ../m4/ax_compiler_flags_cxxflags.m4 ../m4/ax_cxx_compile_stdcxx_11.m4 ../m4/ax_require_defined.m4 ../m4/gettext.m4 ../m4/gsettings.m4 ../m4/iconv.m4 ../m4/intlmacosx.m4 ../m4/introspection.m4 ../m4/lib-ld.m4 ../m4/lib-link.m4 ../m4/lib-prefix.m4 ../m4/libtool.m4 ../m4/ltoptions.m4 ../m4/ltsugar.m4 ../m4/ltversion.m4 ../m4/lt~obsolete.m4 ../m4/nls.m4 ../m4/pkg.m4 ../m4/po.m4 ../m4/progtest.m4 ../configure.ac ../aclocal.m4
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:18.657343901
+#  Last modified 2017-09-13 18:26:03.146479274
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 335):
@@ -2065,7 +2065,7 @@ uninstall-am:
 
 ../m4/ltoptions.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.409258538
+#  Last modified 2017-09-13 18:25:56.722360615
 #  File has been updated.
 #  Successfully updated.
 
@@ -2129,7 +2129,7 @@ install-ps: install-ps-am
 
 ../config.status: ../configure
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:26.021443893
+#  Last modified 2017-09-13 18:26:10.750619617
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 332):
@@ -2137,7 +2137,7 @@ install-ps: install-ps-am
 
 ../m4/lt~obsolete.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.549260456
+#  Last modified 2017-09-13 18:25:56.854363054
 #  File has been updated.
 #  Successfully updated.
 
@@ -2298,10 +2298,157 @@ install-ps-am:
 
 # strcache performance: lookups = 740 / hit rate = 44%
 # hash-table stats:
-# Load=411/8192=5%, Rehash=0, Collisions=46/740=6%
-# Finished Make data base on Wed Sep 13 16:17:12 2017
+# Load=411/8192=5%, Rehash=0, Collisions=45/740=6%
+# Finished Make data base on Wed Sep 13 18:52:16 2017
 
 Making all in src
+echo "git.mk: Generating .gitignore"
+{ \
+	if test "x" = x -o "x" = x; then :; else \
+		for x in \
+			-decl-list.txt \
+			-decl.txt \
+			tmpl/-unused.sgml \
+			"tmpl/*.bak" \
+			xml html \
+		; do echo "/$x"; done; \
+		FLAVOR=$(cd ..; /bin/bash /home/marc/Projects/openGL/build-aux/missing autoconf --trace 'GTK_DOC_CHECK:$2' ./configure.ac); \
+		case $FLAVOR in *no-tmpl*) echo /tmpl;; esac; \
+	fi; \
+	if test "x" = x -o "x" = x; then :; else \
+		for lc in ; do \
+			for x in \
+				 \
+				 \
+				 \
+			; do echo "/$lc/$x"; done; \
+		done; \
+		for x in \
+			 \
+			 \
+			 \
+			 \
+			 \
+			"*/.xml2po.mo" \
+			"*/*.omf.out" \
+		; do echo /$x; done; \
+	fi; \
+	if test "x" = x -o "x" = x; then :; else \
+		for lc in ; do \
+			for x in \
+				 \
+				"$lc.stamp" \
+				"$lc.mo" \
+			; do echo "/$lc/$x"; done; \
+		done; \
+	fi; \
+	if test "x" = x; then :; else \
+		for x in \
+			 \
+			 \
+		; do echo "/$x"; done; \
+	fi; \
+	if test "x" = x; then :; else \
+		for x in \
+			 \
+		; do echo "/$x"; done; \
+	fi; \
+	if test "x" = x; then :; else \
+		for x in \
+			 \
+		; do echo "/$x"; done; \
+	fi; \
+	if test -f ./po/Makefile.in.in; then \
+		for x in \
+			po/Makefile.in.in \
+			po/Makefile.in.in~ \
+			po/Makefile.in \
+			po/Makefile \
+			po/Makevars.template \
+			po/POTFILES \
+			po/Rules-quot \
+			po/stamp-it \
+			po/.intltool-merge-cache \
+			"po/*.gmo" \
+			"po/*.header" \
+			"po/*.mo" \
+			"po/*.sed" \
+			"po/*.sin" \
+			po/opengl.pot \
+			intltool-extract.in \
+			intltool-merge.in \
+			intltool-update.in \
+		; do echo "/$x"; done; \
+	fi; \
+	if test -f ./configure; then \
+		for x in \
+			autom4te.cache \
+			configure \
+			config.h \
+			stamp-h1 \
+			libtool \
+			config.lt \
+		; do echo "/$x"; done; \
+	fi; \
+	if test "x" = x; then :; else \
+		for x in \
+			 \
+		; do echo "/$x.sum"; echo "/$x.log"; done; \
+		echo /site.exp; \
+	fi; \
+	if test "x" = x; then :; else \
+		echo ""; \
+	fi; \
+	if test "x" = x -a "x/bin/bash ../libtool --silent --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..     " = x -a "x" = x; then :; else \
+		for x in \
+			"*.lo" \
+			".libs" "_libs" \
+		; do echo "$x"; done; \
+	fi; \
+	for x in \
+		.gitignore \
+		 \
+		 \
+		main   \
+		   \
+		   \
+		so_locations \
+		 \
+		 \
+		 \
+		 \
+		 \
+		"*.gcda" \
+		"*.gcno" \
+		 \
+		 \
+		 \
+		TAGS ID GTAGS GRTAGS GSYMS GPATH tags \
+		"*.tab.c" \
+		 \
+		 \
+		 \
+		 \
+		 \
+		 \
+		Makefile \
+		Makefile.in \
+		"*.orig" \
+		"*.rej" \
+		"*.bak" \
+		"*~" \
+		".*.sw[nop]" \
+		".dirstamp" \
+	; do echo "/$x"; done; \
+	for x in \
+		"*.o" \
+		.deps \
+	; do echo "$x"; done; \
+} | \
+sed "s@^/`echo "." | sed 's/\(.\)/[\1]/g'`/@/@" | \
+sed 's@/[.]/@/@g' | \
+LC_ALL=C sort | uniq > .gitignore.tmp && \
+mv .gitignore.tmp .gitignore;
 for subdir in ; do \
   case "  " in \
     *" $subdir "*) :;; \
@@ -2315,7 +2462,7 @@ done
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 13 16:17:12 2017
+# Make data base, printed on Wed Sep 13 18:52:16 2017
 
 # Variables
 
@@ -2346,7 +2493,7 @@ CPPFLAGS =
 # makefile (from 'Makefile', line 236)
 INSTALL = /usr/bin/install -c
 # makefile (from 'Makefile', line 365)
-main_LDFLAGS = -lglut `pkg-config --libs gl` `pkg-config --libs glu`
+main_LDFLAGS = -lglut `pkg-config --libs gl` `pkg-config --libs glu` `pkg-config --libs fftw3` -lSDL -lSDL_mixer -lpthread
 # makefile (from 'Makefile', line 213)
 DEFS = -DHAVE_CONFIG_H
 # automatic
@@ -2404,13 +2551,13 @@ COMPILE.cpp = $(COMPILE.cc)
 # makefile (from 'Makefile', line 239)
 INSTALL_SCRIPT = ${INSTALL}
 # makefile (from '../git.mk', line 1)
-MAKEFILE_LIST :=  Makefile .deps/HelloCube.Po .deps/drawPixel.Po .deps/modules.Po ../git.mk
+MAKEFILE_LIST :=  Makefile .deps/Hello.Po .deps/drawPixel.Po .deps/modules.Po .deps/sdl.Po ../git.mk
 # makefile (from 'Makefile', line 327)
 builddir = .
 # makefile (from 'Makefile', line 326)
 build_vendor = pc
 # makefile (from 'Makefile', line 364)
-main_CFLAGS = `pkg-config --cflags glut` `pkg-config --cflags gl` `pkg-config --cflags glu`
+main_CFLAGS = `pkg-config --cflags glut` `pkg-config --cflags gl` `pkg-config --cflags glu` -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT
 # makefile (from 'Makefile', line 117)
 am__installdirs = "$(DESTDIR)$(bindir)"
 # makefile (from 'Makefile', line 328)
@@ -2748,7 +2895,7 @@ AS = as
 # default
 PREPROCESS.S = $(CC) -E $(CPPFLAGS)
 # makefile (from 'Makefile', line 363)
-main_SOURCES = HelloCube.cpp modules.cpp drawPixel.cpp
+main_SOURCES = Hello.cpp modules.cpp drawPixel.cpp sdl.cpp
 # default
 COMPILE.p = $(PC) $(PFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
 # default
@@ -2784,7 +2931,7 @@ host_os = linux-gnu
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # makefile (from 'Makefile', line 119)
-am_main_OBJECTS = HelloCube.$(OBJEXT) modules.$(OBJEXT) drawPixel.$(OBJEXT)
+am_main_OBJECTS = Hello.$(OBJEXT) modules.$(OBJEXT) drawPixel.$(OBJEXT) sdl.$(OBJEXT)
 # makefile (from 'Makefile', line 209)
 CXXCPP = g++ -E
 # makefile (from 'Makefile', line 155)
@@ -3032,7 +3179,7 @@ WARN_LDFLAGS = -Wl,--no-as-needed -Wl,--fatal-warnings
 # makefile (from 'Makefile', line 234)
 GSETTINGS_DISABLE_SCHEMAS_COMPILE = 
 # variable set hash-table stats:
-# Load=356/1024=35%, Rehash=0, Collisions=144/586=25%
+# Load=356/1024=35%, Rehash=0, Collisions=193/702=27%
 
 # Pattern-specific Variable Values
 
@@ -3042,28 +3189,31 @@ GSETTINGS_DISABLE_SCHEMAS_COMPILE =
 
 # ../m4 (device 2049, inode 3015116): 56 files, 48 impossibilities.
 # /usr/include/x86_64-linux-gnu/sys/SCCS: could not be stat'd.
+# /usr/include/SDL (device 2049, inode 11151404): 35 files, 56 impossibilities.
 # /usr/include/asm-generic/SCCS: could not be stat'd.
-# /usr/include/c++/7/backward (device 2049, inode 2365796): 10 files, 2 impossibilities.
+# /usr/include/c++/7/backward (device 2049, inode 2365796): 10 files, 4 impossibilities.
 # /usr/include/c++/7/bits/SCCS: could not be stat'd.
 # SCCS: could not be stat'd.
 # /usr/include/c++/7/ext/RCS: could not be stat'd.
 # /usr/include/GL/SCCS: could not be stat'd.
 # /usr/include/x86_64-linux-gnu/sys/RCS: could not be stat'd.
 # /usr/include/x86_64-linux-gnu/asm/SCCS: could not be stat'd.
-# . (device 2049, inode 3015120): 21 files, 4 impossibilities.
+# . (device 2049, inode 3015120): 27 files, 8 impossibilities.
 # /usr/include/c++/7/debug (device 2049, inode 2365965): 35 files, 4 impossibilities.
 # /usr/include/c++/7/backward/SCCS: could not be stat'd.
-# /usr/include/c++/7 (device 2049, inode 2365791): 101 files, 52 impossibilities.
+# /usr/include/c++/7 (device 2049, inode 2365791): 101 files, 70 impossibilities.
 # /usr/include/GL/RCS: could not be stat'd.
 # /usr/include/c++/7/debug/RCS: could not be stat'd.
+# /usr/include/SDL/SCCS: could not be stat'd.
 # /usr/include/x86_64-linux-gnu/asm/RCS: could not be stat'd.
 # /usr/include/c++/7/backward/RCS: could not be stat'd.
 # /usr/include/x86_64-linux-gnu/gnu/SCCS: could not be stat'd.
 # ../m4/SCCS: could not be stat'd.
 # /usr/include/x86_64-linux-gnu/bits (device 2049, inode 12459668): 123 files, 60 impossibilities.
 # /usr/include/linux/SCCS: could not be stat'd.
-# /usr/include/c++/7/bits (device 2049, inode 2365805): 128 files, 96 impossibilities.
-# /usr/include (device 2049, inode 11011289): 216 files, 40 impossibilities.
+# /usr/include/c++/7/bits (device 2049, inode 2365805): 128 files, 124 impossibilities.
+# /usr/include/SDL/RCS: could not be stat'd.
+# /usr/include (device 2049, inode 11011289): 244 files, 46 impossibilities.
 # /usr/include/linux (device 2049, inode 12458821): 511 files, 2 impossibilities.
 # /usr/include/GL (device 2049, inode 11047066): 23 files, 10 impossibilities.
 # /usr/include/x86_64-linux-gnu/asm (device 2049, inode 12459525): 64 files, 2 impossibilities.
@@ -3080,7 +3230,7 @@ GSETTINGS_DISABLE_SCHEMAS_COMPILE =
 # /usr/include/c++/7/bits/RCS: could not be stat'd.
 # /usr/include/x86_64-linux-gnu/bits/SCCS: could not be stat'd.
 # ../RCS: could not be stat'd.
-# .deps (device 2049, inode 3015238): 6 files, 6 impossibilities.
+# .deps (device 2049, inode 3015238): 9 files, 8 impossibilities.
 # /usr/lib/gcc/x86_64-linux-gnu/7/include/SCCS: could not be stat'd.
 # /usr/include/c++/7/RCS: could not be stat'd.
 # /usr/include/RCS: could not be stat'd.
@@ -3090,7 +3240,7 @@ GSETTINGS_DISABLE_SCHEMAS_COMPILE =
 # /usr/include/asm-generic (device 2049, inode 12458785): 37 files, 4 impossibilities.
 # .. (device 2049, inode 3015115): 32 files, 4 impossibilities.
 # /usr/lib/gcc/x86_64-linux-gnu/7/include/RCS: could not be stat'd.
-# /usr/include/c++/7/ext (device 2049, inode 2366044): 47 files, 12 impossibilities.
+# /usr/include/c++/7/ext (device 2049, inode 2366044): 47 files, 16 impossibilities.
 # /usr/include/linux/RCS: could not be stat'd.
 # /usr/include/x86_64-linux-gnu/sys (device 2049, inode 12459798): 86 files, 8 impossibilities.
 # /usr/include/x86_64-linux-gnu/gnu (device 2049, inode 12459791): 7 files, 4 impossibilities.
@@ -3098,7 +3248,7 @@ GSETTINGS_DISABLE_SCHEMAS_COMPILE =
 # .deps/RCS: could not be stat'd.
 # /usr/include/c++/7/ext/SCCS: could not be stat'd.
 
-# 1612 files, 386 impossibilities in 57 directories.
+# 1684 files, 506 impossibilities in 60 directories.
 
 # Implicit Rules
 
@@ -3109,19 +3259,19 @@ GSETTINGS_DISABLE_SCHEMAS_COMPILE =
 	$(LINK.cpp) $^ $(LOADLIBES) $(LDLIBS) -o $@
 
 %.lo: %.cpp
-#  recipe to execute (from 'Makefile', line 480):
+#  recipe to execute (from 'Makefile', line 481):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.lo$$||'`;\
 	$(LTCXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Plo
 
 %.o: %.cpp
-#  recipe to execute (from 'Makefile', line 464):
+#  recipe to execute (from 'Makefile', line 465):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
 	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Po
 
 %.obj: %.cpp
-#  recipe to execute (from 'Makefile', line 472):
+#  recipe to execute (from 'Makefile', line 473):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.obj$$||'`;\
 	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ `$(CYGPATH_W) '$<'` &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Po
@@ -3189,24 +3339,11 @@ GSETTINGS_DISABLE_SCHEMAS_COMPILE =
 #  File has been updated.
 #  Successfully updated.
 
-cscopelist-am: HelloCube.cpp modules.cpp drawPixel.cpp
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 529):
-	list='$(am__tagged_files)'; \
-	case "$(srcdir)" in \
-	  [\\/]* | ?:[\\/]*) sdir="$(srcdir)" ;; \
-	  *) sdir=$(subdir)/$(srcdir) ;; \
-	esac; \
-	for i in $$list; do \
-	  if test -f "$$i"; then \
-	    echo "$(subdir)/$$i"; \
-	  else \
-	    echo "$$sdir/$$i"; \
-	  fi; \
-	done >> $(top_builddir)/cscope.files
+/usr/include/SDL/SDL_error.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
 
 /usr/include/x86_64-linux-gnu/bits/inf.h:
 #  Implicit rule search has been done.
@@ -3245,7 +3382,7 @@ maintainer-clean: maintainer-clean-am gitignore-clean
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 663):
+#  recipe to execute (from 'Makefile', line 664):
 	-rm -rf ./$(DEPDIR)
 	-rm -f Makefile
 
@@ -3292,7 +3429,7 @@ GTAGS:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 523):
+#  recipe to execute (from 'Makefile', line 524):
 	here=`$(am__cd) $(top_builddir) && pwd` \
 	  && $(am__cd) $(top_srcdir) \
 	  && gtags -i $(GTAGS_ARGS) "$$here"
@@ -3306,6 +3443,19 @@ GTAGS:
 /usr/include/c++/7/streambuf:
 #  Implicit rule search has been done.
 #  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+sdl.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-13 18:24:34.48883356
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/SDL/SDL_events.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
 #  File has been updated.
 #  Successfully updated.
 
@@ -3330,6 +3480,18 @@ GTAGS:
 #  recipe to execute (built-in):
 	$(LEX.l) $< > $@ 
 	 mv -f lex.yy.r $@
+
+/usr/include/SDL/SDL_rwops.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/c++/7/bits/uses_allocator.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 #  Implicit rule search has been done.
@@ -3360,7 +3522,7 @@ distclean-tags:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 543):
+#  recipe to execute (from 'Makefile', line 544):
 	-rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
@@ -3393,7 +3555,7 @@ install-am: all-am
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 588):
+#  recipe to execute (from 'Makefile', line 589):
 	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
@@ -3424,6 +3586,12 @@ install-am: all-am
 #  recipe to execute (built-in):
 	$(COMPILE.f) $(OUTPUT_OPTION) $<
 
+sdl.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-13 18:22:50.88288524
+#  File has been updated.
+#  Successfully updated.
+
 /usr/include/stdio.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-08-26 11:09:24
@@ -3446,15 +3614,14 @@ install-am: all-am
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 472):
+#  recipe to execute (from 'Makefile', line 473):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.obj$$||'`;\
 	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ `$(CYGPATH_W) '$<'` &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Po
 
-# Not a target:
-.deps/drawPixel.Po:
+/usr/include/c++/7/tuple:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 16:07:41.217067238
+#  Last modified 2017-09-06 10:38:05
 #  File has been updated.
 #  Successfully updated.
 
@@ -3466,7 +3633,7 @@ all: all-am .gitignore gitignore-recurse-maybe
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/120=0%
 
 # Not a target:
 .m:
@@ -3495,9 +3662,28 @@ all: all-am .gitignore gitignore-recurse-maybe
 
 .gitignore: Makefile.am ../git.mk
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 16:02:51.335512172
+#  Implicit/static pattern stem: ''
+#  Last modified 2514-05-30 03:53:03.107374182
 #  File has been updated.
 #  Successfully updated.
+# automatic
+# @ := .gitignore
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := Makefile.am ../git.mk
+# automatic
+# | := 
+# automatic
+# < := Makefile.am
+# automatic
+# ^ := Makefile.am ../git.mk
+# automatic
+# ? := Makefile.am
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=22/124=18%
 #  recipe to execute (from '../git.mk', line 166):
 	@echo "git.mk: Generating $@"
 	@{ \
@@ -3731,13 +3917,19 @@ installcheck: installcheck-am
 #  File does not exist.
 #  File has not been updated.
 
+/usr/include/SDL/SDL_cdrom.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
 modules.o: modules.cpp modules.cpp /usr/include/stdc-predef.h /usr/include/c++/7/iostream /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/c++/7/ostream /usr/include/c++/7/ios /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h /usr/include/c++/7/cwchar /usr/include/wchar.h /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/xlocale.h /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h /usr/include/c++/7/bits/exception_ptr.h /usr/include/c++/7/bits/exception_defines.h /usr/include/c++/7/bits/cxxabi_init_exception.h /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/bits/stl_algobase.h /usr/include/c++/7/bits/functexcept.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/c++/7/ext/numeric_traits.h /usr/include/c++/7/bits/stl_pair.h /usr/include/c++/7/bits/stl_iterator_base_types.h /usr/include/c++/7/bits/stl_iterator_base_funcs.h /usr/include/c++/7/debug/assertions.h /usr/include/c++/7/bits/stl_iterator.h /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/c++/7/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h /usr/include/c++/7/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string /usr/include/c++/7/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h /usr/include/c++/7/ext/new_allocator.h /usr/include/c++/7/bits/ostream_insert.h /usr/include/c++/7/bits/cxxabi_forced.h /usr/include/c++/7/bits/stl_function.h /usr/include/c++/7/backward/binders.h /usr/include/c++/7/bits/range_access.h /usr/include/c++/7/initializer_list /usr/include/c++/7/bits/basic_string.h /usr/include/c++/7/ext/alloc_traits.h /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdlib /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio /usr/include/libio.h /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/c++/7/cerrno /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/c++/7/bits/functional_hash.h /usr/include/c++/7/bits/basic_string.tcc /usr/include/c++/7/bits/locale_classes.tcc /usr/include/c++/7/system_error /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf /usr/include/c++/7/bits/streambuf.tcc /usr/include/c++/7/bits/basic_ios.h /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h /usr/include/c++/7/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h /usr/include/c++/7/bits/locale_facets.tcc /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/stdlib.h /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_construct.h /usr/include/c++/7/bits/stl_uninitialized.h /usr/include/c++/7/bits/stl_vector.h /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc /usr/include/c++/7/math.h /usr/include/c++/7/cmath /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/huge_val.h /usr/include/x86_64-linux-gnu/bits/huge_valf.h /usr/include/x86_64-linux-gnu/bits/huge_vall.h /usr/include/x86_64-linux-gnu/bits/inf.h /usr/include/x86_64-linux-gnu/bits/nan.h /usr/include/x86_64-linux-gnu/bits/mathdef.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h /usr/include/GL/glu.h
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'modules'
-#  Last modified 2017-09-13 14:59:56.428635282
+#  Last modified 2017-09-13 16:27:47.989768324
 #  File has been updated.
 #  Successfully updated.
-#  recipe to execute (from 'Makefile', line 464):
+#  recipe to execute (from 'Makefile', line 465):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
 	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Po
@@ -3754,15 +3946,27 @@ modules.o: modules.cpp modules.cpp /usr/include/stdc-predef.h /usr/include/c++/7
 #  File has been updated.
 #  Successfully updated.
 
-distclean-libtool:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
+/usr/include/SDL/SDL_keyboard.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/c++/7/bits/shared_ptr_base.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
 
 /usr/include/GL/glu.h:
 #  Implicit rule search has been done.
 #  Last modified 2015-09-13 19:49:20
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/SDL/SDL_video.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
 #  File has been updated.
 #  Successfully updated.
 
@@ -3793,9 +3997,15 @@ distclean-libtool:
 #  recipe to execute (built-in):
 	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
 
+/usr/include/SDL/SDL_main.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
 ../m4/ltversion.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.497259744
+#  Last modified 2017-09-13 18:25:56.81036224
 #  File has been updated.
 #  Successfully updated.
 
@@ -3822,13 +4032,19 @@ distclean-libtool:
 #  Modification time never checked.
 #  File has not been updated.
 
-install-exec: install-exec-am
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
+/usr/include/c++/7/bits/stl_relops.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
 
 /usr/include/c++/7/string:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/c++/7/ctime:
 #  Implicit rule search has been done.
 #  Last modified 2017-09-06 10:38:05
 #  File has been updated.
@@ -3846,6 +4062,18 @@ install-exec: install-exec-am
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+
+/usr/include/SDL/SDL_active.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/SDL/SDL_config.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
 
 # Not a target:
 .yl:
@@ -3866,6 +4094,12 @@ all-am: Makefile main
 #  Last modified 2017-09-06 10:38:05
 #  File has been updated.
 #  Successfully updated.
+
+install-html-am:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
 
 /usr/include/c++/7/istream:
 #  Implicit rule search has been done.
@@ -3933,7 +4167,7 @@ distclean: distclean-am
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 617):
+#  recipe to execute (from 'Makefile', line 618):
 	-rm -rf ./$(DEPDIR)
 	-rm -f Makefile
 
@@ -3969,7 +4203,7 @@ mostlyclean-libtool:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 488):
+#  recipe to execute (from 'Makefile', line 489):
 	-rm -f *.lo
 
 # Not a target:
@@ -3984,6 +4218,12 @@ mostlyclean-libtool:
 /usr/include/c++/7/bits/hash_bytes.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
+drawPixel.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-13 16:35:58.60701471
 #  File has been updated.
 #  Successfully updated.
 
@@ -4013,6 +4253,12 @@ install-dvi: install-dvi-am
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+
+/usr/include/c++/7/bits/unique_ptr.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
 
 gitignore-recurse-maybe:
 #  Phony target (prerequisite of .PHONY).
@@ -4119,6 +4365,12 @@ install-exec-am: install-binPROGRAMS
 #  File has been updated.
 #  Successfully updated.
 
+/usr/include/c++/7/thread:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
 # Not a target:
 .c.o:
 #  Builtin rule
@@ -4137,7 +4389,7 @@ info: info-am
 Makefile: Makefile.in ../config.status
 #  Precious file (prerequisite of .PRECIOUS).
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 16:05:35.821308865
+#  Last modified 2017-09-13 18:51:58.820990342
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 383):
@@ -4148,6 +4400,12 @@ Makefile: Makefile.in ../config.status
 	    echo ' cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__depfiles_maybe)'; \
 	    cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__depfiles_maybe);; \
 	esac;
+
+/usr/include/c++/7/bits/stl_tempbuf.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
 
 # Not a target:
 .r.o:
@@ -4160,7 +4418,7 @@ Makefile: Makefile.in ../config.status
 
 Makefile.in: Makefile.am ../m4/ax_append_compile_flags.m4 ../m4/ax_append_flag.m4 ../m4/ax_check_compile_flag.m4 ../m4/ax_check_link_flag.m4 ../m4/ax_compiler_flags_cxxflags.m4 ../m4/ax_cxx_compile_stdcxx_11.m4 ../m4/ax_require_defined.m4 ../m4/gettext.m4 ../m4/gsettings.m4 ../m4/iconv.m4 ../m4/intlmacosx.m4 ../m4/introspection.m4 ../m4/lib-ld.m4 ../m4/lib-link.m4 ../m4/lib-prefix.m4 ../m4/libtool.m4 ../m4/ltoptions.m4 ../m4/ltsugar.m4 ../m4/ltversion.m4 ../m4/lt~obsolete.m4 ../m4/nls.m4 ../m4/pkg.m4 ../m4/po.m4 ../m4/progtest.m4 ../configure.ac ../aclocal.m4
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 16:02:46.259393012
+#  Last modified 2017-09-13 18:50:37.315997285
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 371):
@@ -4191,20 +4449,18 @@ Makefile.in: Makefile.am ../m4/ax_append_compile_flags.m4 ../m4/ax_append_flag.m
 #  recipe to execute (built-in):
 	$(LINK.r) $^ $(LOADLIBES) $(LDLIBS) -o $@
 
-gitignore-clean:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from '../git.mk', line 331):
-	-rm -f $(srcdir)/.gitignore
+/usr/include/strings.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-08-26 11:09:24
+#  File has been updated.
+#  Successfully updated.
 
-distdir: Makefile.am Makefile.in ../build-aux/depcomp HelloCube.cpp modules.cpp drawPixel.cpp
+distdir: Makefile.am Makefile.in ../build-aux/depcomp Hello.cpp modules.cpp drawPixel.cpp sdl.cpp
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 546):
+#  recipe to execute (from 'Makefile', line 547):
 	@srcdirstrip=`echo "$(srcdir)" | sed 's/[].[^$$\\*]/\\\\&/g'`; \
 	topsrcdirstrip=`echo "$(top_srcdir)" | sed 's/[].[^$$\\*]/\\\\&/g'`; \
 	list='$(DISTFILES)'; \
@@ -4270,6 +4526,12 @@ distdir: Makefile.am Makefile.in ../build-aux/depcomp HelloCube.cpp modules.cpp 
 #  Modification time never checked.
 #  File has not been updated.
 
+/usr/include/iconv.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-08-26 11:09:24
+#  File has been updated.
+#  Successfully updated.
+
 /usr/include/c++/7/bits/istream.tcc:
 #  Implicit rule search has been done.
 #  Last modified 2017-09-06 10:38:05
@@ -4315,6 +4577,24 @@ distdir: Makefile.am Makefile.in ../build-aux/depcomp HelloCube.cpp modules.cpp 
 	 $(LINT.c) -C$* y.tab.c 
 	 $(RM) y.tab.c
 
+install-exec: install-exec-am
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+/usr/include/SDL/SDL_types.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/SDL/SDL_endian.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
 /usr/include/c++/7/cstdint:
 #  Implicit rule search has been done.
 #  Last modified 2017-09-06 10:38:05
@@ -4339,12 +4619,12 @@ distdir: Makefile.am Makefile.in ../build-aux/depcomp HelloCube.cpp modules.cpp 
 #  File has been updated.
 #  Successfully updated.
 
-tags-am: HelloCube.cpp modules.cpp drawPixel.cpp
+tags-am: Hello.cpp modules.cpp drawPixel.cpp sdl.cpp
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 499):
+#  recipe to execute (from 'Makefile', line 500):
 	set x; \
 	here=`pwd`; \
 	$(am__define_uniq_tagged_files); \
@@ -4365,6 +4645,17 @@ dvi: dvi-am
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+
+Hello.o: Hello.cpp Hello.cpp /usr/include/stdc-predef.h /usr/include/c++/7/iostream /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/c++/7/ostream /usr/include/c++/7/ios /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h /usr/include/c++/7/cwchar /usr/include/wchar.h /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/xlocale.h /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h /usr/include/c++/7/bits/exception_ptr.h /usr/include/c++/7/bits/exception_defines.h /usr/include/c++/7/bits/cxxabi_init_exception.h /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/bits/stl_algobase.h /usr/include/c++/7/bits/functexcept.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/c++/7/ext/numeric_traits.h /usr/include/c++/7/bits/stl_pair.h /usr/include/c++/7/bits/stl_iterator_base_types.h /usr/include/c++/7/bits/stl_iterator_base_funcs.h /usr/include/c++/7/debug/assertions.h /usr/include/c++/7/bits/stl_iterator.h /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/c++/7/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h /usr/include/c++/7/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string /usr/include/c++/7/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h /usr/include/c++/7/ext/new_allocator.h /usr/include/c++/7/bits/ostream_insert.h /usr/include/c++/7/bits/cxxabi_forced.h /usr/include/c++/7/bits/stl_function.h /usr/include/c++/7/backward/binders.h /usr/include/c++/7/bits/range_access.h /usr/include/c++/7/initializer_list /usr/include/c++/7/bits/basic_string.h /usr/include/c++/7/ext/alloc_traits.h /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdlib /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio /usr/include/libio.h /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/c++/7/cerrno /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/c++/7/bits/functional_hash.h /usr/include/c++/7/bits/basic_string.tcc /usr/include/c++/7/bits/locale_classes.tcc /usr/include/c++/7/system_error /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf /usr/include/c++/7/bits/streambuf.tcc /usr/include/c++/7/bits/basic_ios.h /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h /usr/include/c++/7/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h /usr/include/c++/7/bits/locale_facets.tcc /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/stdlib.h /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_construct.h /usr/include/c++/7/bits/stl_uninitialized.h /usr/include/c++/7/bits/stl_vector.h /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc /usr/include/c++/7/math.h /usr/include/c++/7/cmath /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/huge_val.h /usr/include/x86_64-linux-gnu/bits/huge_valf.h /usr/include/x86_64-linux-gnu/bits/huge_vall.h /usr/include/x86_64-linux-gnu/bits/inf.h /usr/include/x86_64-linux-gnu/bits/nan.h /usr/include/x86_64-linux-gnu/bits/mathdef.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/c++/7/thread /usr/include/c++/7/chrono /usr/include/c++/7/ratio /usr/include/c++/7/limits /usr/include/c++/7/ctime /usr/include/c++/7/bits/parse_numbers.h /usr/include/c++/7/memory /usr/include/c++/7/bits/stl_tempbuf.h /usr/include/c++/7/bits/stl_raw_storage_iter.h /usr/include/c++/7/ext/concurrence.h /usr/include/c++/7/bits/uses_allocator.h /usr/include/c++/7/bits/unique_ptr.h /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/tuple /usr/include/c++/7/array /usr/include/c++/7/bits/invoke.h /usr/include/c++/7/bits/shared_ptr.h /usr/include/c++/7/bits/shared_ptr_base.h /usr/include/c++/7/bits/allocated_ptr.h /usr/include/c++/7/bits/refwrap.h /usr/include/c++/7/ext/aligned_buffer.h /usr/include/c++/7/bits/shared_ptr_atomic.h /usr/include/c++/7/bits/atomic_base.h /usr/include/c++/7/bits/atomic_lockfree_defines.h /usr/include/c++/7/backward/auto_ptr.h /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h /usr/include/GL/glu.h modules.hpp drawPixel.hpp sdl.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Hello'
+#  Last modified 2017-09-13 18:49:30.423214796
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 465):
+	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
+	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
+	$(am__mv) $$depbase.Tpo $$depbase.Po
 
 gitignore: .gitignore gitignore-recurse
 #  Phony target (prerequisite of .PHONY).
@@ -4399,6 +4690,13 @@ mostlyclean-am: mostlyclean-compile mostlyclean-generic mostlyclean-libtool
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+
+# Not a target:
+.deps/drawPixel.Po:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-13 16:34:45.685740566
+#  File has been updated.
+#  Successfully updated.
 
 # Not a target:
 .elc:
@@ -4441,6 +4739,12 @@ mostlyclean-am: mostlyclean-compile mostlyclean-generic mostlyclean-libtool
 #  File has been updated.
 #  Successfully updated.
 
+/usr/include/c++/7/chrono:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
 /usr/include/x86_64-linux-gnu/bits/huge_valf.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-08-26 11:09:24
@@ -4455,7 +4759,7 @@ mostlyclean-am: mostlyclean-compile mostlyclean-generic mostlyclean-libtool
 
 ../m4/libtool.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.365257935
+#  Last modified 2017-09-13 18:25:56.682359876
 #  File has been updated.
 #  Successfully updated.
 
@@ -4471,10 +4775,9 @@ pdf: pdf-am
 #  File does not exist.
 #  File has not been updated.
 
-# Not a target:
-HelloCube.cpp:
+/usr/include/c++/7/ext/aligned_buffer.h:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 16:10:12.849249248
+#  Last modified 2017-09-06 10:38:05
 #  File has been updated.
 #  Successfully updated.
 
@@ -4537,6 +4840,12 @@ distclean-am: clean-am distclean-compile distclean-generic distclean-tags
 #  recipe to execute (built-in):
 	$(LINK.C) $^ $(LOADLIBES) $(LDLIBS) -o $@
 
+/usr/include/SDL/SDL_mouse.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
 /usr/include/errno.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-08-26 11:09:24
@@ -4547,6 +4856,12 @@ distclean-am: clean-am distclean-compile distclean-generic distclean-tags
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+
+/usr/include/c++/7/bits/parse_numbers.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
 
 /usr/include/c++/7/type_traits:
 #  Implicit rule search has been done.
@@ -4596,10 +4911,15 @@ install-info-am:
 #  File does not exist.
 #  File has not been updated.
 
-# Not a target:
-.deps/HelloCube.Po:
+/usr/include/SDL/SDL.h:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 16:10:14.913178963
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/c++/7/bits/localefwd.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
 #  File has been updated.
 #  Successfully updated.
 
@@ -4660,6 +4980,12 @@ install-info-am:
 #  recipe to execute (built-in):
 	$(COMPILE.s) -o $@ $<
 
+/usr/include/SDL/SDL_loadso.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
 # Not a target:
 .s:
 #  Builtin rule
@@ -4693,6 +5019,24 @@ install-info-am:
 #  File has been updated.
 #  Successfully updated.
 
+/usr/include/SDL/SDL_keysym.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/string.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-08-26 11:09:24
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/SDL/SDL_audio.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
 /usr/include/asm-generic/errno-base.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-08-13 00:09:26
@@ -4710,13 +5054,25 @@ maintainer-clean-generic:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 610):
+#  recipe to execute (from 'Makefile', line 611):
 	@echo "This command is intended for maintainers to use"
 	@echo "it deletes files that may require special tools to rebuild."
 
 /usr/include/c++/7/bits/stringfwd.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/c++/7/backward/auto_ptr.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/SDL/SDL_joystick.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
 #  File has been updated.
 #  Successfully updated.
 
@@ -4732,7 +5088,19 @@ maintainer-clean-generic:
 #  File has been updated.
 #  Successfully updated.
 
+/usr/include/c++/7/array:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
 /usr/include/c++/7/bits/locale_classes.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/c++/7/bits/stl_raw_storage_iter.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-09-06 10:38:05
 #  File has been updated.
@@ -4741,7 +5109,7 @@ maintainer-clean-generic:
 # Not a target:
 drawPixel.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 16:07:40.621110608
+#  Last modified 2017-09-13 16:34:43.837707937
 #  File has been updated.
 #  Successfully updated.
 
@@ -4785,6 +5153,12 @@ drawPixel.cpp:
 #  File has been updated.
 #  Successfully updated.
 
+/usr/include/SDL/SDL_cpuinfo.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
 /usr/include/GL/freeglut_std.h:
 #  Implicit rule search has been done.
 #  Last modified 2016-08-23 20:58:07
@@ -4813,6 +5187,12 @@ drawPixel.cpp:
 #  File has been updated.
 #  Successfully updated.
 
+/usr/include/SDL/SDL_mutex.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
 /usr/include/inttypes.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-08-26 11:09:24
@@ -4838,7 +5218,7 @@ drawPixel.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 480):
+#  recipe to execute (from 'Makefile', line 481):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.lo$$||'`;\
 	$(LTCXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Plo
@@ -4879,7 +5259,13 @@ drawPixel.cpp:
 
 ../m4/ltsugar.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.457259196
+#  Last modified 2017-09-13 18:25:56.766361428
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/SDL/SDL_mixer.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-08-12 17:14:26
 #  File has been updated.
 #  Successfully updated.
 
@@ -4932,6 +5318,12 @@ pdf-am:
 #  File has been updated.
 #  Successfully updated.
 
+/usr/include/SDL/SDL_thread.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-09-06 10:38:05
@@ -4949,7 +5341,7 @@ clean-libtool:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 491):
+#  recipe to execute (from 'Makefile', line 492):
 	-rm -rf .libs _libs
 
 /usr/include/c++/7/cstdio:
@@ -4964,11 +5356,11 @@ clean-libtool:
 #  File has been updated.
 #  Successfully updated.
 
-ID: HelloCube.cpp modules.cpp drawPixel.cpp
+ID: Hello.cpp modules.cpp drawPixel.cpp sdl.cpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 494):
+#  recipe to execute (from 'Makefile', line 495):
 	$(am__define_uniq_tagged_files); mkid -fID $$unique
 
 ../m4/ax_compiler_flags_cxxflags.m4:
@@ -5056,6 +5448,12 @@ uninstall-binPROGRAMS:
 #  File has been updated.
 #  Successfully updated.
 
+/usr/include/SDL/SDL_stdinc.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
 /usr/include/c++/7/clocale:
 #  Implicit rule search has been done.
 #  Last modified 2017-09-06 10:38:05
@@ -5064,7 +5462,7 @@ uninstall-binPROGRAMS:
 
 ../aclocal.m4: ../m4/ax_append_compile_flags.m4 ../m4/ax_append_flag.m4 ../m4/ax_check_compile_flag.m4 ../m4/ax_check_link_flag.m4 ../m4/ax_compiler_flags_cxxflags.m4 ../m4/ax_cxx_compile_stdcxx_11.m4 ../m4/ax_require_defined.m4 ../m4/gettext.m4 ../m4/gsettings.m4 ../m4/iconv.m4 ../m4/intlmacosx.m4 ../m4/introspection.m4 ../m4/lib-ld.m4 ../m4/lib-link.m4 ../m4/lib-prefix.m4 ../m4/libtool.m4 ../m4/ltoptions.m4 ../m4/ltsugar.m4 ../m4/ltversion.m4 ../m4/lt~obsolete.m4 ../m4/nls.m4 ../m4/pkg.m4 ../m4/po.m4 ../m4/progtest.m4 ../configure.ac
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:17.865333108
+#  Last modified 2017-09-13 18:26:02.342464428
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 397):
@@ -5083,7 +5481,7 @@ uninstall-binPROGRAMS:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 464):
+#  recipe to execute (from 'Makefile', line 465):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
 	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Po
@@ -5142,12 +5540,18 @@ clean: clean-am
 #  recipe to execute (built-in):
 	$(COMPILE.C) $(OUTPUT_OPTION) $<
 
+/usr/include/c++/7/bits/refwrap.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
 distclean-generic:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 606):
+#  recipe to execute (from 'Makefile', line 607):
 	-test -z "$(CONFIG_CLEAN_FILES)" || rm -f $(CONFIG_CLEAN_FILES)
 	-test . = "$(srcdir)" || test -z "$(CONFIG_CLEAN_VPATH_FILES)" || rm -f $(CONFIG_CLEAN_VPATH_FILES)
 
@@ -5163,6 +5567,12 @@ distclean-generic:
 #  File has been updated.
 #  Successfully updated.
 
+/usr/include/c++/7/ext/concurrence.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
 # Not a target:
 .texi:
 #  Builtin rule
@@ -5173,7 +5583,7 @@ distclean-generic:
 # Not a target:
 Makefile.am:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 16:02:45.711367536
+#  Last modified 2017-09-13 18:50:15.995744487
 #  File has been updated.
 #  Successfully updated.
 
@@ -5184,6 +5594,12 @@ modules.cpp:
 #  File has been updated.
 #  Successfully updated.
 
+TAGS: tags
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
 # Not a target:
 .txinfo:
 #  Builtin rule
@@ -5193,7 +5609,7 @@ modules.cpp:
 
 ../configure: ../m4/ax_append_compile_flags.m4 ../m4/ax_append_flag.m4 ../m4/ax_check_compile_flag.m4 ../m4/ax_check_link_flag.m4 ../m4/ax_compiler_flags_cxxflags.m4 ../m4/ax_cxx_compile_stdcxx_11.m4 ../m4/ax_require_defined.m4 ../m4/gettext.m4 ../m4/gsettings.m4 ../m4/iconv.m4 ../m4/intlmacosx.m4 ../m4/introspection.m4 ../m4/lib-ld.m4 ../m4/lib-link.m4 ../m4/lib-prefix.m4 ../m4/libtool.m4 ../m4/ltoptions.m4 ../m4/ltsugar.m4 ../m4/ltversion.m4 ../m4/lt~obsolete.m4 ../m4/nls.m4 ../m4/pkg.m4 ../m4/po.m4 ../m4/progtest.m4 ../configure.ac ../aclocal.m4
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:18.657343901
+#  Last modified 2017-09-13 18:26:03.146479274
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 395):
@@ -5242,6 +5658,12 @@ install-data-am:
 #  File has been updated.
 #  Successfully updated.
 
+/usr/include/c++/7/memory:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
 html: html-am
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -5257,9 +5679,21 @@ html: html-am
 #  recipe to execute (built-in):
 	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
 
+/usr/include/SDL/close_code.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
 /usr/include/c++/7/bits/predefined_ops.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/SDL/SDL_timer.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
 #  File has been updated.
 #  Successfully updated.
 
@@ -5310,7 +5744,7 @@ install-strip:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 592):
+#  recipe to execute (from 'Makefile', line 593):
 	if test -z '$(STRIP)'; then \
 	  $(MAKE) $(AM_MAKEFLAGS) INSTALL_PROGRAM="$(INSTALL_STRIP_PROGRAM)" \
 	    install_sh_PROGRAM="$(INSTALL_STRIP_PROGRAM)" INSTALL_STRIP_FLAG=-s \
@@ -5322,6 +5756,12 @@ install-strip:
 	fi
 
 /usr/include/c++/7/bits/cxxabi_forced.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/c++/7/bits/shared_ptr.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-09-06 10:38:05
 #  File has been updated.
@@ -5420,6 +5860,18 @@ mostlyclean-generic:
 #  File has been updated.
 #  Successfully updated.
 
+/usr/include/c++/7/bits/shared_ptr_atomic.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/c++/7/bits/invoke.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
 ctags: ctags-am
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -5432,15 +5884,21 @@ ctags: ctags-am
 #  File has been updated.
 #  Successfully updated.
 
+/usr/include/c++/7/utility:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
 html-am:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
 
-main: HelloCube.o modules.o drawPixel.o
+main: Hello.o modules.o drawPixel.o sdl.o
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 16:10:15.129171655
+#  Last modified 2017-09-13 18:50:11.839695569
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 450):
@@ -5495,18 +5953,19 @@ mostlyclean: mostlyclean-am
 #  File does not exist.
 #  File has not been updated.
 
-HelloCube.o: HelloCube.cpp HelloCube.cpp /usr/include/stdc-predef.h /usr/include/c++/7/iostream /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/c++/7/ostream /usr/include/c++/7/ios /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h /usr/include/c++/7/cwchar /usr/include/wchar.h /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/xlocale.h /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h /usr/include/c++/7/bits/exception_ptr.h /usr/include/c++/7/bits/exception_defines.h /usr/include/c++/7/bits/cxxabi_init_exception.h /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/bits/stl_algobase.h /usr/include/c++/7/bits/functexcept.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/c++/7/ext/numeric_traits.h /usr/include/c++/7/bits/stl_pair.h /usr/include/c++/7/bits/stl_iterator_base_types.h /usr/include/c++/7/bits/stl_iterator_base_funcs.h /usr/include/c++/7/debug/assertions.h /usr/include/c++/7/bits/stl_iterator.h /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/c++/7/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h /usr/include/c++/7/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string /usr/include/c++/7/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h /usr/include/c++/7/ext/new_allocator.h /usr/include/c++/7/bits/ostream_insert.h /usr/include/c++/7/bits/cxxabi_forced.h /usr/include/c++/7/bits/stl_function.h /usr/include/c++/7/backward/binders.h /usr/include/c++/7/bits/range_access.h /usr/include/c++/7/initializer_list /usr/include/c++/7/bits/basic_string.h /usr/include/c++/7/ext/alloc_traits.h /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdlib /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio /usr/include/libio.h /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/c++/7/cerrno /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/c++/7/bits/functional_hash.h /usr/include/c++/7/bits/basic_string.tcc /usr/include/c++/7/bits/locale_classes.tcc /usr/include/c++/7/system_error /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf /usr/include/c++/7/bits/streambuf.tcc /usr/include/c++/7/bits/basic_ios.h /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h /usr/include/c++/7/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h /usr/include/c++/7/bits/locale_facets.tcc /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/stdlib.h /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_construct.h /usr/include/c++/7/bits/stl_uninitialized.h /usr/include/c++/7/bits/stl_vector.h /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc /usr/include/c++/7/math.h /usr/include/c++/7/cmath /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/huge_val.h /usr/include/x86_64-linux-gnu/bits/huge_valf.h /usr/include/x86_64-linux-gnu/bits/huge_vall.h /usr/include/x86_64-linux-gnu/bits/inf.h /usr/include/x86_64-linux-gnu/bits/nan.h /usr/include/x86_64-linux-gnu/bits/mathdef.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h /usr/include/GL/glu.h modules.hpp
+/usr/include/SDL/SDL_quit.h:
 #  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'HelloCube'
-#  Last modified 2017-09-13 16:10:14.921178691
+#  Last modified 2017-07-18 13:46:21
 #  File has been updated.
 #  Successfully updated.
-#  recipe to execute (from 'Makefile', line 464):
-	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
-	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
-	$(am__mv) $$depbase.Tpo $$depbase.Po
 
 /usr/include/c++/7/bits/exception_defines.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/c++/7/bits/atomic_lockfree_defines.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-09-06 10:38:05
 #  File has been updated.
@@ -5568,9 +6027,15 @@ uninstall-am: uninstall-binPROGRAMS
 #  File has been updated.
 #  Successfully updated.
 
+/usr/include/SDL/SDL_version.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
 ../m4/ltoptions.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.409258538
+#  Last modified 2017-09-13 18:25:56.722360615
 #  File has been updated.
 #  Successfully updated.
 
@@ -5674,22 +6139,45 @@ check: check-am
 #  File has been updated.
 #  Successfully updated.
 
-ctags-am: HelloCube.cpp modules.cpp drawPixel.cpp
+/usr/include/c++/7/bits/allocated_ptr.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
+ctags-am: Hello.cpp modules.cpp drawPixel.cpp sdl.cpp
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 517):
+#  recipe to execute (from 'Makefile', line 518):
 	$(am__define_uniq_tagged_files); \
 	test -z "$(CTAGS_ARGS)$$unique" \
 	  || $(CTAGS) $(CTAGSFLAGS) $(AM_CTAGSFLAGS) $(CTAGS_ARGS) \
 	     $$unique
+
+/usr/include/SDL/begin_code.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
 
 /usr/include/math.h:
 #  Implicit rule search has been done.
 #  Last modified 2017-08-26 11:09:24
 #  File has been updated.
 #  Successfully updated.
+
+sdl.o: sdl.cpp sdl.cpp /usr/include/stdc-predef.h /usr/include/SDL/SDL.h /usr/include/SDL/SDL_main.h /usr/include/SDL/SDL_stdinc.h /usr/include/SDL/SDL_config.h /usr/include/SDL/SDL_platform.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/c++/7/stdlib.h /usr/include/c++/7/cstdlib /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/xlocale.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h /usr/include/string.h /usr/include/strings.h /usr/include/inttypes.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/ctype.h /usr/include/iconv.h /usr/include/SDL/begin_code.h /usr/include/SDL/close_code.h /usr/include/SDL/SDL_audio.h /usr/include/SDL/SDL_error.h /usr/include/SDL/SDL_endian.h /usr/include/SDL/SDL_mutex.h /usr/include/SDL/SDL_thread.h /usr/include/SDL/SDL_rwops.h /usr/include/SDL/SDL_cdrom.h /usr/include/SDL/SDL_cpuinfo.h /usr/include/SDL/SDL_events.h /usr/include/SDL/SDL_active.h /usr/include/SDL/SDL_keyboard.h /usr/include/SDL/SDL_keysym.h /usr/include/SDL/SDL_mouse.h /usr/include/SDL/SDL_video.h /usr/include/SDL/SDL_joystick.h /usr/include/SDL/SDL_quit.h /usr/include/SDL/SDL_loadso.h /usr/include/SDL/SDL_timer.h /usr/include/SDL/SDL_version.h /usr/include/SDL/SDL_mixer.h /usr/include/SDL/SDL_types.h /usr/include/c++/7/iostream /usr/include/c++/7/ostream /usr/include/c++/7/ios /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h /usr/include/c++/7/cwchar /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h /usr/include/c++/7/bits/exception_ptr.h /usr/include/c++/7/bits/exception_defines.h /usr/include/c++/7/bits/cxxabi_init_exception.h /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/bits/stl_algobase.h /usr/include/c++/7/bits/functexcept.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/c++/7/ext/numeric_traits.h /usr/include/c++/7/bits/stl_pair.h /usr/include/c++/7/bits/stl_iterator_base_types.h /usr/include/c++/7/bits/stl_iterator_base_funcs.h /usr/include/c++/7/debug/assertions.h /usr/include/c++/7/bits/stl_iterator.h /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint /usr/include/c++/7/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h /usr/include/c++/7/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string /usr/include/c++/7/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h /usr/include/c++/7/ext/new_allocator.h /usr/include/c++/7/bits/ostream_insert.h /usr/include/c++/7/bits/cxxabi_forced.h /usr/include/c++/7/bits/stl_function.h /usr/include/c++/7/backward/binders.h /usr/include/c++/7/bits/range_access.h /usr/include/c++/7/initializer_list /usr/include/c++/7/bits/basic_string.h /usr/include/c++/7/ext/alloc_traits.h /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdio /usr/include/c++/7/cerrno /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/c++/7/bits/functional_hash.h /usr/include/c++/7/bits/basic_string.tcc /usr/include/c++/7/bits/locale_classes.tcc /usr/include/c++/7/system_error /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf /usr/include/c++/7/bits/streambuf.tcc /usr/include/c++/7/bits/basic_ios.h /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h /usr/include/c++/7/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h /usr/include/c++/7/bits/locale_facets.tcc /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'sdl'
+#  Last modified 2017-09-13 18:24:36.212865739
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 465):
+	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
+	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
+	$(am__mv) $$depbase.Tpo $$depbase.Po
 
 clean-generic:
 #  Phony target (prerequisite of .PHONY).
@@ -5705,11 +6193,30 @@ clean-generic:
 
 ../config.status: ../configure
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:26.021443893
+#  Last modified 2017-09-13 18:26:10.750619617
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 392):
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
+
+cscopelist-am: Hello.cpp modules.cpp drawPixel.cpp sdl.cpp
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 530):
+	list='$(am__tagged_files)'; \
+	case "$(srcdir)" in \
+	  [\\/]* | ?:[\\/]*) sdir="$(srcdir)" ;; \
+	  *) sdir=$(subdir)/$(srcdir) ;; \
+	esac; \
+	for i in $$list; do \
+	  if test -f "$$i"; then \
+	    echo "$(subdir)/$$i"; \
+	  else \
+	    echo "$$sdir/$$i"; \
+	  fi; \
+	done >> $(top_builddir)/cscope.files
 
 /usr/include/c++/7/bits/stl_algobase.h:
 #  Implicit rule search has been done.
@@ -5717,9 +6224,15 @@ clean-generic:
 #  File has been updated.
 #  Successfully updated.
 
+/usr/include/c++/7/limits:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
+
 ../m4/lt~obsolete.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.549260456
+#  Last modified 2017-09-13 18:25:56.854363054
 #  File has been updated.
 #  Successfully updated.
 
@@ -5733,18 +6246,19 @@ gitignore-recurse:
 	    test "$$subdir" = . -o -e "$$subdir/.git" || (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) gitignore || echo "Skipping $$subdir"); \
 	done
 
-TAGS: tags
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
+# Not a target:
+Hello.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-13 18:49:28.451192218
+#  File has been updated.
+#  Successfully updated.
 
 installdirs:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 579):
+#  recipe to execute (from 'Makefile', line 580):
 	for dir in "$(DESTDIR)$(bindir)"; do \
 	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
 	done
@@ -5755,6 +6269,12 @@ installdirs:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+
+/usr/include/c++/7/bits/atomic_base.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-06 10:38:05
+#  File has been updated.
+#  Successfully updated.
 
 /usr/include/stdc-predef.h:
 #  Implicit rule search has been done.
@@ -5801,7 +6321,7 @@ check-am: all-am
 #  File has been updated.
 #  Successfully updated.
 
-/usr/include/c++/7/bits/localefwd.h:
+/usr/include/c++/7/ratio:
 #  Implicit rule search has been done.
 #  Last modified 2017-09-06 10:38:05
 #  File has been updated.
@@ -5813,17 +6333,30 @@ check-am: all-am
 #  File has been updated.
 #  Successfully updated.
 
-install-html-am:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
+/usr/include/SDL/SDL_platform.h:
+#  Implicit rule search has been done.
+#  Last modified 2017-07-18 13:46:21
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.deps/sdl.Po:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-13 18:24:36.200865515
+#  File has been updated.
+#  Successfully updated.
 
 # Not a target:
 .web:
 #  Builtin rule
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+#  File has not been updated.
+
+distclean-libtool:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
 #  File has not been updated.
 
 ps: ps-am
@@ -5835,10 +6368,10 @@ ps: ps-am
 drawPixel.o: drawPixel.cpp drawPixel.cpp /usr/include/stdc-predef.h /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/inttypes.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/GL/glu.h /usr/include/c++/7/stdlib.h /usr/include/c++/7/cstdlib /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/xlocale.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'drawPixel'
-#  Last modified 2017-09-13 16:07:41.221066948
+#  Last modified 2017-09-13 16:34:45.689740637
 #  File has been updated.
 #  Successfully updated.
-#  recipe to execute (from 'Makefile', line 464):
+#  recipe to execute (from 'Makefile', line 465):
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
 	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
 	$(am__mv) $$depbase.Tpo $$depbase.Po
@@ -5867,6 +6400,13 @@ install-ps: install-ps-am
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+
+# Not a target:
+.deps/Hello.Po:
+#  Implicit rule search has been done.
+#  Last modified 2017-09-13 18:49:30.415214704
+#  File has been updated.
+#  Successfully updated.
 
 CTAGS: ctags
 #  Phony target (prerequisite of .PHONY).
@@ -5926,10 +6466,18 @@ install-html: install-html-am
 #  File does not exist.
 #  File has not been updated.
 
+gitignore-clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '../git.mk', line 331):
+	-rm -f $(srcdir)/.gitignore
+
 # Not a target:
 .deps/modules.Po:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 14:59:56.420635491
+#  Last modified 2017-09-13 16:27:47.985768241
 #  File has been updated.
 #  Successfully updated.
 
@@ -5946,22 +6494,22 @@ install-ps-am:
 #  Successfully updated.
 
 # files hash-table stats:
-# Load=363/1024=35%, Rehash=0, Collisions=2436/5165=47%
+# Load=425/1024=42%, Rehash=0, Collisions=3919/6780=58%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 20 (18) / strings = 5430 / storage = 162366 B / avg = 29 B
-# current buf: size = 8162 B / used = 7628 B / count = 248 / avg = 30 B
-# other used: total = 154204 B / count = 5182 / avg = 29 B
-# other free: total = 340 B / max = 49 B / min = 6 B / avg = 17 B
+# strcache buffers: 26 (25) / strings = 6703 / storage = 203797 B / avg = 30 B
+# current buf: size = 8162 B / used = 157 B / count = 5 / avg = 31 B
+# other used: total = 195635 B / count = 6698 / avg = 29 B
+# other free: total = 410 B / max = 29 B / min = 1 B / avg = 16 B
 
-# strcache performance: lookups = 7648 / hit rate = 29%
+# strcache performance: lookups = 9657 / hit rate = 30%
 # hash-table stats:
-# Load=5430/8192=66%, Rehash=0, Collisions=4353/7648=57%
-# Finished Make data base on Wed Sep 13 16:17:12 2017
+# Load=6703/8192=82%, Rehash=0, Collisions=8743/9657=91%
+# Finished Make data base on Wed Sep 13 18:52:16 2017
 
 Making all in po
 make .pot-update
@@ -6034,7 +6582,7 @@ test ! -f .po || { \
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 13 16:17:12 2017
+# Make data base, printed on Wed Sep 13 18:52:16 2017
 
 # Variables
 
@@ -6906,7 +7454,7 @@ uninstall: uninstall-exec uninstall-data
 
 Makefile: Makefile.in.in Makevars ../config.status POTFILES.in LINGUAS
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:26.349448331
+#  Last modified 2017-09-13 18:26:11.102626112
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 540):
@@ -7018,7 +7566,7 @@ all-no:
 remove-potcdate.sed: remove-potcdate.sin
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'remove-potcdate'
-#  Last modified 2017-09-12 23:54:50.638284178
+#  Last modified 2017-09-13 16:30:29.013008593
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 173):
@@ -7819,7 +8367,7 @@ uninstall-data: uninstall-data-yes
 # Not a target:
 ../config.status:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:26.021443893
+#  Last modified 2017-09-13 18:26:10.750619617
 #  File has been updated.
 #  Successfully updated.
 
@@ -7936,7 +8484,7 @@ install: install-exec install-data
 # strcache performance: lookups = 389 / hit rate = 37%
 # hash-table stats:
 # Load=244/8192=3%, Rehash=0, Collisions=52/389=13%
-# Finished Make data base on Wed Sep 13 16:17:12 2017
+# Finished Make data base on Wed Sep 13 18:52:16 2017
 
 test "0.19" = "0.19" || { echo "*** error: gettext infrastructure mismatch: using a Makefile.in.in from gettext version 0.19 but the autoconf macros are from gettext version 0.19" 1>&2; exit 1; }
 test ! -f ./.pot || \
@@ -7953,7 +8501,7 @@ test ! -f ./.pot || { \
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 13 16:17:12 2017
+# Make data base, printed on Wed Sep 13 18:52:16 2017
 
 # Variables
 
@@ -8830,7 +9378,7 @@ uninstall: uninstall-exec uninstall-data
 
 Makefile: Makefile.in.in Makevars ../config.status POTFILES.in LINGUAS
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:26.349448331
+#  Last modified 2017-09-13 18:26:11.102626112
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 540):
@@ -9752,7 +10300,7 @@ uninstall-data: uninstall-data-yes
 # Not a target:
 ../config.status:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:26.021443893
+#  Last modified 2017-09-13 18:26:10.750619617
 #  File has been updated.
 #  Successfully updated.
 
@@ -9876,7 +10424,7 @@ install: install-exec install-data
 # strcache performance: lookups = 392 / hit rate = 36%
 # hash-table stats:
 # Load=248/8192=3%, Rehash=0, Collisions=53/392=14%
-# Finished Make data base on Wed Sep 13 16:17:12 2017
+# Finished Make data base on Wed Sep 13 18:52:16 2017
 
 test -f config.h || rm -f stamp-h1
 test -f config.h || make  stamp-h1
@@ -9887,7 +10435,7 @@ test -f config.h || make  stamp-h1
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 13 16:17:12 2017
+# Make data base, printed on Wed Sep 13 18:52:16 2017
 
 # Variables
 
@@ -10803,7 +11351,7 @@ dvi-recursive:
 
 m4/ltversion.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.497259744
+#  Last modified 2017-09-13 18:25:56.81036224
 #  File has been updated.
 #  Successfully updated.
 
@@ -11184,7 +11732,7 @@ configure.ac:
 
 configure: m4/ax_append_compile_flags.m4 m4/ax_append_flag.m4 m4/ax_check_compile_flag.m4 m4/ax_check_link_flag.m4 m4/ax_compiler_flags_cxxflags.m4 m4/ax_cxx_compile_stdcxx_11.m4 m4/ax_require_defined.m4 m4/gettext.m4 m4/gsettings.m4 m4/iconv.m4 m4/intlmacosx.m4 m4/introspection.m4 m4/lib-ld.m4 m4/lib-link.m4 m4/lib-prefix.m4 m4/libtool.m4 m4/ltoptions.m4 m4/ltsugar.m4 m4/ltversion.m4 m4/lt~obsolete.m4 m4/nls.m4 m4/pkg.m4 m4/po.m4 m4/progtest.m4 configure.ac aclocal.m4
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:18.657343901
+#  Last modified 2017-09-13 18:26:03.146479274
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 446):
@@ -11391,7 +11939,7 @@ info: info-recursive
 Makefile: Makefile.in config.status
 #  Precious file (prerequisite of .PRECIOUS).
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 14:55:25.406033536
+#  Last modified 2017-09-13 18:36:02.761286528
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 433):
@@ -11415,7 +11963,7 @@ Makefile: Makefile.in config.status
 
 Makefile.in: Makefile.am m4/ax_append_compile_flags.m4 m4/ax_append_flag.m4 m4/ax_check_compile_flag.m4 m4/ax_check_link_flag.m4 m4/ax_compiler_flags_cxxflags.m4 m4/ax_cxx_compile_stdcxx_11.m4 m4/ax_require_defined.m4 m4/gettext.m4 m4/gsettings.m4 m4/iconv.m4 m4/intlmacosx.m4 m4/introspection.m4 m4/lib-ld.m4 m4/lib-link.m4 m4/lib-prefix.m4 m4/libtool.m4 m4/ltoptions.m4 m4/ltsugar.m4 m4/ltversion.m4 m4/lt~obsolete.m4 m4/nls.m4 m4/pkg.m4 m4/po.m4 m4/progtest.m4 configure.ac aclocal.m4
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:19.677357792
+#  Last modified 2017-09-13 18:26:04.194498624
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 420):
@@ -11702,7 +12250,7 @@ COPYING:
 
 m4/libtool.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.365257935
+#  Last modified 2017-09-13 18:25:56.682359876
 #  File has been updated.
 #  Successfully updated.
 
@@ -11974,7 +12522,7 @@ build-aux/config.sub:
 
 m4/ltsugar.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.457259196
+#  Last modified 2017-09-13 18:25:56.766361428
 #  File has been updated.
 #  Successfully updated.
 
@@ -12083,7 +12631,7 @@ pdf-recursive:
 
 config.status: configure
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:26.021443893
+#  Last modified 2017-09-13 18:26:10.750619617
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 443):
@@ -12128,7 +12676,7 @@ build-aux/compile:
 
 aclocal.m4: m4/ax_append_compile_flags.m4 m4/ax_append_flag.m4 m4/ax_check_compile_flag.m4 m4/ax_check_link_flag.m4 m4/ax_compiler_flags_cxxflags.m4 m4/ax_cxx_compile_stdcxx_11.m4 m4/ax_require_defined.m4 m4/gettext.m4 m4/gsettings.m4 m4/iconv.m4 m4/intlmacosx.m4 m4/introspection.m4 m4/lib-ld.m4 m4/lib-link.m4 m4/lib-prefix.m4 m4/libtool.m4 m4/ltoptions.m4 m4/ltsugar.m4 m4/ltversion.m4 m4/lt~obsolete.m4 m4/nls.m4 m4/pkg.m4 m4/po.m4 m4/progtest.m4 configure.ac
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:17.865333108
+#  Last modified 2017-09-13 18:26:02.342464428
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 448):
@@ -12237,7 +12785,7 @@ check-recursive:
 
 config.h.in: m4/ax_append_compile_flags.m4 m4/ax_append_flag.m4 m4/ax_check_compile_flag.m4 m4/ax_check_link_flag.m4 m4/ax_compiler_flags_cxxflags.m4 m4/ax_cxx_compile_stdcxx_11.m4 m4/ax_require_defined.m4 m4/gettext.m4 m4/gsettings.m4 m4/iconv.m4 m4/intlmacosx.m4 m4/introspection.m4 m4/lib-ld.m4 m4/lib-link.m4 m4/lib-prefix.m4 m4/libtool.m4 m4/ltoptions.m4 m4/ltsugar.m4 m4/ltversion.m4 m4/lt~obsolete.m4 m4/nls.m4 m4/pkg.m4 m4/po.m4 m4/progtest.m4 configure.ac aclocal.m4
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:19.205351366
+#  Last modified 2017-09-13 18:26:03.710489687
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 459):
@@ -12313,7 +12861,7 @@ dist-hook: dist-ChangeLog
 
 stamp-h1: config.h.in config.status
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:26.32944806
+#  Last modified 2017-09-13 18:26:11.082625742
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 456):
@@ -13038,7 +13586,7 @@ AUTHORS:
 
 m4/ltoptions.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.409258538
+#  Last modified 2017-09-13 18:25:56.722360615
 #  File has been updated.
 #  Successfully updated.
 
@@ -13216,7 +13764,7 @@ install-ps: install-ps-recursive
 
 m4/lt~obsolete.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.549260456
+#  Last modified 2017-09-13 18:25:56.854363054
 #  File has been updated.
 #  Successfully updated.
 
@@ -13484,8 +14032,8 @@ mostlyclean-recursive:
 
 # strcache performance: lookups = 1023 / hit rate = 55%
 # hash-table stats:
-# Load=458/8192=6%, Rehash=0, Collisions=44/1023=4%
-# Finished Make data base on Wed Sep 13 16:17:13 2017
+# Load=458/8192=6%, Rehash=0, Collisions=40/1023=4%
+# Finished Make data base on Wed Sep 13 18:52:16 2017
 
 # GNU Make 4.1
 # Built for x86_64-pc-linux-gnu
@@ -13494,7 +14042,7 @@ mostlyclean-recursive:
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 13 16:17:13 2017
+# Make data base, printed on Wed Sep 13 18:52:16 2017
 
 # Variables
 
@@ -14410,7 +14958,7 @@ dvi-recursive:
 
 m4/ltversion.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.497259744
+#  Last modified 2017-09-13 18:25:56.81036224
 #  File has been updated.
 #  Successfully updated.
 
@@ -14791,7 +15339,7 @@ configure.ac:
 
 configure: m4/ax_append_compile_flags.m4 m4/ax_append_flag.m4 m4/ax_check_compile_flag.m4 m4/ax_check_link_flag.m4 m4/ax_compiler_flags_cxxflags.m4 m4/ax_cxx_compile_stdcxx_11.m4 m4/ax_require_defined.m4 m4/gettext.m4 m4/gsettings.m4 m4/iconv.m4 m4/intlmacosx.m4 m4/introspection.m4 m4/lib-ld.m4 m4/lib-link.m4 m4/lib-prefix.m4 m4/libtool.m4 m4/ltoptions.m4 m4/ltsugar.m4 m4/ltversion.m4 m4/lt~obsolete.m4 m4/nls.m4 m4/pkg.m4 m4/po.m4 m4/progtest.m4 configure.ac aclocal.m4
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:18.657343901
+#  Last modified 2017-09-13 18:26:03.146479274
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 446):
@@ -14994,7 +15542,7 @@ info: info-recursive
 Makefile: Makefile.in config.status
 #  Precious file (prerequisite of .PRECIOUS).
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 14:55:25.406033536
+#  Last modified 2017-09-13 18:36:02.761286528
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 433):
@@ -15018,7 +15566,7 @@ Makefile: Makefile.in config.status
 
 Makefile.in: Makefile.am m4/ax_append_compile_flags.m4 m4/ax_append_flag.m4 m4/ax_check_compile_flag.m4 m4/ax_check_link_flag.m4 m4/ax_compiler_flags_cxxflags.m4 m4/ax_cxx_compile_stdcxx_11.m4 m4/ax_require_defined.m4 m4/gettext.m4 m4/gsettings.m4 m4/iconv.m4 m4/intlmacosx.m4 m4/introspection.m4 m4/lib-ld.m4 m4/lib-link.m4 m4/lib-prefix.m4 m4/libtool.m4 m4/ltoptions.m4 m4/ltsugar.m4 m4/ltversion.m4 m4/lt~obsolete.m4 m4/nls.m4 m4/pkg.m4 m4/po.m4 m4/progtest.m4 configure.ac aclocal.m4
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:19.677357792
+#  Last modified 2017-09-13 18:26:04.194498624
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 420):
@@ -15305,7 +15853,7 @@ COPYING:
 
 m4/libtool.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.365257935
+#  Last modified 2017-09-13 18:25:56.682359876
 #  File has been updated.
 #  Successfully updated.
 
@@ -15577,7 +16125,7 @@ build-aux/config.sub:
 
 m4/ltsugar.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.457259196
+#  Last modified 2017-09-13 18:25:56.766361428
 #  File has been updated.
 #  Successfully updated.
 
@@ -15686,7 +16234,7 @@ pdf-recursive:
 
 config.status: configure
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:26.021443893
+#  Last modified 2017-09-13 18:26:10.750619617
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 443):
@@ -15731,7 +16279,7 @@ build-aux/compile:
 
 aclocal.m4: m4/ax_append_compile_flags.m4 m4/ax_append_flag.m4 m4/ax_check_compile_flag.m4 m4/ax_check_link_flag.m4 m4/ax_compiler_flags_cxxflags.m4 m4/ax_cxx_compile_stdcxx_11.m4 m4/ax_require_defined.m4 m4/gettext.m4 m4/gsettings.m4 m4/iconv.m4 m4/intlmacosx.m4 m4/introspection.m4 m4/lib-ld.m4 m4/lib-link.m4 m4/lib-prefix.m4 m4/libtool.m4 m4/ltoptions.m4 m4/ltsugar.m4 m4/ltversion.m4 m4/lt~obsolete.m4 m4/nls.m4 m4/pkg.m4 m4/po.m4 m4/progtest.m4 configure.ac
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:17.865333108
+#  Last modified 2017-09-13 18:26:02.342464428
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 448):
@@ -16640,7 +17188,7 @@ AUTHORS:
 
 m4/ltoptions.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.409258538
+#  Last modified 2017-09-13 18:25:56.722360615
 #  File has been updated.
 #  Successfully updated.
 
@@ -16818,7 +17366,7 @@ install-ps: install-ps-recursive
 
 m4/lt~obsolete.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.549260456
+#  Last modified 2017-09-13 18:25:56.854363054
 #  File has been updated.
 #  Successfully updated.
 
@@ -17086,8 +17634,8 @@ mostlyclean-recursive:
 
 # strcache performance: lookups = 1023 / hit rate = 55%
 # hash-table stats:
-# Load=458/8192=6%, Rehash=0, Collisions=44/1023=4%
-# Finished Make data base on Wed Sep 13 16:17:13 2017
+# Load=458/8192=6%, Rehash=0, Collisions=40/1023=4%
+# Finished Make data base on Wed Sep 13 18:52:16 2017
 
 # GNU Make 4.1
 # Built for x86_64-pc-linux-gnu
@@ -17096,7 +17644,7 @@ mostlyclean-recursive:
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 13 16:17:13 2017
+# Make data base, printed on Wed Sep 13 18:52:16 2017
 
 # Variables
 
@@ -18004,7 +18552,7 @@ dvi-recursive:
 
 m4/ltversion.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.497259744
+#  Last modified 2017-09-13 18:25:56.81036224
 #  File has been updated.
 #  Successfully updated.
 
@@ -18406,7 +18954,7 @@ configure.ac:
 
 configure: m4/ax_append_compile_flags.m4 m4/ax_append_flag.m4 m4/ax_check_compile_flag.m4 m4/ax_check_link_flag.m4 m4/ax_compiler_flags_cxxflags.m4 m4/ax_cxx_compile_stdcxx_11.m4 m4/ax_require_defined.m4 m4/gettext.m4 m4/gsettings.m4 m4/iconv.m4 m4/intlmacosx.m4 m4/introspection.m4 m4/lib-ld.m4 m4/lib-link.m4 m4/lib-prefix.m4 m4/libtool.m4 m4/ltoptions.m4 m4/ltsugar.m4 m4/ltversion.m4 m4/lt~obsolete.m4 m4/nls.m4 m4/pkg.m4 m4/po.m4 m4/progtest.m4 configure.ac aclocal.m4
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:18.657343901
+#  Last modified 2017-09-13 18:26:03.146479274
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 446):
@@ -18609,7 +19157,7 @@ info: info-recursive
 Makefile: Makefile.in config.status
 #  Precious file (prerequisite of .PRECIOUS).
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 14:55:25.406033536
+#  Last modified 2017-09-13 18:36:02.761286528
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 433):
@@ -18633,7 +19181,7 @@ Makefile: Makefile.in config.status
 
 Makefile.in: Makefile.am m4/ax_append_compile_flags.m4 m4/ax_append_flag.m4 m4/ax_check_compile_flag.m4 m4/ax_check_link_flag.m4 m4/ax_compiler_flags_cxxflags.m4 m4/ax_cxx_compile_stdcxx_11.m4 m4/ax_require_defined.m4 m4/gettext.m4 m4/gsettings.m4 m4/iconv.m4 m4/intlmacosx.m4 m4/introspection.m4 m4/lib-ld.m4 m4/lib-link.m4 m4/lib-prefix.m4 m4/libtool.m4 m4/ltoptions.m4 m4/ltsugar.m4 m4/ltversion.m4 m4/lt~obsolete.m4 m4/nls.m4 m4/pkg.m4 m4/po.m4 m4/progtest.m4 configure.ac aclocal.m4
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:19.677357792
+#  Last modified 2017-09-13 18:26:04.194498624
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 420):
@@ -18920,7 +19468,7 @@ COPYING:
 
 m4/libtool.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.365257935
+#  Last modified 2017-09-13 18:25:56.682359876
 #  File has been updated.
 #  Successfully updated.
 
@@ -19212,7 +19760,7 @@ build-aux/config.sub:
 
 m4/ltsugar.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.457259196
+#  Last modified 2017-09-13 18:25:56.766361428
 #  File has been updated.
 #  Successfully updated.
 
@@ -19321,7 +19869,7 @@ pdf-recursive:
 
 config.status: configure
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:26.021443893
+#  Last modified 2017-09-13 18:26:10.750619617
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 443):
@@ -19366,7 +19914,7 @@ build-aux/compile:
 
 aclocal.m4: m4/ax_append_compile_flags.m4 m4/ax_append_flag.m4 m4/ax_check_compile_flag.m4 m4/ax_check_link_flag.m4 m4/ax_compiler_flags_cxxflags.m4 m4/ax_cxx_compile_stdcxx_11.m4 m4/ax_require_defined.m4 m4/gettext.m4 m4/gsettings.m4 m4/iconv.m4 m4/intlmacosx.m4 m4/introspection.m4 m4/lib-ld.m4 m4/lib-link.m4 m4/lib-prefix.m4 m4/libtool.m4 m4/ltoptions.m4 m4/ltsugar.m4 m4/ltversion.m4 m4/lt~obsolete.m4 m4/nls.m4 m4/pkg.m4 m4/po.m4 m4/progtest.m4 configure.ac
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:17.865333108
+#  Last modified 2017-09-13 18:26:02.342464428
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 448):
@@ -19475,7 +20023,7 @@ check-recursive:
 
 config.h.in: m4/ax_append_compile_flags.m4 m4/ax_append_flag.m4 m4/ax_check_compile_flag.m4 m4/ax_check_link_flag.m4 m4/ax_compiler_flags_cxxflags.m4 m4/ax_cxx_compile_stdcxx_11.m4 m4/ax_require_defined.m4 m4/gettext.m4 m4/gsettings.m4 m4/iconv.m4 m4/intlmacosx.m4 m4/introspection.m4 m4/lib-ld.m4 m4/lib-link.m4 m4/lib-prefix.m4 m4/libtool.m4 m4/ltoptions.m4 m4/ltsugar.m4 m4/ltversion.m4 m4/lt~obsolete.m4 m4/nls.m4 m4/pkg.m4 m4/po.m4 m4/progtest.m4 configure.ac aclocal.m4
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:19.205351366
+#  Last modified 2017-09-13 18:26:03.710489687
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 459):
@@ -19551,7 +20099,7 @@ dist-hook: dist-ChangeLog
 
 stamp-h1: config.h.in config.status
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-13 01:08:26.32944806
+#  Last modified 2017-09-13 18:26:11.082625742
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 456):
@@ -20276,7 +20824,7 @@ AUTHORS:
 
 m4/ltoptions.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.409258538
+#  Last modified 2017-09-13 18:25:56.722360615
 #  File has been updated.
 #  Successfully updated.
 
@@ -20454,7 +21002,7 @@ install-ps: install-ps-recursive
 
 m4/lt~obsolete.m4:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-13 01:08:12.549260456
+#  Last modified 2017-09-13 18:25:56.854363054
 #  File has been updated.
 #  Successfully updated.
 
@@ -20722,6 +21270,6 @@ mostlyclean-recursive:
 
 # strcache performance: lookups = 1023 / hit rate = 55%
 # hash-table stats:
-# Load=458/8192=6%, Rehash=0, Collisions=44/1023=4%
-# Finished Make data base on Wed Sep 13 16:17:13 2017
+# Load=458/8192=6%, Rehash=0, Collisions=40/1023=4%
+# Finished Make data base on Wed Sep 13 18:52:16 2017
 
