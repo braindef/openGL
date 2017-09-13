@@ -6,6 +6,11 @@
 #include<GL/glut.h>
 
 #include "modules.hpp"
+#include "drawPixel.hpp"
+
+const int W = 400;
+const int H = 400;
+
 
 
 using namespace std;
@@ -50,6 +55,9 @@ void drawScene()
 {
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
 
+    //ameisenRennen(400,400);
+    punkt(400,400,200,200);
+
     glEnable (GL_BLEND);
     glBlendFunc (GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
@@ -58,30 +66,18 @@ void drawScene()
     glLoadIdentity();
 
     //rotatingTriangle();
-    for (int i=-5; i<5; i++) {
-	for (int j=-5; j<5; j++)
-    	{
- 	    rotatingTriangle((float)i/2,-(float)j/2,0.0f, _angle);
- 	    rotatingLine((float)i/2,-(float)j/2,0.0f, _angle);
+    //for (int i=-5; i<5; i++) {
+    //	for (int j=-5; j<5; j++)
+    	//{
+ 	  //  rotatingTriangle((float)i/2,-(float)j/2,0.0f, _angle);
+ 	    //rotatingLine((float)i/2,-(float)j/2,0.0f, _angle);
 
-	}
-    }
+	//}
+    //}
 
-    unsigned int W=400;
-    unsigned int H=400;
 
-    unsigned int data[W][H][3];
-    for( size_t y = 0; y < W; ++y )
-    {
-        for( size_t x = 0; x < H; ++x )
-        {
-            data[y][x][0] = ( rand() % 256 ) * 256 * 256 * 256;
-            data[y][x][1] = ( rand() % 256 ) * 256 * 256 * 256;
-            data[y][x][2] = ( rand() % 256 ) * 256 * 256 * 256;
-        }
-    }
 
-    glDrawPixels( W, H, GL_RGB, GL_UNSIGNED_INT, data );
+
 
     //horizontalBlur();
     //verticalBlur();
@@ -112,7 +108,7 @@ int main(int argc,char** argv)
 
     glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB|GLUT_DEPTH);
 
-    glutInitWindowSize(800,800);
+    glutInitWindowSize(2*W,2*H);
 
     glutCreateWindow("My Triangle");
 
