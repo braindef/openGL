@@ -122,7 +122,7 @@ void graphics() {
 }
 
 
-int main(int argc,char** argv)
+int xmain(int argc,char** argv)
 {
     thread t1(music);
     thread t2(fft);
