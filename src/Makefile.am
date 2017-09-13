@@ -5,8 +5,8 @@ bin_PROGRAMS=main
 
 main_SOURCES=HelloCube.cpp modules.cpp
 
-main_CFLAGS=`pkg-config --cflags glfw3` `pkg-config --cflags glew` `pkg-config --cflags glut`
+main_CFLAGS=`pkg-config --cflags glut` `pkg-config --cflags gl` `pkg-config --cflags glu`
 
-main_LDFLAGS=`pkg-config --libs glfw3` `pkg-config --libs glew` -lglut
+main_LDFLAGS=-lglut `pkg-config --libs gl` `pkg-config --libs glu`
 
 
