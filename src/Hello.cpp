@@ -73,7 +73,7 @@ void drawScene()
     	for (int j=-5; j<5; j++)
     	{
  	    //rotatingTriangle((float)i/2,-(float)j/2, -5.0f, _angle);
- 	    rotatingLine((float)i/2,-(float)j/2,0.0f, f[3]);
+ 	    rotatingLine((float)i/2,-(float)j/2,0.0f, (f[1])*30);
 
 	}
     }
