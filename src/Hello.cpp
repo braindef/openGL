@@ -9,11 +9,12 @@
 #include "modules.hpp"
 #include "drawPixel.hpp"
 #include "sdl.hpp"
+#include "fft1/cava.hpp"
 
 const int W = 400;
 const int H = 400;
 
-
+extern double f[200];
 
 using namespace std;
 void keyPress(unsigned char key,int x,int y)
@@ -67,15 +68,15 @@ void drawScene()
 
     glLoadIdentity();
 
-    //rotatingTriangle();
-    //for (int i=-5; i<5; i++) {
-    //	for (int j=-5; j<5; j++)
-    	//{
- 	  //  rotatingTriangle((float)i/2,-(float)j/2,0.0f, _angle);
- 	    //rotatingLine((float)i/2,-(float)j/2,0.0f, _angle);
 
-	//}
-    //}
+    for (int i=-5; i<5; i++) {
+    	for (int j=-5; j<5; j++)
+    	{
+ 	    //rotatingTriangle((float)i/2,-(float)j/2, -5.0f, _angle);
+ 	    rotatingLine((float)i/2,-(float)j/2,0.0f, f[3]);
+
+	}
+    }
 
 
 
@@ -106,6 +107,7 @@ void update(int value) {
 
 
 int fft() {
+	mainFFT();
   }
 
 
@@ -122,7 +124,7 @@ void graphics() {
 }
 
 
-int xmain(int argc,char** argv)
+int main(int argc,char** argv)
 {
     thread t1(music);
     thread t2(fft);

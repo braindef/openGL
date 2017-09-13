@@ -32,6 +32,7 @@
 #define GCC_UNUSED /* nothing */
 #endif
 
+bool DEBUG=true;
 
   struct sigaction old_action;
   int M = 2048;
@@ -39,20 +40,7 @@
   int format = -1;
   unsigned int rate = 0;
 
-/*
-void sigint_handler(int sig_no GCC_UNUSED)
-{
-	printf("\033[0m\n");
-	system("setfont /usr/share/consolefonts/Lat2-Fixed16.psf.gz  >/dev/null 2>&1");
-	system("setterm -cursor on");
-	system("setterm -blank 10");
-	system("clear");
-	system("stty echo");
-	printf("CTRL-C pressed -- goodbye\n");
-	sigaction(SIGINT, &old_action, NULL);
-	kill(0, SIGINT);
-}
-*/
+
 //ALSA audio listner
 void* music(void* data)
 {
@@ -67,7 +55,7 @@ void* music(void* data)
 	int tempr, templ;
 	int radj, ladj;
 
-//**init sound device***//
+        //**init sound device***//
 
 	if ((err = snd_pcm_open(&handle, device,  SND_PCM_STREAM_CAPTURE , 0) < 0))
 		printf("error opening stream:    %s\n", snd_strerror(err) );
@@ -80,19 +68,15 @@ void* music(void* data)
 	val = 44100;
 	snd_pcm_hw_params_set_rate_near(handle, params, &val, &dir);//trying 44100 rate
 	frames = 256;
-	snd_pcm_hw_params_set_period_size_near(handle, params, &frames,
-	                                       &dir); //number of frames pr read
+	snd_pcm_hw_params_set_period_size_near(handle, params, &frames, &dir); //number of frames pr read
 
 	err = snd_pcm_hw_params(handle, params); //atempting to set params
 	if (err < 0) {
-		fprintf(stderr,
-		        "unable to set hw parameters: %s\n",
-		        snd_strerror(err));
+		fprintf(stderr, "unable to set hw parameters: %s\n", snd_strerror(err));
 		exit(1);
 	}
 
-	snd_pcm_hw_params_get_format(params,
-	                             (snd_pcm_format_t * )&val); //getting actual format
+	snd_pcm_hw_params_get_format(params, (snd_pcm_format_t * )&val); //getting actual format
 //convverting result to number of bits
 	if (val < 6)format = 16;
 	else if (val > 5 && val < 10)format = 24;
@@ -113,18 +97,12 @@ void* music(void* data)
 		err = snd_pcm_readi(handle, buffer, frames);
 		if (err == -EPIPE) {
 			/* EPIPE means overrun */
-#ifdef DEBUG
 			fprintf(stderr, "overrun occurred\n");
-#endif
 			snd_pcm_prepare(handle);
 		} else if (err < 0) {
-#ifdef DEBUG
 			fprintf(stderr, "error from read: %s\n", snd_strerror(err));
-#endif
 		} else if (err != (int)frames) {
-#ifdef DEBUG
 			fprintf(stderr, "short read, read %d %d frames\n", err, (int)frames);
-#endif
 		}
 
 		//sorting out one channel and only biggest octet
@@ -161,8 +139,7 @@ void* music(void* data)
 }
 
 //FIFO audio listner
-void*
-fifomusic(void* data)
+void* fifomusic(void* data)
 {
 	int fd;
 	int n = 0;
@@ -239,7 +216,7 @@ int main(int argc, char **argv)
 	float peak[201];
 	int y[M / 2 + 1];
 	long int lpeak, hpeak;
-	int bands = 25;
+	int bands = 5;
 	int sleep = 0;
 	int i, n, o, bw, width, height, c, rest, virt, fixedbands;
 	int autoband = 1;
@@ -290,8 +267,7 @@ int main(int argc, char **argv)
 	n = 0;
 	if (im == 1) {
 //**watintg for audio to be ready**//
-		thr_id = pthread_create(&p_thread, NULL, music,
-		                        (void*)device); //starting alsamusic listner
+		thr_id = pthread_create(&p_thread, NULL, music, (void*)device); //starting alsamusic listner
 		while (format == -1 || rate == 0) {
 			req.tv_sec = 0;
 			req.tv_nsec = 1000000;
