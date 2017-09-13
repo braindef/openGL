@@ -1,7 +1,10 @@
 #include<iostream>
 #include<stdlib.h>
+#include<vector>
+#include<math.h>
 
 #include<GL/glut.h>
+
 
 using namespace std;
 void keyPress(unsigned char key,int x,int y)
@@ -41,6 +44,28 @@ float _angle = 30.0f;
 float _cameraAngle = 0.0f;
 
 
+void rotatingLine(float x, float y, float z)
+{
+    float currentColor[4];
+    glGetFloatv(GL_CURRENT_COLOR,currentColor);
+    glPushMatrix(); //Save the transformations performed thus far
+    glColor4f(1.0f, 1.0f, 0.0f,0.5f);
+    glTranslatef(x,y,z);
+    glLineWidth(10.0);
+    glShadeModel(GL_SMOOTH);
+    glEnable(GL_POINT_SMOOTH);
+    glEnable(GL_LINE_SMOOTH);
+    glEnable(GL_POLYGON_SMOOTH);
+    glRotatef(_angle, 0.0f, 0.0f, -5.0f); //Rotate about the z-axis
+    glBegin(GL_LINES);
+        glVertex3f(0.0f, 0.0f, -5.0f);
+        glVertex3f(0.0f, 1.0f, -5.0f);
+
+    glEnd();
+    glColor4f(currentColor[0],currentColor[1],currentColor[2],currentColor[3]);
+    glPopMatrix();
+}
+
 void rotatingTriangle(float x, float y, float z)
 {
     glPushMatrix(); //Save the transformations performed thus far
@@ -54,38 +79,28 @@ void rotatingTriangle(float x, float y, float z)
     glPopMatrix();
 }
 
-std::vector<Vertex> CreateCircleArray(float x, float y, float radius, int fragments)
-{
-     const float PI = 3.1415926f;
-
-     std::vector<Vertex> result;
-
-     float increment = 2.0f * PI / fragments;
-
-     for (float currAngle = 0.0f; currAngle <= 2.0f * PI; currAngle += increment)
-     {
-         result.push_back(glm::vec3(radius * cos(currAngle) + x, radius * sin(currAngle) + y, 0));
-     }
-
-     return result;
-}
 
 void drawScene()
 {
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
+
+    glEnable (GL_BLEND);
+    glBlendFunc (GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     glMatrixMode(GL_MODELVIEW);
 
     glLoadIdentity();
 
     //rotatingTriangle();
-    for (int i=0; i<10; i++) {
-	for (int j=0; j<10; j++)
+    for (int i=-5; i<5; i++) {
+	for (int j=-5; j<5; j++)
     	{
  	    rotatingTriangle((float)i/10,-(float)j/10,0.0f);
+ 	    rotatingLine((float)i/2,-(float)j/2,0.0f);
 
 	}
     }
+
 
     glutSwapBuffers();
 }
@@ -111,7 +126,7 @@ int main(int argc,char** argv)
 
     glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB|GLUT_DEPTH);
 
-    glutInitWindowSize(400,400);
+    glutInitWindowSize(800,800);
 
     glutCreateWindow("My Triangle");
 
