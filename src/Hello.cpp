@@ -59,7 +59,7 @@ void drawScene()
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
 
     //ameisenRennen(400,400);
-    punkt(400,400,200,200);
+    //punkt(400,400,200,200);
 
     glEnable (GL_BLEND);
     glBlendFunc (GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
@@ -68,12 +68,13 @@ void drawScene()
 
     glLoadIdentity();
 
+    glRotatef(_angle, 0.0f, 1.0f, -5.0f);
 
     for (int i=-5; i<5; i++) {
     	for (int j=-5; j<5; j++)
     	{
- 	    rotatingTriangle((float)i/2,-(float)j/2, -5.0f, _angle);
- 	    rotatingLine((float)i/2,-(float)j/2,0.0f, (f[i+5])*30);
+ 	    rotatingTriangle((float)i/2,-(float)j/2, -5.0f,(f[(i+5)+(j+5)]),(f[(i+5)+(j+5)])*1);
+ 	    rotatingLine((float)i/2,-(float)j/2,0.0f, (f[(i+5)+(j+5)])*30, 0.3);
 
 	}
     }
@@ -112,7 +113,7 @@ int fft() {
 
 
 void music() {
-  char * c = "/home/marc/Projects/openGL/src/sound/space.mp3";
+  char* c = "/home/marc/Projects/openGL/src/sound/space.mp3";
   play(c);
 }
 
