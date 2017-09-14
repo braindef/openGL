@@ -68,12 +68,12 @@ void drawScene()
 
     glLoadIdentity();
 
-    glRotatef(_angle, 0.0f, 0.0f, -5.0f);
+    glRotatef(_angle*3, 0.0f, 0.0f, -5.0f);
     glScalef(0.5,0.5,1);
-    for (int i=-5; i<5; i++) {
-    	for (int j=-5; j<5; j++)
+    for (int i=-rand()%5; i<rand()%5; i++) {
+    	for (int j=-rand()%5; j<rand()%11; j++)
     	{
- 	    rotatingTriangle((float)i/2,-(float)j/2, -5.0f,(f[(i+5)+(j+5)]),(f[(i+5)+(j+5)])*1);
+ 	    rotatingTriangle((float)i/2,-(float)j/2, -5.0f,1,0.3);
 
  	    rotatingLine((float)i/2,-(float)j/2,-5.0f, (f[(i+5)+(j+5)])*180, 0.3);
 
