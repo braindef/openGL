@@ -6,9 +6,9 @@
 
 #include<GL/glut.h>
 
-#include "modules.hpp"
-#include "drawPixel.hpp"
-#include "sdl.hpp"
+#include "shapes/modules.hpp"
+#include "pixel/drawPixel.hpp"
+#include "sound/sdl.hpp"
 #include "fft1/cava.hpp"
 
 const int W = 400;
@@ -72,8 +72,8 @@ void drawScene()
     for (int i=-5; i<5; i++) {
     	for (int j=-5; j<5; j++)
     	{
- 	    //rotatingTriangle((float)i/2,-(float)j/2, -5.0f, _angle);
- 	    rotatingLine((float)i/2,-(float)j/2,0.0f, (f[1])*30);
+ 	    rotatingTriangle((float)i/2,-(float)j/2, -5.0f, _angle);
+ 	    rotatingLine((float)i/2,-(float)j/2,0.0f, (f[i+5])*30);
 
 	}
     }
@@ -112,7 +112,7 @@ int fft() {
 
 
 void music() {
-  char * c = "/home/marc/Projects/openGL/src/space.mp3";
+  char * c = "/home/marc/Projects/openGL/src/sound/space.mp3";
   play(c);
 }
 
