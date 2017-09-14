@@ -12,7 +12,7 @@ void rotatingLine(float x, float y, float z, float angle, float size)
     glPushMatrix(); //Save the transformations performed thus far
     glColor4f(1.0f, 0.0f, 0.0f,0.8f);
     glTranslatef(x,y,z);
-    glLineWidth(10.0);
+    glLineWidth(10.0*size);
     glShadeModel(GL_SMOOTH);
     glEnable(GL_POINT_SMOOTH);
     glEnable(GL_LINE_SMOOTH);
@@ -21,8 +21,8 @@ void rotatingLine(float x, float y, float z, float angle, float size)
     glScalef(size,size,1.0);
     glRotatef(angle, 0.0f, 0.0f, -5.0f); //Rotate about the z-axis
     glBegin(GL_LINES);
-        glVertex3f(0.0f, 0.0f, -5.0f);
-        glVertex3f(0.0f, 1.0f, -5.0f);
+        glVertex3f(-0.5f, -0.5f, -5.0f);
+        glVertex3f(-0.5f, 0.5f, -5.0f);
 
     glEnd();
     glColor4f(currentColor[0],currentColor[1],currentColor[2],currentColor[3]);
