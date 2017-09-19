@@ -10,6 +10,7 @@
 #include "pixel/drawPixel.hpp"
 #include "sound/sdl.hpp"
 #include "fft1/cava.hpp"
+#include "3Dshapes/Cube.hpp"
 
 const int W = 400;
 const int H = 400;
@@ -73,7 +74,7 @@ void drawScene()
     for (int i=-5; i<6; i++) {
     	for (int j=-5; j<6; j++)
     	{
- 	    rotatingTriangle((float)i/2,-(float)j/2, -5.0f,f[7],f[2]);
+ 	    Cube((float)i/2,-(float)j/2, -5.0f,f[7],f[2]);
 
  	    //rotatingLine((float)i/2,-(float)j/2,-5.0f, (f[(i+5)+(j+5)])*180,f[2]);
 
