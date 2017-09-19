@@ -70,11 +70,12 @@ void drawScene()
     glLoadIdentity();
 
     glRotatef(_angle, 0.0f, 0.0f, -5.0f);
+
     glScalef(0.5,0.5,1);
     for (int i=-5; i<6; i++) {
     	for (int j=-5; j<6; j++)
     	{
- 	    Cube((float)i/2,-(float)j/2, -5.0f,f[7],f[2]);
+ 	    Cube((float)i,-(float)j, -5.0f,_angle,1);
 
  	    //rotatingLine((float)i/2,-(float)j/2,-5.0f, (f[(i+5)+(j+5)])*180,f[2]);
 

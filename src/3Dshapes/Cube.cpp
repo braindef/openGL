@@ -70,16 +70,16 @@ double K12[2][3];
 
 void buildEdges() {
     memcpy(K01[0], P01, sizeof P01);
-    memcpy(K01[0], P02, sizeof P02);
+    memcpy(K01[1], P02, sizeof P02);
 
-    memcpy(K02[1], P02, sizeof P02);
+    memcpy(K02[0], P02, sizeof P02);
     memcpy(K02[1], P03, sizeof P03);
 
-    memcpy(K03[2], P03, sizeof P03);
-    memcpy(K03[2], P04, sizeof P04);
+    memcpy(K03[0], P03, sizeof P03);
+    memcpy(K03[1], P04, sizeof P04);
 
-    memcpy(K04[3], P04, sizeof P04);
-    memcpy(K04[3], P01, sizeof P01);
+    memcpy(K04[0], P04, sizeof P04);
+    memcpy(K04[1], P01, sizeof P01);
 
     memcpy(K05[0], P11, sizeof P11);
     memcpy(K05[1], P12, sizeof P12);
