@@ -68,14 +68,20 @@ void drawScene()
     glMatrixMode(GL_MODELVIEW);
 
     glLoadIdentity();
+    glTranslatef(0.0f, 0.0f, -10.0f);
+    glRotatef(_angle, 0.1f, 0.1f, -0.50f);
+    glRotatef(_angle, 0.0f, 0.01f, -0.0f);
 
-    glRotatef(_angle, 0.0f, 0.0f, -5.0f);
+    float scale;
+    if(f[2]<0.5f) scale=0.5f;
+    else scale=f[2];
 
-    glScalef(0.5,0.5,1);
+    glScalef(0.5,0.5,0.5);
     for (int i=-5; i<6; i++) {
     	for (int j=-5; j<6; j++)
+    	    for (int k=-5; k<6; k++)
     	{
- 	    Cube((float)i,-(float)j, -5.0f,_angle,1);
+    	    Cube((float)i,(float)j, (float)k, 0, scale);
 
  	    //rotatingLine((float)i/2,-(float)j/2,-5.0f, (f[(i+5)+(j+5)])*180,f[2]);
 
@@ -98,7 +104,7 @@ void drawScene()
 
 
 void update(int value) {
-    _angle += 2.0f;
+    _angle += 1.0f;
     if (_angle > 360) {
         _angle -= 360;
     }

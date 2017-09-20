@@ -133,15 +133,16 @@ void Cube(float x, float y, float z, float angle, float size)
     float currentColor[4];
     glGetFloatv(GL_CURRENT_COLOR,currentColor);
     glPushMatrix(); //Save the transformations performed thus far
-    glColor4f(1.0f, 0.0f, 0.0f,0.8f);
+    float gb = size*0.5f;
+    glColor4f(0.6f, gb, gb, 0.8f);
     glTranslatef(x,y,z);
-    glLineWidth(10.0*size);
+    glLineWidth(2.0*size);
     glShadeModel(GL_SMOOTH);
     glEnable(GL_POINT_SMOOTH);
     glEnable(GL_LINE_SMOOTH);
     glEnable(GL_POLYGON_SMOOTH);
     //glTranslatef
-    glScalef(size,size,1.0);
+    glScalef(size,size,size);
     glRotatef(angle, 0.0f, 0.0f, -5.0f); //Rotate about the z-axis
     for (int i=0; i<12; i++)
     {
