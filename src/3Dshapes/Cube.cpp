@@ -125,7 +125,7 @@ void buildCube() {
 }
 
 
-void Cube(float x, float y, float z, float angle, float size)
+void Cube(float x, float y, float z, float angle, float size, float color)
 {
     buildPoints();
     buildEdges();
@@ -134,9 +134,9 @@ void Cube(float x, float y, float z, float angle, float size)
     glGetFloatv(GL_CURRENT_COLOR,currentColor);
     glPushMatrix(); //Save the transformations performed thus far
     float gb = size*0.5f;
-    glColor4f(0.6f, gb, gb, 0.8f);
+    glColor4f(color, 0.3,0.3, 1.0f);
     glTranslatef(x,y,z);
-    glLineWidth(2.0*size);
+    glLineWidth(1.0f);
     glShadeModel(GL_SMOOTH);
     glEnable(GL_POINT_SMOOTH);
     glEnable(GL_LINE_SMOOTH);

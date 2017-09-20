@@ -67,30 +67,53 @@ void drawScene()
 
     glMatrixMode(GL_MODELVIEW);
 
-    glLoadIdentity();
-    glTranslatef(0.0f, 0.0f, -10.0f);
-    glRotatef(_angle, 0.1f, 0.1f, -0.50f);
-    glRotatef(_angle, 0.0f, 0.01f, -0.0f);
+    //glRotatef(_angle, 0.0f, 0.01f, -0.0f);
 
     float scale;
     if(f[2]<0.5f) scale=0.5f;
     else scale=f[2];
 
-    glScalef(0.5,0.5,0.5);
-    for (int i=-5; i<6; i++) {
-    	for (int j=-5; j<6; j++)
-    	    for (int k=-5; k<6; k++)
+    glLoadIdentity();
+    glTranslatef(-30.0f, 0.0f, -150.0f);
+    glRotatef(_angle, 0.0f, 0.01f, -0.0f);
+    //glRotatef(_angle, 0.1f, 0.1f, -0.50f);
+    for (int i=-1; i<2; i++) {
+    	for (int j=-1; j<2; j++)
+    	    for (int k=-1; k<2; k++)
     	{
-    	    Cube((float)i,(float)j, (float)k, 0, scale);
-
+    	    Cube(10*(float)i,10*(float)j, 10*(float)k, 0,2*(sin(_angle/4/3.14159265)+3), scale);
  	    //rotatingLine((float)i/2,-(float)j/2,-5.0f, (f[(i+5)+(j+5)])*180,f[2]);
 
 	}
     }
 
+    glLoadIdentity();
+    glTranslatef(-30.0f, 0.0f, -150.0f);
+    glRotatef(_angle, _angle, 0.01f, -0.0f);
+    //glRotatef(_angle, 0.1f, 0.1f, -0.50f);
+    for (int i=-1; i<2; i++) {
+    	for (int j=-1; j<2; j++)
+    	    for (int k=-1; k<2; k++)
+    	{
+    	    Cube(10*(float)i,40+10*(float)j, 10*(float)k, 0,2*(cos(_angle/4/3.14159265)+3), scale);
+ 	    //rotatingLine((float)i/2,-(float)j/2,-5.0f, (f[(i+5)+(j+5)])*180,f[2]);
 
+	}
+    }
 
+    glLoadIdentity();
+    glTranslatef(-30.0f, 0.0f, -150.0f);
+    glRotatef(_angle, _angle, _angle, -0.0f);
+    //glRotatef(_angle, 0.1f, 0.1f, -0.50f);
+    for (int i=-1; i<2; i++) {
+    	for (int j=-1; j<2; j++)
+    	    for (int k=-1; k<2; k++)
+    	{
+    	    Cube(10*(float)i,-40+10*(float)j, 10*(float)k, 0,2*(cos(_angle/4/3.14159265)+3), scale);
+ 	    //rotatingLine((float)i/2,-(float)j/2,-5.0f, (f[(i+5)+(j+5)])*180,f[2]);
 
+	}
+    }
 
     //horizontalBlur();
     //verticalBlur();
