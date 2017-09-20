@@ -134,7 +134,7 @@ void Cube::singleCube(float x, float y, float z, float angle, float size, float 
     glEnable(GL_POLYGON_SMOOTH);
     //glTranslatef
     glScalef(size,size,size);
-    glRotatef(angle, 0.0f, 0.0f, -5.0f); //Rotate about the z-axis
+    glRotatef(angle, 1.0f, 0.0f, -5.0f); //Rotate about the z-axis
     for (int i=0; i<12; i++)
     {
     glBegin(GL_LINES);
@@ -146,3 +146,24 @@ void Cube::singleCube(float x, float y, float z, float angle, float size, float 
     glPopMatrix();
 }
 
+
+void Cube::cubeArray(float x, float y, float z, float angle, float size, float color)
+{
+    glPushMatrix(); //Save the transformations performed thus far
+    float gb = size*0.5f;
+    glColor4f(color, 0.3,0.3, 1.0f);
+    glTranslatef(x,y,z);
+    glScalef(size,size,size);
+    glRotatef(angle, 0.0f, 0.0f, -5.0f); //Rotate about the z-axis
+    for (int i=-1; i<2; i++) {
+    	for (int j=-1; j<2; j++) {
+    	    for (int k=-1; k<2; k++)
+    	    {
+    	        singleCube((float)i+x,(float)j+y, (float)k+z, angle, size, color);
+ 	        //rotatingLine((float)i/2,-(float)j/2,-5.0f, (f[(i+5)+(j+5)])*180,f[2]);
+
+	    }
+        }
+    }
+    glPopMatrix();
+}

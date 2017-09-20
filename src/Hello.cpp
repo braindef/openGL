@@ -59,72 +59,27 @@ float _cameraAngle = 0.0f;
 
 void drawScene()
 {
-
-
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
-
     //ameisenRennen(400,400);
     //punkt(400,400,200,200);
-
     glEnable (GL_BLEND);
     glBlendFunc (GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-
     glMatrixMode(GL_MODELVIEW);
-
     //glRotatef(_angle, 0.0f, 0.01f, -0.0f);
-
     float scale;
+
     if(f[2]<0.5f) scale=0.5f;
     else scale=f[2];
 
     glLoadIdentity();
-    glTranslatef(-30.0f, 0.0f, -150.0f);
-    //glRotatef(_angle, 0.1f, 0.1f, -0.50f);
-    for (int i=-1; i<2; i++) {
-    	for (int j=-1; j<2; j++)
-    	    for (int k=-1; k<2; k++)
-    	{
-    	    c1->singleCube(10*(float)i,10*(float)j, 10*(float)k, 0,2*(sin(_angle/4/3.14159265)+3), scale);
- 	    //rotatingLine((float)i/2,-(float)j/2,-5.0f, (f[(i+5)+(j+5)])*180,f[2]);
-
-	}
-    }
-
+    glTranslatef(0.0f, 0.0f, -20.0f);
+    c1->cubeArray(0.0f, 0.0f, 0.0f, _angle, 0.5f, 0.5f);
     glLoadIdentity();
-
-    glTranslatef(-30.0f, 0.0f, -150.0f);
-
-    //glRotatef(_angle, 0.1f, 0.1f, -0.50f);
-    for (int i=-1; i<2; i++) {
-    	for (int j=-1; j<2; j++)
-    	    for (int k=-1; k<2; k++)
-    	{
-    	    c1->singleCube(10*(float)i,40+10*(float)j, 10*(float)k, 0,2*(cos(_angle/4/3.14159265)+3), scale);
- 	    //rotatingLine((float)i/2,-(float)j/2,-5.0f, (f[(i+5)+(j+5)])*180,f[2]);
-
-	}
-    }
-
-    glLoadIdentity();
-    //glRotatef(_angle, 0.0f, 0.01f, -0.0f);
-    glTranslatef(-30.0f, 0.0f, -150.0f);
-
-    //glRotatef(_angle, 0.1f, 0.1f, -0.50f);
-    for (int i=-1; i<2; i++) {
-    	for (int j=-1; j<2; j++)
-    	    for (int k=-1; k<2; k++)
-    	{
-    	    c1->singleCube(10*(float)i,-40+10*(float)j, 10*(float)k, 0,2*(cos(_angle/4/3.14159265)+3), scale);
- 	    //rotatingLine((float)i/2,-(float)j/2,-5.0f, (f[(i+5)+(j+5)])*180,f[2]);
-
-	}
-    }
-
+    glTranslatef(1.0f, 0.0f, -20.0f);
+    c1->cubeArray(0.0f, 1.0f, 0.0f, _angle, 0.5f, 0.5f);
     //horizontalBlur();
     //verticalBlur();
-
     //glDrawPixels();
-
     glutSwapBuffers();
 }
 

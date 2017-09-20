@@ -47,7 +47,7 @@ done
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 20 17:23:51 2017
+# Make data base, printed on Wed Sep 20 18:11:07 2017
 
 # Variables
 
@@ -1348,7 +1348,7 @@ info: info-am
 Makefile: Makefile.in ../config.status
 #  Precious file (prerequisite of .PRECIOUS).
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:24.345296165
+#  Last modified 2017-09-20 17:57:06.968618386
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 323):
@@ -2129,7 +2129,7 @@ install-ps: install-ps-am
 
 ../config.status: ../configure
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:24.057292119
+#  Last modified 2017-09-20 17:57:06.684617166
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 332):
@@ -2299,7 +2299,7 @@ install-ps-am:
 # strcache performance: lookups = 740 / hit rate = 44%
 # hash-table stats:
 # Load=411/8192=5%, Rehash=0, Collisions=45/740=6%
-# Finished Make data base on Wed Sep 20 17:23:51 2017
+# Finished Make data base on Wed Sep 20 18:11:07 2017
 
 Making all in src
 echo "git.mk: Generating .gitignore"
@@ -2462,7 +2462,7 @@ done
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 20 17:23:51 2017
+# Make data base, printed on Wed Sep 20 18:11:07 2017
 
 # Variables
 
@@ -3234,7 +3234,7 @@ GSETTINGS_DISABLE_SCHEMAS_COMPILE =
 # /usr/include/SDL/RCS: could not be stat'd.
 # /usr/include/alsa/SCCS: could not be stat'd.
 # sound/RCS: could not be stat'd.
-# sound/.deps (device 2049, inode 3015691): 4 files, 2 impossibilities.
+# sound/.deps (device 2049, inode 3015692): 4 files, 2 impossibilities.
 # .deps/RCS: could not be stat'd.
 # /usr/include/linux (device 2049, inode 12458821): 511 files, 4 impossibilities.
 # fft1/RCS: could not be stat'd.
@@ -3422,7 +3422,7 @@ install-man:
 # Not a target:
 fft1/.deps/cava.Po:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-20 01:17:38.781498948
+#  Last modified 2017-09-20 17:57:07.432620387
 #  File has been updated.
 #  Successfully updated.
 
@@ -3626,7 +3626,7 @@ info-am:
 
 pixel/.deps/.dirstamp:
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:38.561495858
+#  Last modified 2017-09-20 17:57:07.220619473
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 462):
@@ -3957,7 +3957,7 @@ mostlyclean-compile:
 
 sound/.deps/.dirstamp:
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:38.565495914
+#  Last modified 2017-09-20 17:57:07.22461949
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 470):
@@ -4094,7 +4094,7 @@ install-binPROGRAMS: main
 fft1/cava.o: fft1/cava.cpp fft1/.dirstamp fft1/.deps/.dirstamp fft1/cava.cpp /usr/include/stdc-predef.h /usr/include/stdio.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/xlocale.h /usr/include/c++/7/math.h /usr/include/c++/7/cmath /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/huge_val.h /usr/include/x86_64-linux-gnu/bits/huge_valf.h /usr/include/x86_64-linux-gnu/bits/huge_vall.h /usr/include/x86_64-linux-gnu/bits/inf.h /usr/include/x86_64-linux-gnu/bits/nan.h /usr/include/x86_64-linux-gnu/bits/mathdef.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/c++/7/bits/std_abs.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/alsa/asoundlib.h /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h /usr/include/x86_64-linux-gnu/bits/environments.h /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h /usr/include/c++/7/stdlib.h /usr/include/c++/7/cstdlib /usr/include/string.h /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h /usr/include/x86_64-linux-gnu/bits/uio.h /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/assert.h /usr/include/x86_64-linux-gnu/sys/poll.h /usr/include/x86_64-linux-gnu/bits/poll.h /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/alsa/asoundef.h /usr/include/alsa/version.h /usr/include/alsa/global.h /usr/include/alsa/input.h /usr/include/alsa/output.h /usr/include/alsa/error.h /usr/include/alsa/conf.h /usr/include/alsa/pcm.h /usr/include/alsa/rawmidi.h /usr/include/alsa/timer.h /usr/include/alsa/hwdep.h /usr/include/alsa/control.h /usr/include/alsa/mixer.h /usr/include/alsa/seq_event.h /usr/include/alsa/seq.h /usr/include/alsa/seqmid.h /usr/include/alsa/seq_midi_event.h /usr/include/x86_64-linux-gnu/sys/ioctl.h /usr/include/x86_64-linux-gnu/bits/ioctls.h /usr/include/x86_64-linux-gnu/asm/ioctls.h /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h /usr/include/x86_64-linux-gnu/asm/ioctl.h /usr/include/asm-generic/ioctl.h /usr/include/x86_64-linux-gnu/bits/ioctl-types.h /usr/include/x86_64-linux-gnu/sys/ttydefaults.h /usr/include/fftw3.h /usr/include/signal.h /usr/include/x86_64-linux-gnu/bits/signum.h /usr/include/x86_64-linux-gnu/bits/siginfo.h /usr/include/x86_64-linux-gnu/bits/sigaction.h /usr/include/x86_64-linux-gnu/bits/sigcontext.h /usr/include/x86_64-linux-gnu/bits/sigstack.h /usr/include/x86_64-linux-gnu/sys/ucontext.h /usr/include/x86_64-linux-gnu/bits/sigthread.h
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'fft1/cava'
-#  Last modified 2017-09-20 01:17:38.789499061
+#  Last modified 2017-09-20 17:57:07.440620422
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 514):
@@ -4452,7 +4452,7 @@ gitignore-recurse-maybe:
 
 pixel/.dirstamp:
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:38.561495858
+#  Last modified 2017-09-20 17:57:07.220619473
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 459):
@@ -4502,7 +4502,7 @@ uninstall: uninstall-am
 
 fft1/.deps/.dirstamp:
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:38.561495858
+#  Last modified 2017-09-20 17:57:07.22461949
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 478):
@@ -4545,7 +4545,7 @@ info: info-am
 Makefile: Makefile.in ../config.status
 #  Precious file (prerequisite of .PRECIOUS).
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:24.325295883
+#  Last modified 2017-09-20 17:57:06.9486183
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 385):
@@ -4703,7 +4703,7 @@ distdir: Makefile.am Makefile.in ../build-aux/depcomp Hello.cpp shapes/modules.c
 # Not a target:
 3Dshapes/Cube.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-20 16:47:11.509556999
+#  Last modified 2017-09-20 18:10:22.032480378
 #  File has been updated.
 #  Successfully updated.
 
@@ -4716,7 +4716,7 @@ distdir: Makefile.am Makefile.in ../build-aux/depcomp Hello.cpp shapes/modules.c
 # Not a target:
 sound/.deps/sdl.Po:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-20 01:17:39.041502601
+#  Last modified 2017-09-20 17:57:07.628621233
 #  File has been updated.
 #  Successfully updated.
 
@@ -4741,7 +4741,7 @@ shapes/modules.hpp:
 # Not a target:
 shapes/.deps/modules.Po:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-20 01:17:39.129503837
+#  Last modified 2017-09-20 17:57:07.816622045
 #  File has been updated.
 #  Successfully updated.
 
@@ -4850,7 +4850,7 @@ dvi: dvi-am
 Hello.o: Hello.cpp Hello.cpp /usr/include/stdc-predef.h /usr/include/c++/7/iostream /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/c++/7/ostream /usr/include/c++/7/ios /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h /usr/include/c++/7/cwchar /usr/include/wchar.h /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/xlocale.h /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h /usr/include/c++/7/bits/exception_ptr.h /usr/include/c++/7/bits/exception_defines.h /usr/include/c++/7/bits/cxxabi_init_exception.h /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/bits/stl_algobase.h /usr/include/c++/7/bits/functexcept.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/c++/7/ext/numeric_traits.h /usr/include/c++/7/bits/stl_pair.h /usr/include/c++/7/bits/stl_iterator_base_types.h /usr/include/c++/7/bits/stl_iterator_base_funcs.h /usr/include/c++/7/debug/assertions.h /usr/include/c++/7/bits/stl_iterator.h /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/c++/7/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h /usr/include/c++/7/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string /usr/include/c++/7/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h /usr/include/c++/7/ext/new_allocator.h /usr/include/c++/7/bits/ostream_insert.h /usr/include/c++/7/bits/cxxabi_forced.h /usr/include/c++/7/bits/stl_function.h /usr/include/c++/7/backward/binders.h /usr/include/c++/7/bits/range_access.h /usr/include/c++/7/initializer_list /usr/include/c++/7/bits/basic_string.h /usr/include/c++/7/ext/alloc_traits.h /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdlib /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio /usr/include/libio.h /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/c++/7/cerrno /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/c++/7/bits/functional_hash.h /usr/include/c++/7/bits/basic_string.tcc /usr/include/c++/7/bits/locale_classes.tcc /usr/include/c++/7/system_error /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf /usr/include/c++/7/bits/streambuf.tcc /usr/include/c++/7/bits/basic_ios.h /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h /usr/include/c++/7/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h /usr/include/c++/7/bits/locale_facets.tcc /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/stdlib.h /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_construct.h /usr/include/c++/7/bits/stl_uninitialized.h /usr/include/c++/7/bits/stl_vector.h /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc /usr/include/c++/7/math.h /usr/include/c++/7/cmath /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/huge_val.h /usr/include/x86_64-linux-gnu/bits/huge_valf.h /usr/include/x86_64-linux-gnu/bits/huge_vall.h /usr/include/x86_64-linux-gnu/bits/inf.h /usr/include/x86_64-linux-gnu/bits/nan.h /usr/include/x86_64-linux-gnu/bits/mathdef.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/c++/7/thread /usr/include/c++/7/chrono /usr/include/c++/7/ratio /usr/include/c++/7/limits /usr/include/c++/7/ctime /usr/include/c++/7/bits/parse_numbers.h /usr/include/c++/7/memory /usr/include/c++/7/bits/stl_tempbuf.h /usr/include/c++/7/bits/stl_raw_storage_iter.h /usr/include/c++/7/ext/concurrence.h /usr/include/c++/7/bits/uses_allocator.h /usr/include/c++/7/bits/unique_ptr.h /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/tuple /usr/include/c++/7/array /usr/include/c++/7/bits/invoke.h /usr/include/c++/7/bits/shared_ptr.h /usr/include/c++/7/bits/shared_ptr_base.h /usr/include/c++/7/bits/allocated_ptr.h /usr/include/c++/7/bits/refwrap.h /usr/include/c++/7/ext/aligned_buffer.h /usr/include/c++/7/bits/shared_ptr_atomic.h /usr/include/c++/7/bits/atomic_base.h /usr/include/c++/7/bits/atomic_lockfree_defines.h /usr/include/c++/7/backward/auto_ptr.h /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h /usr/include/GL/glu.h shapes/modules.hpp pixel/drawPixel.hpp sound/sdl.hpp fft1/cava.hpp 3Dshapes/Cube.hpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'Hello'
-#  Last modified 2017-09-20 17:06:12.368442657
+#  Last modified 2017-09-20 18:10:38.364697314
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 514):
@@ -5049,7 +5049,7 @@ pixel/drawPixel.hpp:
 
 shapes/.deps/.dirstamp:
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:38.561495858
+#  Last modified 2017-09-20 17:57:07.220619473
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 454):
@@ -5174,7 +5174,7 @@ install-info-am:
 
 sound/.dirstamp:
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:38.561495858
+#  Last modified 2017-09-20 17:57:07.220619473
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 467):
@@ -5210,7 +5210,7 @@ sound/.dirstamp:
 
 fft1/.dirstamp:
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:38.561495858
+#  Last modified 2017-09-20 17:57:07.22461949
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 475):
@@ -5241,7 +5241,7 @@ install-dvi-am:
 sound/sdl.o: sound/sdl.cpp sound/.dirstamp sound/.deps/.dirstamp sound/sdl.cpp /usr/include/stdc-predef.h /usr/include/SDL/SDL.h /usr/include/SDL/SDL_main.h /usr/include/SDL/SDL_stdinc.h /usr/include/SDL/SDL_config.h /usr/include/SDL/SDL_platform.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/c++/7/stdlib.h /usr/include/c++/7/cstdlib /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/xlocale.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h /usr/include/string.h /usr/include/strings.h /usr/include/inttypes.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/ctype.h /usr/include/iconv.h /usr/include/SDL/begin_code.h /usr/include/SDL/close_code.h /usr/include/SDL/SDL_audio.h /usr/include/SDL/SDL_error.h /usr/include/SDL/SDL_endian.h /usr/include/SDL/SDL_mutex.h /usr/include/SDL/SDL_thread.h /usr/include/SDL/SDL_rwops.h /usr/include/SDL/SDL_cdrom.h /usr/include/SDL/SDL_cpuinfo.h /usr/include/SDL/SDL_events.h /usr/include/SDL/SDL_active.h /usr/include/SDL/SDL_keyboard.h /usr/include/SDL/SDL_keysym.h /usr/include/SDL/SDL_mouse.h /usr/include/SDL/SDL_video.h /usr/include/SDL/SDL_joystick.h /usr/include/SDL/SDL_quit.h /usr/include/SDL/SDL_loadso.h /usr/include/SDL/SDL_timer.h /usr/include/SDL/SDL_version.h /usr/include/SDL/SDL_mixer.h /usr/include/SDL/SDL_types.h /usr/include/c++/7/iostream /usr/include/c++/7/ostream /usr/include/c++/7/ios /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h /usr/include/c++/7/cwchar /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h /usr/include/c++/7/bits/exception_ptr.h /usr/include/c++/7/bits/exception_defines.h /usr/include/c++/7/bits/cxxabi_init_exception.h /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/bits/stl_algobase.h /usr/include/c++/7/bits/functexcept.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/c++/7/ext/numeric_traits.h /usr/include/c++/7/bits/stl_pair.h /usr/include/c++/7/bits/stl_iterator_base_types.h /usr/include/c++/7/bits/stl_iterator_base_funcs.h /usr/include/c++/7/debug/assertions.h /usr/include/c++/7/bits/stl_iterator.h /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint /usr/include/c++/7/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h /usr/include/c++/7/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string /usr/include/c++/7/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h /usr/include/c++/7/ext/new_allocator.h /usr/include/c++/7/bits/ostream_insert.h /usr/include/c++/7/bits/cxxabi_forced.h /usr/include/c++/7/bits/stl_function.h /usr/include/c++/7/backward/binders.h /usr/include/c++/7/bits/range_access.h /usr/include/c++/7/initializer_list /usr/include/c++/7/bits/basic_string.h /usr/include/c++/7/ext/alloc_traits.h /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdio /usr/include/c++/7/cerrno /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/c++/7/bits/functional_hash.h /usr/include/c++/7/bits/basic_string.tcc /usr/include/c++/7/bits/locale_classes.tcc /usr/include/c++/7/system_error /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf /usr/include/c++/7/bits/streambuf.tcc /usr/include/c++/7/bits/basic_ios.h /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h /usr/include/c++/7/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h /usr/include/c++/7/bits/locale_facets.tcc /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'sound/sdl'
-#  Last modified 2017-09-20 01:17:39.045502657
+#  Last modified 2017-09-20 17:57:07.632621251
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 514):
@@ -5291,7 +5291,7 @@ sound/sdl.o: sound/sdl.cpp sound/.dirstamp sound/.deps/.dirstamp sound/sdl.cpp /
 shapes/modules.o: shapes/modules.cpp shapes/.dirstamp shapes/.deps/.dirstamp shapes/modules.cpp /usr/include/stdc-predef.h /usr/include/c++/7/iostream /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/c++/7/ostream /usr/include/c++/7/ios /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h /usr/include/c++/7/cwchar /usr/include/wchar.h /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/xlocale.h /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h /usr/include/c++/7/bits/exception_ptr.h /usr/include/c++/7/bits/exception_defines.h /usr/include/c++/7/bits/cxxabi_init_exception.h /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/bits/stl_algobase.h /usr/include/c++/7/bits/functexcept.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/c++/7/ext/numeric_traits.h /usr/include/c++/7/bits/stl_pair.h /usr/include/c++/7/bits/stl_iterator_base_types.h /usr/include/c++/7/bits/stl_iterator_base_funcs.h /usr/include/c++/7/debug/assertions.h /usr/include/c++/7/bits/stl_iterator.h /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/c++/7/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h /usr/include/c++/7/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string /usr/include/c++/7/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h /usr/include/c++/7/ext/new_allocator.h /usr/include/c++/7/bits/ostream_insert.h /usr/include/c++/7/bits/cxxabi_forced.h /usr/include/c++/7/bits/stl_function.h /usr/include/c++/7/backward/binders.h /usr/include/c++/7/bits/range_access.h /usr/include/c++/7/initializer_list /usr/include/c++/7/bits/basic_string.h /usr/include/c++/7/ext/alloc_traits.h /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdlib /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio /usr/include/libio.h /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/c++/7/cerrno /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/c++/7/bits/functional_hash.h /usr/include/c++/7/bits/basic_string.tcc /usr/include/c++/7/bits/locale_classes.tcc /usr/include/c++/7/system_error /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf /usr/include/c++/7/bits/streambuf.tcc /usr/include/c++/7/bits/basic_ios.h /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h /usr/include/c++/7/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h /usr/include/c++/7/bits/locale_facets.tcc /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/stdlib.h /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_construct.h /usr/include/c++/7/bits/stl_uninitialized.h /usr/include/c++/7/bits/stl_vector.h /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc /usr/include/c++/7/math.h /usr/include/c++/7/cmath /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/huge_val.h /usr/include/x86_64-linux-gnu/bits/huge_valf.h /usr/include/x86_64-linux-gnu/bits/huge_vall.h /usr/include/x86_64-linux-gnu/bits/inf.h /usr/include/x86_64-linux-gnu/bits/nan.h /usr/include/x86_64-linux-gnu/bits/mathdef.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h /usr/include/GL/glu.h
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'shapes/modules'
-#  Last modified 2017-09-20 01:17:39.133503893
+#  Last modified 2017-09-20 17:57:07.824622079
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 514):
@@ -5439,7 +5439,7 @@ maintainer-clean-generic:
 
 3Dshapes/Cube.hpp:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-20 16:47:28.001730964
+#  Last modified 2017-09-20 18:09:53.940110181
 #  File has been updated.
 #  Successfully updated.
 
@@ -5625,7 +5625,7 @@ maintainer-clean-generic:
 
 shapes/.dirstamp:
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:38.561495858
+#  Last modified 2017-09-20 17:57:07.220619473
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 451):
@@ -5690,7 +5690,7 @@ pdf-am:
 # Not a target:
 3Dshapes/.deps/Cube.Po:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-20 16:47:14.649589949
+#  Last modified 2017-09-20 18:10:38.09269369
 #  File has been updated.
 #  Successfully updated.
 
@@ -5760,7 +5760,7 @@ ID: Hello.cpp shapes/modules.cpp pixel/drawPixel.cpp sound/sdl.cpp fft1/cava.cpp
 pixel/drawPixel.o: pixel/drawPixel.cpp pixel/.dirstamp pixel/.deps/.dirstamp pixel/drawPixel.cpp /usr/include/stdc-predef.h /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/inttypes.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/GL/glu.h /usr/include/c++/7/stdlib.h /usr/include/c++/7/cstdlib /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/xlocale.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'pixel/drawPixel'
-#  Last modified 2017-09-20 01:17:38.745498443
+#  Last modified 2017-09-20 17:57:07.408620284
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 514):
@@ -6147,7 +6147,7 @@ html: html-am
 
 3Dshapes/.deps/.dirstamp:
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:38.565495914
+#  Last modified 2017-09-20 17:57:07.22461949
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 486):
@@ -6203,10 +6203,10 @@ cscopelist-am: Hello.cpp shapes/modules.cpp pixel/drawPixel.cpp sound/sdl.cpp ff
 #  File has been updated.
 #  Successfully updated.
 
-3Dshapes/Cube.o: 3Dshapes/Cube.cpp 3Dshapes/.dirstamp 3Dshapes/.deps/.dirstamp 3Dshapes/Cube.cpp /usr/include/stdc-predef.h /usr/include/c++/7/iostream /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/c++/7/ostream /usr/include/c++/7/ios /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h /usr/include/c++/7/cwchar /usr/include/wchar.h /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/xlocale.h /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h /usr/include/c++/7/bits/exception_ptr.h /usr/include/c++/7/bits/exception_defines.h /usr/include/c++/7/bits/cxxabi_init_exception.h /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/bits/stl_algobase.h /usr/include/c++/7/bits/functexcept.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/c++/7/ext/numeric_traits.h /usr/include/c++/7/bits/stl_pair.h /usr/include/c++/7/bits/stl_iterator_base_types.h /usr/include/c++/7/bits/stl_iterator_base_funcs.h /usr/include/c++/7/debug/assertions.h /usr/include/c++/7/bits/stl_iterator.h /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/c++/7/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h /usr/include/c++/7/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string /usr/include/c++/7/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h /usr/include/c++/7/ext/new_allocator.h /usr/include/c++/7/bits/ostream_insert.h /usr/include/c++/7/bits/cxxabi_forced.h /usr/include/c++/7/bits/stl_function.h /usr/include/c++/7/backward/binders.h /usr/include/c++/7/bits/range_access.h /usr/include/c++/7/initializer_list /usr/include/c++/7/bits/basic_string.h /usr/include/c++/7/ext/alloc_traits.h /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdlib /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio /usr/include/libio.h /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/c++/7/cerrno /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/c++/7/bits/functional_hash.h /usr/include/c++/7/bits/basic_string.tcc /usr/include/c++/7/bits/locale_classes.tcc /usr/include/c++/7/system_error /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf /usr/include/c++/7/bits/streambuf.tcc /usr/include/c++/7/bits/basic_ios.h /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h /usr/include/c++/7/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h /usr/include/c++/7/bits/locale_facets.tcc /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/stdlib.h /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_construct.h /usr/include/c++/7/bits/stl_uninitialized.h /usr/include/c++/7/bits/stl_vector.h /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc /usr/include/c++/7/math.h /usr/include/c++/7/cmath /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/huge_val.h /usr/include/x86_64-linux-gnu/bits/huge_valf.h /usr/include/x86_64-linux-gnu/bits/huge_vall.h /usr/include/x86_64-linux-gnu/bits/inf.h /usr/include/x86_64-linux-gnu/bits/nan.h /usr/include/x86_64-linux-gnu/bits/mathdef.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/string.h /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h /usr/include/GL/glu.h
+3Dshapes/Cube.o: 3Dshapes/Cube.cpp 3Dshapes/.dirstamp 3Dshapes/.deps/.dirstamp 3Dshapes/Cube.cpp /usr/include/stdc-predef.h /usr/include/c++/7/iostream /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/c++/7/ostream /usr/include/c++/7/ios /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h /usr/include/c++/7/cwchar /usr/include/wchar.h /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/xlocale.h /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h /usr/include/c++/7/bits/exception_ptr.h /usr/include/c++/7/bits/exception_defines.h /usr/include/c++/7/bits/cxxabi_init_exception.h /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/bits/stl_algobase.h /usr/include/c++/7/bits/functexcept.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/c++/7/ext/numeric_traits.h /usr/include/c++/7/bits/stl_pair.h /usr/include/c++/7/bits/stl_iterator_base_types.h /usr/include/c++/7/bits/stl_iterator_base_funcs.h /usr/include/c++/7/debug/assertions.h /usr/include/c++/7/bits/stl_iterator.h /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/c++/7/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h /usr/include/c++/7/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string /usr/include/c++/7/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h /usr/include/c++/7/ext/new_allocator.h /usr/include/c++/7/bits/ostream_insert.h /usr/include/c++/7/bits/cxxabi_forced.h /usr/include/c++/7/bits/stl_function.h /usr/include/c++/7/backward/binders.h /usr/include/c++/7/bits/range_access.h /usr/include/c++/7/initializer_list /usr/include/c++/7/bits/basic_string.h /usr/include/c++/7/ext/alloc_traits.h /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdlib /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio /usr/include/libio.h /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/c++/7/cerrno /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/c++/7/bits/functional_hash.h /usr/include/c++/7/bits/basic_string.tcc /usr/include/c++/7/bits/locale_classes.tcc /usr/include/c++/7/system_error /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf /usr/include/c++/7/bits/streambuf.tcc /usr/include/c++/7/bits/basic_ios.h /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h /usr/include/c++/7/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h /usr/include/c++/7/bits/locale_facets.tcc /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/stdlib.h /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_construct.h /usr/include/c++/7/bits/stl_uninitialized.h /usr/include/c++/7/bits/stl_vector.h /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc /usr/include/c++/7/math.h /usr/include/c++/7/cmath /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/huge_val.h /usr/include/x86_64-linux-gnu/bits/huge_valf.h /usr/include/x86_64-linux-gnu/bits/huge_vall.h /usr/include/x86_64-linux-gnu/bits/inf.h /usr/include/x86_64-linux-gnu/bits/nan.h /usr/include/x86_64-linux-gnu/bits/mathdef.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/string.h /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h /usr/include/GL/glu.h 3Dshapes/Cube.hpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: '3Dshapes/Cube'
-#  Last modified 2017-09-20 16:47:14.661590075
+#  Last modified 2017-09-20 18:10:38.100693797
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 514):
@@ -6387,7 +6387,7 @@ html-am:
 
 main: Hello.o shapes/modules.o pixel/drawPixel.o sound/sdl.o fft1/cava.o 3Dshapes/Cube.o
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 17:06:12.66444689
+#  Last modified 2017-09-20 18:10:38.656701203
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 492):
@@ -6705,7 +6705,7 @@ clean-generic:
 
 ../config.status: ../configure
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:24.057292119
+#  Last modified 2017-09-20 17:57:06.684617166
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 394):
@@ -6714,7 +6714,7 @@ clean-generic:
 # Not a target:
 pixel/.deps/drawPixel.Po:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-20 01:17:38.741498387
+#  Last modified 2017-09-20 17:57:07.404620267
 #  File has been updated.
 #  Successfully updated.
 
@@ -6748,7 +6748,7 @@ gitignore-recurse:
 
 3Dshapes/.dirstamp:
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:38.565495914
+#  Last modified 2017-09-20 17:57:07.22461949
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 483):
@@ -6758,7 +6758,7 @@ gitignore-recurse:
 # Not a target:
 Hello.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-20 17:06:10.620417661
+#  Last modified 2017-09-20 18:03:09.04333978
 #  File has been updated.
 #  Successfully updated.
 
@@ -6913,7 +6913,7 @@ install-ps: install-ps-am
 # Not a target:
 .deps/Hello.Po:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-20 17:06:12.356442486
+#  Last modified 2017-09-20 18:10:38.344697047
 #  File has been updated.
 #  Successfully updated.
 
@@ -6996,7 +6996,7 @@ install-ps-am:
 #  Successfully updated.
 
 # files hash-table stats:
-# Load=493/1024=48%, Rehash=0, Collisions=6066/8470=72%
+# Load=493/1024=48%, Rehash=0, Collisions=6068/8472=72%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
@@ -7008,10 +7008,10 @@ install-ps-am:
 # other used: total = 237345 B / count = 7851 / avg = 30 B
 # other free: total = 406 B / max = 30 B / min = 2 B / avg = 13 B
 
-# strcache performance: lookups = 11866 / hit rate = 33%
+# strcache performance: lookups = 11869 / hit rate = 33%
 # hash-table stats:
-# Load=7876/16384=48%, Rehash=1, Collisions=21042/19548=108%
-# Finished Make data base on Wed Sep 20 17:23:51 2017
+# Load=7876/16384=48%, Rehash=1, Collisions=21029/19551=108%
+# Finished Make data base on Wed Sep 20 18:11:07 2017
 
 Making all in po
 make .pot-update
@@ -7084,7 +7084,7 @@ test ! -f .po || { \
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 20 17:23:51 2017
+# Make data base, printed on Wed Sep 20 18:11:07 2017
 
 # Variables
 
@@ -7956,7 +7956,7 @@ uninstall: uninstall-exec uninstall-data
 
 Makefile: Makefile.in.in Makevars ../config.status POTFILES.in LINGUAS
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:24.397296894
+#  Last modified 2017-09-20 17:57:07.020618609
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 540):
@@ -8068,7 +8068,7 @@ all-no:
 remove-potcdate.sed: remove-potcdate.sin
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'remove-potcdate'
-#  Last modified 2017-09-20 01:17:39.805513332
+#  Last modified 2017-09-20 18:10:38.740702322
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 173):
@@ -8869,7 +8869,7 @@ uninstall-data: uninstall-data-yes
 # Not a target:
 ../config.status:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-20 01:17:24.057292119
+#  Last modified 2017-09-20 17:57:06.684617166
 #  File has been updated.
 #  Successfully updated.
 
@@ -8986,7 +8986,7 @@ install: install-exec install-data
 # strcache performance: lookups = 389 / hit rate = 37%
 # hash-table stats:
 # Load=244/8192=3%, Rehash=0, Collisions=52/389=13%
-# Finished Make data base on Wed Sep 20 17:23:51 2017
+# Finished Make data base on Wed Sep 20 18:11:07 2017
 
 test "0.19" = "0.19" || { echo "*** error: gettext infrastructure mismatch: using a Makefile.in.in from gettext version 0.19 but the autoconf macros are from gettext version 0.19" 1>&2; exit 1; }
 test ! -f ./.pot || \
@@ -9003,7 +9003,7 @@ test ! -f ./.pot || { \
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 20 17:23:51 2017
+# Make data base, printed on Wed Sep 20 18:11:07 2017
 
 # Variables
 
@@ -9880,7 +9880,7 @@ uninstall: uninstall-exec uninstall-data
 
 Makefile: Makefile.in.in Makevars ../config.status POTFILES.in LINGUAS
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:24.397296894
+#  Last modified 2017-09-20 17:57:07.020618609
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 540):
@@ -10802,7 +10802,7 @@ uninstall-data: uninstall-data-yes
 # Not a target:
 ../config.status:
 #  Implicit rule search has been done.
-#  Last modified 2017-09-20 01:17:24.057292119
+#  Last modified 2017-09-20 17:57:06.684617166
 #  File has been updated.
 #  Successfully updated.
 
@@ -10926,7 +10926,7 @@ install: install-exec install-data
 # strcache performance: lookups = 392 / hit rate = 36%
 # hash-table stats:
 # Load=248/8192=3%, Rehash=0, Collisions=53/392=14%
-# Finished Make data base on Wed Sep 20 17:23:51 2017
+# Finished Make data base on Wed Sep 20 18:11:07 2017
 
 test -f config.h || rm -f stamp-h1
 test -f config.h || make  stamp-h1
@@ -10937,7 +10937,7 @@ test -f config.h || make  stamp-h1
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 20 17:23:51 2017
+# Make data base, printed on Wed Sep 20 18:11:07 2017
 
 # Variables
 
@@ -12441,7 +12441,7 @@ info: info-recursive
 Makefile: Makefile.in config.status
 #  Precious file (prerequisite of .PRECIOUS).
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:24.305295603
+#  Last modified 2017-09-20 17:57:06.928618214
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 433):
@@ -13133,7 +13133,7 @@ pdf-recursive:
 
 config.status: configure
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:24.057292119
+#  Last modified 2017-09-20 17:57:06.684617166
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 443):
@@ -13363,7 +13363,7 @@ dist-hook: dist-ChangeLog
 
 stamp-h1: config.h.in config.status
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:24.377296615
+#  Last modified 2017-09-20 17:57:07.000618524
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 456):
@@ -14535,7 +14535,7 @@ mostlyclean-recursive:
 # strcache performance: lookups = 1023 / hit rate = 55%
 # hash-table stats:
 # Load=458/8192=6%, Rehash=0, Collisions=40/1023=4%
-# Finished Make data base on Wed Sep 20 17:23:52 2017
+# Finished Make data base on Wed Sep 20 18:11:07 2017
 
 # GNU Make 4.1
 # Built for x86_64-pc-linux-gnu
@@ -14544,7 +14544,7 @@ mostlyclean-recursive:
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 20 17:23:52 2017
+# Make data base, printed on Wed Sep 20 18:11:07 2017
 
 # Variables
 
@@ -16044,7 +16044,7 @@ info: info-recursive
 Makefile: Makefile.in config.status
 #  Precious file (prerequisite of .PRECIOUS).
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:24.305295603
+#  Last modified 2017-09-20 17:57:06.928618214
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 433):
@@ -16736,7 +16736,7 @@ pdf-recursive:
 
 config.status: configure
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:24.057292119
+#  Last modified 2017-09-20 17:57:06.684617166
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 443):
@@ -18137,7 +18137,7 @@ mostlyclean-recursive:
 # strcache performance: lookups = 1023 / hit rate = 55%
 # hash-table stats:
 # Load=458/8192=6%, Rehash=0, Collisions=40/1023=4%
-# Finished Make data base on Wed Sep 20 17:23:52 2017
+# Finished Make data base on Wed Sep 20 18:11:07 2017
 
 # GNU Make 4.1
 # Built for x86_64-pc-linux-gnu
@@ -18146,7 +18146,7 @@ mostlyclean-recursive:
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 20 17:23:52 2017
+# Make data base, printed on Wed Sep 20 18:11:07 2017
 
 # Variables
 
@@ -19659,7 +19659,7 @@ info: info-recursive
 Makefile: Makefile.in config.status
 #  Precious file (prerequisite of .PRECIOUS).
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:24.305295603
+#  Last modified 2017-09-20 17:57:06.928618214
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 433):
@@ -20371,7 +20371,7 @@ pdf-recursive:
 
 config.status: configure
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:24.057292119
+#  Last modified 2017-09-20 17:57:06.684617166
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 443):
@@ -20601,7 +20601,7 @@ dist-hook: dist-ChangeLog
 
 stamp-h1: config.h.in config.status
 #  Implicit rule search has not been done.
-#  Last modified 2017-09-20 01:17:24.377296615
+#  Last modified 2017-09-20 17:57:07.000618524
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 456):
@@ -21773,5 +21773,5 @@ mostlyclean-recursive:
 # strcache performance: lookups = 1023 / hit rate = 55%
 # hash-table stats:
 # Load=458/8192=6%, Rehash=0, Collisions=40/1023=4%
-# Finished Make data base on Wed Sep 20 17:23:52 2017
+# Finished Make data base on Wed Sep 20 18:11:07 2017
 
