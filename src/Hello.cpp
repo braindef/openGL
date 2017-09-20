@@ -75,7 +75,6 @@ void drawScene()
 
     glLoadIdentity();
     glTranslatef(-30.0f, 0.0f, -150.0f);
-    glRotatef(_angle, 0.0f, 0.01f, -0.0f);
     //glRotatef(_angle, 0.1f, 0.1f, -0.50f);
     for (int i=-1; i<2; i++) {
     	for (int j=-1; j<2; j++)
@@ -88,8 +87,9 @@ void drawScene()
     }
 
     glLoadIdentity();
+
     glTranslatef(-30.0f, 0.0f, -150.0f);
-    glRotatef(_angle, _angle, 0.01f, -0.0f);
+
     //glRotatef(_angle, 0.1f, 0.1f, -0.50f);
     for (int i=-1; i<2; i++) {
     	for (int j=-1; j<2; j++)
@@ -102,8 +102,9 @@ void drawScene()
     }
 
     glLoadIdentity();
+    //glRotatef(_angle, 0.0f, 0.01f, -0.0f);
     glTranslatef(-30.0f, 0.0f, -150.0f);
-    glRotatef(_angle, _angle, _angle, -0.0f);
+
     //glRotatef(_angle, 0.1f, 0.1f, -0.50f);
     for (int i=-1; i<2; i++) {
     	for (int j=-1; j<2; j++)
