@@ -72,11 +72,13 @@ void drawScene()
     else scale=f[2];
 
     glLoadIdentity();
-    glTranslatef(0.0f, 0.0f, -20.0f);
-    c1->cubeArray(0.0f, 0.0f, 0.0f, _angle, 0.5f, 0.5f);
-    glLoadIdentity();
-    glTranslatef(1.0f, 0.0f, -20.0f);
-    c1->cubeArray(0.0f, 1.0f, 0.0f, _angle, 0.5f, 0.5f);
+    glTranslatef(0.0f, 0.0f, -10.0f+f[1]);
+
+    c1->cubeArray(-3.0f, 0.0f, 0.0f, _angle, 0.5f, 0.5f);
+
+    c1->cubeArray(-3.0f, -2.0f, 0.0f, _angle+10, 0.5f, 0.5f);
+
+    c1->cubeArray(-3.0f, 2.0f, 0.0f, _angle+20, 0.5f, 0.5f);
     //horizontalBlur();
     //verticalBlur();
     //glDrawPixels();
