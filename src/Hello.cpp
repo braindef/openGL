@@ -12,10 +12,12 @@
 #include "fft1/cava.hpp"
 #include "3Dshapes/Cube.hpp"
 
-const int W = 400;
+const int W = 600;
 const int H = 400;
 
 extern double f[200];
+
+Cube* c1=new Cube();
 
 using namespace std;
 void keyPress(unsigned char key,int x,int y)
@@ -57,6 +59,8 @@ float _cameraAngle = 0.0f;
 
 void drawScene()
 {
+
+
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
 
     //ameisenRennen(400,400);
@@ -80,7 +84,7 @@ void drawScene()
     	for (int j=-1; j<2; j++)
     	    for (int k=-1; k<2; k++)
     	{
-    	    Cube(10*(float)i,10*(float)j, 10*(float)k, 0,2*(sin(_angle/4/3.14159265)+3), scale);
+    	    c1->singleCube(10*(float)i,10*(float)j, 10*(float)k, 0,2*(sin(_angle/4/3.14159265)+3), scale);
  	    //rotatingLine((float)i/2,-(float)j/2,-5.0f, (f[(i+5)+(j+5)])*180,f[2]);
 
 	}
@@ -95,7 +99,7 @@ void drawScene()
     	for (int j=-1; j<2; j++)
     	    for (int k=-1; k<2; k++)
     	{
-    	    Cube(10*(float)i,40+10*(float)j, 10*(float)k, 0,2*(cos(_angle/4/3.14159265)+3), scale);
+    	    c1->singleCube(10*(float)i,40+10*(float)j, 10*(float)k, 0,2*(cos(_angle/4/3.14159265)+3), scale);
  	    //rotatingLine((float)i/2,-(float)j/2,-5.0f, (f[(i+5)+(j+5)])*180,f[2]);
 
 	}
@@ -110,7 +114,7 @@ void drawScene()
     	for (int j=-1; j<2; j++)
     	    for (int k=-1; k<2; k++)
     	{
-    	    Cube(10*(float)i,-40+10*(float)j, 10*(float)k, 0,2*(cos(_angle/4/3.14159265)+3), scale);
+    	    c1->singleCube(10*(float)i,-40+10*(float)j, 10*(float)k, 0,2*(cos(_angle/4/3.14159265)+3), scale);
  	    //rotatingLine((float)i/2,-(float)j/2,-5.0f, (f[(i+5)+(j+5)])*180,f[2]);
 
 	}
@@ -152,9 +156,6 @@ void music() {
 
 void graphics() {
 
-
-
-
 }
 
 
@@ -162,6 +163,7 @@ int main(int argc,char** argv)
 {
     thread t1(music);
     thread t2(fft);
+
 
 
     glutInit(&argc,argv);

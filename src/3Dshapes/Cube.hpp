@@ -1,2 +1,8 @@
 
-void Cube(float x, float y, float z, float angle, float size, float color);
+
+class Cube
+{
+public:
+  Cube();
+  void singleCube(float x, float y, float z, float angle, float size, float color);
+};

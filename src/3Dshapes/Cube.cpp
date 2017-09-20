@@ -7,6 +7,8 @@
 
 #include<GL/glut.h>
 
+#include "Cube.hpp"
+
 /*
  * Created by SharpDevelop.
  * User: Marc Jr. Landolt
@@ -26,24 +28,36 @@
  * @author landev
  */
 
-    /**
-     *
-     */
-    double P00[3] = { 0.0f,  0.0f,  0.0f};			//Eckpunkte
-    double P01[3] = {-0.5f, -0.5f, -0.5f};
-    double P02[3] = { 0.5f, -0.5f, -0.5f};
-    double P03[3] = { 0.5f,  0.5f, -0.5f};
-    double P04[3] = {-0.5f,  0.5f, -0.5f};
+    const double P00[3] = { 0.0f,  0.0f,  0.0f};			//Eckpunkte
+    const double P01[3] = {-0.5f, -0.5f, -0.5f};
+    const double P02[3] = { 0.5f, -0.5f, -0.5f};
+    const double P03[3] = { 0.5f,  0.5f, -0.5f};
+    const double P04[3] = {-0.5f,  0.5f, -0.5f};
 
-    double P11[3] = {-0.5f, -0.5f, 0.5f};
-    double P12[3] = { 0.5f, -0.5f, 0.5f};
-    double P13[3] = { 0.5f,  0.5f, 0.5f};
-    double P14[3] = {-0.5f,  0.5f, 0.5f};
+    const double P11[3] = {-0.5f, -0.5f, 0.5f};
+    const double P12[3] = { 0.5f, -0.5f, 0.5f};
+    const double P13[3] = { 0.5f,  0.5f, 0.5f};
+    const double P14[3] = {-0.5f,  0.5f, 0.5f};
+
+    static double points[8][3];
+
+    static double K01[2][3];
+    static double K02[2][3];
+    static double K03[2][3];
+    static double K04[2][3];
+    static double K05[2][3];
+    static double K06[2][3];
+    static double K07[2][3];
+    static double K08[2][3];
+    static double K09[2][3];
+    static double K10[2][3];
+    static double K11[2][3];
+    static double K12[2][3];
+
+    static double W[12][2][3];
 
 
-double points[8][3];
-
-   void buildPoints() {
+void buildPoints() {
    memcpy(points[0], P01, sizeof P01);
    memcpy(points[1], P02, sizeof P02);
    memcpy(points[2], P03, sizeof P03);
@@ -54,60 +68,33 @@ double points[8][3];
    memcpy(points[7], P14, sizeof P14);
    }
 
-double K01[2][3];
-double K02[2][3];
-double K03[2][3];
-double K04[2][3];
-double K05[2][3];
-double K06[2][3];
-double K07[2][3];
-double K08[2][3];
-double K09[2][3];
-double K10[2][3];
-double K11[2][3];
-double K12[2][3];
-
-
 void buildEdges() {
     memcpy(K01[0], P01, sizeof P01);
     memcpy(K01[1], P02, sizeof P02);
-
     memcpy(K02[0], P02, sizeof P02);
     memcpy(K02[1], P03, sizeof P03);
-
     memcpy(K03[0], P03, sizeof P03);
     memcpy(K03[1], P04, sizeof P04);
-
     memcpy(K04[0], P04, sizeof P04);
     memcpy(K04[1], P01, sizeof P01);
-
     memcpy(K05[0], P11, sizeof P11);
     memcpy(K05[1], P12, sizeof P12);
-
     memcpy(K06[0], P12, sizeof P12);
     memcpy(K06[1], P13, sizeof P13);
-
     memcpy(K07[0], P13, sizeof P13);
     memcpy(K07[1], P14, sizeof P14);
-
     memcpy(K08[0], P14, sizeof P14);
     memcpy(K08[1], P11, sizeof P11);
-
     memcpy(K09[0], P01, sizeof P01);
     memcpy(K09[1], P11, sizeof P11);
-
     memcpy(K10[0], P02, sizeof P02);
     memcpy(K10[1], P12, sizeof P12);
-
     memcpy(K11[0], P03, sizeof P03);
     memcpy(K11[1], P13, sizeof P13);
-
     memcpy(K12[0], P04, sizeof P04);
     memcpy(K12[1], P14, sizeof P14);
-
 }
 
-double W[12][2][3];
 
 void buildCube() {
     memcpy(W[0], K01, sizeof K01);
@@ -125,11 +112,15 @@ void buildCube() {
 }
 
 
-void Cube(float x, float y, float z, float angle, float size, float color)
-{
+Cube::Cube() {
     buildPoints();
     buildEdges();
     buildCube();
+}
+
+
+void Cube::singleCube(float x, float y, float z, float angle, float size, float color)
+{
     float currentColor[4];
     glGetFloatv(GL_CURRENT_COLOR,currentColor);
     glPushMatrix(); //Save the transformations performed thus far
@@ -154,3 +145,4 @@ void Cube(float x, float y, float z, float angle, float size, float color)
     glColor4f(currentColor[0],currentColor[1],currentColor[2],currentColor[3]);
     glPopMatrix();
 }
+
