@@ -119,7 +119,8 @@ PROGRAMS = $(bin_PROGRAMS)
 am__dirstamp = $(am__leading_dot)dirstamp
 am_main_OBJECTS = Hello.$(OBJEXT) shapes/modules.$(OBJEXT) \
 	pixel/drawPixel.$(OBJEXT) sound/sdl.$(OBJEXT) \
-	fft1/cava.$(OBJEXT) 3Dshapes/Cube.$(OBJEXT)
+	fft1/cava.$(OBJEXT) 3Dshapes/Cube.$(OBJEXT) \
+	text/text.$(OBJEXT)
 main_OBJECTS = $(am_main_OBJECTS)
 main_LDADD = $(LDADD)
 AM_V_lt = $(am__v_lt_@AM_V@)
@@ -206,7 +207,7 @@ CC = @CC@
 CCDEPMODE = @CCDEPMODE@
 CFLAGS = @CFLAGS@
 CPP = @CPP@
-CPPFLAGS = @CPPFLAGS@
+CPPFLAGS = -I/usr/include/freetype2 `pkg-config --cflags gl` `pkg-config --cflags glu`
 CXX = @CXX@
 CXXCPP = @CXXCPP@
 CXXDEPMODE = @CXXDEPMODE@
@@ -362,9 +363,9 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-main_SOURCES = Hello.cpp shapes/modules.cpp pixel/drawPixel.cpp sound/sdl.cpp fft1/cava.cpp 3Dshapes/Cube.cpp
-main_CFLAGS = `pkg-config --cflags glut` `pkg-config --cflags gl` `pkg-config --cflags glu` -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT
-main_LDFLAGS = -lglut `pkg-config --libs gl` `pkg-config --libs glu` `pkg-config --libs fftw3` -lSDL -lSDL_mixer -lpthread -lasound -lm -lfftw3
+main_SOURCES = Hello.cpp shapes/modules.cpp pixel/drawPixel.cpp sound/sdl.cpp fft1/cava.cpp 3Dshapes/Cube.cpp text/text.cpp
+main_CFLAGS = -I/usr/include/freetype2 `pkg-config --cflags gl` `pkg-config --cflags glu`
+main_LDFLAGS = -lglut `pkg-config --libs gl` `pkg-config --libs glu` `pkg-config --libs fftw3` -lSDL -lSDL_mixer -lpthread -lasound -lm -lGLEW -lGL -lfreetype
 all: all-am
 
 .SUFFIXES:
@@ -487,6 +488,14 @@ fft1/cava.$(OBJEXT): fft1/$(am__dirstamp) \
 	@: > 3Dshapes/$(DEPDIR)/$(am__dirstamp)
 3Dshapes/Cube.$(OBJEXT): 3Dshapes/$(am__dirstamp) \
 	3Dshapes/$(DEPDIR)/$(am__dirstamp)
+text/$(am__dirstamp):
+	@$(MKDIR_P) text
+	@: > text/$(am__dirstamp)
+text/$(DEPDIR)/$(am__dirstamp):
+	@$(MKDIR_P) text/$(DEPDIR)
+	@: > text/$(DEPDIR)/$(am__dirstamp)
+text/text.$(OBJEXT): text/$(am__dirstamp) \
+	text/$(DEPDIR)/$(am__dirstamp)
 
 main$(EXEEXT): $(main_OBJECTS) $(main_DEPENDENCIES) $(EXTRA_main_DEPENDENCIES) 
 	@rm -f main$(EXEEXT)
@@ -499,6 +508,7 @@ mostlyclean-compile:
 	-rm -f pixel/*.$(OBJEXT)
 	-rm -f shapes/*.$(OBJEXT)
 	-rm -f sound/*.$(OBJEXT)
+	-rm -f text/*.$(OBJEXT)
 
 distclean-compile:
 	-rm -f *.tab.c
@@ -509,6 +519,7 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@pixel/$(DEPDIR)/drawPixel.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@shapes/$(DEPDIR)/modules.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@sound/$(DEPDIR)/sdl.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@text/$(DEPDIR)/text.Po@am__quote@
 
 .cpp.o:
 @am__fastdepCXX_TRUE@	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
@@ -665,6 +676,8 @@ distclean-generic:
 	-rm -f shapes/$(am__dirstamp)
 	-rm -f sound/$(DEPDIR)/$(am__dirstamp)
 	-rm -f sound/$(am__dirstamp)
+	-rm -f text/$(DEPDIR)/$(am__dirstamp)
+	-rm -f text/$(am__dirstamp)
 
 maintainer-clean-generic:
 	@echo "This command is intended for maintainers to use"
@@ -674,7 +687,7 @@ clean: clean-am
 clean-am: clean-binPROGRAMS clean-generic clean-libtool mostlyclean-am
 
 distclean: distclean-am
-	-rm -rf ./$(DEPDIR) 3Dshapes/$(DEPDIR) fft1/$(DEPDIR) pixel/$(DEPDIR) shapes/$(DEPDIR) sound/$(DEPDIR)
+	-rm -rf ./$(DEPDIR) 3Dshapes/$(DEPDIR) fft1/$(DEPDIR) pixel/$(DEPDIR) shapes/$(DEPDIR) sound/$(DEPDIR) text/$(DEPDIR)
 	-rm -f Makefile
 distclean-am: clean-am distclean-compile distclean-generic \
 	distclean-tags
@@ -720,7 +733,7 @@ install-ps-am:
 installcheck-am:
 
 maintainer-clean: maintainer-clean-am
-	-rm -rf ./$(DEPDIR) 3Dshapes/$(DEPDIR) fft1/$(DEPDIR) pixel/$(DEPDIR) shapes/$(DEPDIR) sound/$(DEPDIR)
+	-rm -rf ./$(DEPDIR) 3Dshapes/$(DEPDIR) fft1/$(DEPDIR) pixel/$(DEPDIR) shapes/$(DEPDIR) sound/$(DEPDIR) text/$(DEPDIR)
 	-rm -f Makefile
 maintainer-clean-am: distclean-am maintainer-clean-generic
 

@@ -1,16 +1,21 @@
 #include <iostream>
+#include <stdio.h>
 #include <stdlib.h>
 #include <vector>
 #include <math.h>
 #include <thread>
 
-#include<GL/glut.h>
+#include "GL/glew.h"
+
+#include <GL/glut.h>
+
 
 #include "shapes/modules.hpp"
 #include "pixel/drawPixel.hpp"
 #include "sound/sdl.hpp"
-#include "fft1/cava.hpp"
+//#include "fft1/cava.hpp"
 #include "3Dshapes/Cube.hpp"
+//#include "text/text.hpp"
 
 const int W = 600;
 const int H = 400;
@@ -62,7 +67,7 @@ void drawScene()
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
     //ameisenRennen(400,400);
     //punkt(400,400,200,200);
-    glEnable (GL_BLEND);
+    //glEnable (GL_BLEND);
     glBlendFunc (GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     glMatrixMode(GL_MODELVIEW);
     //glRotatef(_angle, 0.0f, 0.01f, -0.0f);
@@ -72,16 +77,22 @@ void drawScene()
     else scale=f[2];
 
     glLoadIdentity();
-    glTranslatef(0.0f, 0.0f, -10.0f+f[1]);
+    glTranslatef(0.0f, 0.0f, -8.0f);
 
-    c1->cubeArray(-3.0f, 0.0f, 0.0f, _angle, 0.5f, 0.5f);
+    c1->cubeArray(-0.0f, 0.0f, 0.0f, _angle, 0.5f, 0.5f);
 
-    c1->cubeArray(-3.0f, -2.0f, 0.0f, _angle+10, 0.5f, 0.5f);
+    c1->cubeArray(-0.0f, -2.0f, 0.0f, _angle, 0.5f, 0.5f);
 
-    c1->cubeArray(-3.0f, 2.0f, 0.0f, _angle+20, 0.5f, 0.5f);
+    c1->cubeArray(-0.0f, 2.0f, 0.0f, _angle, 0.5f, 0.5f);
+
+
+    //render_text("The Solid Red Fox Jumps Over The Lazy Dog",          0, 0, 0 ,0);
     //horizontalBlur();
     //verticalBlur();
     //glDrawPixels();
+
+    //display();
+
     glutSwapBuffers();
 }
 
@@ -102,7 +113,7 @@ void update(int value) {
 
 
 int fft() {
-	mainFFT();
+	//mainFFT();
   }
 
 
@@ -115,36 +126,42 @@ void graphics() {
 
 }
 
+bool init_resources2() {
 
-int main(int argc,char** argv)
-{
+return true;}
+
+
+int main(int argc, char* argv[]) {
     thread t1(music);
     thread t2(fft);
+	glutInit(&argc, argv);
+	glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB|GLUT_DEPTH);
+	glutInitWindowSize(2*W,2*H);
+	glutCreateWindow("My Graph");
+	initRendering();
 
+#ifndef NOGLEW
+	GLenum glew_status = glewInit();
+	if (GLEW_OK != glew_status) {
+		fprintf(stderr, "Error: %s\n", glewGetErrorString(glew_status));
+		return 1;
+	}
 
-
-    glutInit(&argc,argv);
-
-    glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB|GLUT_DEPTH);
-
-    glutInitWindowSize(2*W,2*H);
-
-    glutCreateWindow("My Triangle");
-
-    initRendering();
-
-    glutDisplayFunc(drawScene);
-
-    glutKeyboardFunc(keyPress);
-
-    glutReshapeFunc(handleResize);
-
-    glutTimerFunc(25, update, 0); //Add a timer
-
-    glutMainLoop();
-
-    t1.join();
-    //t2.join();
-
-    return(0);
+	if (!GLEW_VERSION_2_0) {
+		fprintf(stderr, "No support for OpenGL 2.0 found\n");
+		return 1;
+	}
+#endif
+	glutKeyboardFunc(keyPress);
+        glutReshapeFunc(handleResize);
+	glutTimerFunc(25, update, 0); //Add a timer
+	if (init_resources2()) {
+		glutDisplayFunc(drawScene);
+		glutMainLoop();
+	}
+	glutMainLoop();
+ 	t1.join();
+	return 0;
 }
+
+
